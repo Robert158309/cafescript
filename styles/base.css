@@ -1,11 +1,14 @@
 @charset "UTF-8";
 
 :root {
-    --bg-main: #0e1833;
-    --bg-secondary: #1a2a5c;
-    --text-primary: #ffffff;
-    --text-secondary: #cbd5e1;
-    --accent: #fbbf24;
+    --bg-main: #0d1117;
+    --bg-secondary: #161b22;
+    --nav-bg: #0b1220;
+    --nav-btn: #21262d;
+    --text-primary: #f0f6fc;
+    --text-secondary: #8b949e;
+    --text-bg: #58a6ff1e;
+    --accent: #58a6ff;
 }
 
 * {
@@ -19,4 +22,43 @@ body {
     background-color: var(--bg-main);
     color: var(--text-primary);
     line-height: 1.6;
+    min-height: 100vh;
+}
+
+header {
+    background-color: var(--bg-secondary);
+    padding: clamp(30px, 6vw, 50px);
+    text-align: center;
+}
+
+nav {
+    background-color: var(--nav-bg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: clamp(10px, 2vw, 20px);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(10px);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+main {
+    width: 100%;
+    padding: 40px;
+}
+
+footer {
+    background-color: var(--bg-secondary);
+    text-align: center;
+    padding: 20px;
+    color: var(--text-secondary);
+    width: 100%;
+    font-weight: 600;
 }
