@@ -1,0 +1,12 @@
+[
+  {
+    "title": "Introducción a HTML",
+    "description": "Aprende los conceptos básicos de la programación en HTML.",
+    "slug": "introduccion-a-html"
+  },
+  {
+    "title": "Etiquetas Básicas de HTML",
+    "description": "Aprende a utilizar las etiquetas básicas de HTML.",
+    "slug": "etiquetas-basicas-de-html"
+  }
+]

@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+#courses {
+    width: min(95%, 1400px);
+    margin: 0 auto;
+    padding: clamp(20px, 4vw, 50px);
+    justify-content: center;
+    padding: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(clamp(220px, 30vw, 300px), 1fr)
+    );
+    gap: clamp(15px, 3vw, 30px);
+}
+
+.card {
+    background-color: var(--card-bg);
+    color: var(--card-text);
+    border-radius: 15px;
+    padding: clamp(18px, 3vw, 25px);
+    border-radius: clamp(10px, 2vw, 15px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    background-color: var(--card-hover);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.card h3 {
+    font-size: clamp(1.1rem, 2vw, 1.4rem);
+    margin-bottom: clamp(10px, 2vw, 15px);
+}
+
+.card p {
+    font-size: clamp(0.9rem, 1.5vw, 1rem);
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.card a {
+    margin-top: auto;
+    color: var(--accent);
+    font-size: clamp(0.9rem, 1.5vw, 1rem);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.card a:hover {
+    text-decoration: underline;
+}

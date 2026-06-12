@@ -25,12 +25,13 @@ header h1 {
 header h3 {
     font-size: clamp(1rem, 3vw, 1.5rem);
     color: var(--text-secondary);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 header p {
     font-size: clamp(0.9rem, 2vw, 1.2rem);
     color: var(--text-secondary);
+    font-weight: 500;
 }
 
 .hero h2 {

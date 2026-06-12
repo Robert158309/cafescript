@@ -1,0 +1,77 @@
+[
+  {
+    "title": "Introducción a la Lógica de Programación",
+    "description": "Aprende los conceptos básicos de la lógica de programación.",
+    "slug": "introduccion-a-la-logica-de-programacion"
+  },
+  {
+    "title": "Algoritmos",
+    "description": "Comprende qué es un algoritmo y cómo diseñarlo.",
+    "slug": "algoritmos"
+  },
+  {
+    "title": "Diagramas de Flujo",
+    "description": "Representa algoritmos mediante símbolos gráficos.",
+    "slug": "diagramas-de-flujo"
+  },
+  {
+    "title": "Pseudocódigo",
+    "description": "Escribe soluciones paso a paso sin usar un lenguaje específico.",
+    "slug": "pseudocodigo"
+  },
+  {
+    "title": "Variables y Constantes",
+    "description": "Aprende a almacenar y manipular información.",
+    "slug": "variables-y-constantes"
+  },
+  {
+    "title": "Tipos de Datos",
+    "description": "Conoce los diferentes tipos de información utilizados en programación.",
+    "slug": "tipos-de-datos"
+  },
+  {
+    "title": "Operadores",
+    "description": "Realiza operaciones matemáticas, lógicas y relacionales.",
+    "slug": "operadores"
+  },
+  {
+    "title": "Entrada y Salida de Datos",
+    "description": "Interactúa con el usuario mediante datos de entrada y salida.",
+    "slug": "entrada-y-salida-de-datos"
+  },
+  {
+    "title": "Estructuras Condicionales",
+    "description": "Toma decisiones utilizando condiciones.",
+    "slug": "estructuras-condicionales"
+  },
+  {
+    "title": "Estructuras Repetitivas",
+    "description": "Automatiza tareas mediante ciclos y bucles.",
+    "slug": "estructuras-repetitivas"
+  },
+  {
+    "title": "Contadores y Acumuladores",
+    "description": "Aprende técnicas fundamentales usadas en ciclos.",
+    "slug": "contadores-y-acumuladores"
+  },
+  {
+    "title": "Arreglos",
+    "description": "Almacena múltiples datos en una sola estructura.",
+    "slug": "arreglos"
+  },
+  {
+    "title": "Matrices",
+    "description": "Trabaja con datos organizados en filas y columnas.",
+    "slug": "matrices"
+  },
+  {
+    "title": "Funciones y Procedimientos",
+    "description": "Divide problemas complejos en tareas más pequeñas.",
+    "slug": "funciones-y-procedimientos"
+  },
+  {
+    "title": "Depuración y Resolución de Errores",
+    "description": "Aprende a identificar y corregir errores en algoritmos.",
+    "slug": "depuracion-y-resolucion-de-errores"
+  }
+]

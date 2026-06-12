@@ -9,6 +9,9 @@
     --text-secondary: #8b949e;
     --text-bg: #58a6ff1e;
     --accent: #58a6ff;
+    --card-bg: #d1d7df;
+    --card-hover: #c8d0db;
+    --card-text: #0d1117;
 }
 
 * {
