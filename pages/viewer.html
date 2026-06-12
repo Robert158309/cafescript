@@ -17,11 +17,14 @@
         <meta property = "og:type" content = "website">
         <meta property = "og:locale" content = "es_GT">
 
+        <link rel = "icon" type = "image/png" href = "../assets/img/icons/icon.png">
+
         <title>Contenido | CaféScript - Aprendiendo Juntos</title>
 
         <link rel = "stylesheet" href = "../styles/base.css">
         <link rel = "stylesheet" href = "../styles/layout.css">
-
+        <link rel = "stylesheet" href = "../styles/media-querys.css">
+        
         <script src = "../js/course-renderer.js" defer></script>
 
     </head>
@@ -30,15 +33,20 @@
         
         <nav>
             <a class = "nav-link" href = "../index.html">Inicio</a>
-            <a class = "nav-link" href = "logic.html">Lógica</a>
-            <a class = "nav-link" href = "html.html">HTML</a>
-            <a class = "nav-link" href = "css.html">CSS</a>
-            <a class = "nav-link" href = "javascript.html">JavaScript</a>
-            <a class = "nav-link" href = "python.html">Python</a>
-            <a class = "nav-link" href = "cs.html">C#</a>
-            <a class = "nav-link" href = "cpp.html">C++</a>
-            <a class = "nav-link" href = "java.html">Java</a>
+            <a class = "nav-link notmobile" href = "logic.html">Lógica</a>
+            <a class = "nav-link notmobile" href = "html.html">HTML</a>
+            <a class = "nav-link notmobile" href = "css.html">CSS</a>
+            <a class = "nav-link notmobile" href = "javascript.html">JavaScript</a>
+            <a class = "nav-link notmobile" href = "python.html">Python</a>
+            <a class = "nav-link notmobile" href = "cs.html">C#</a>
+            <a class = "nav-link notmobile" href = "cpp.html">C++</a>
+            <a class = "nav-link notmobile" href = "java.html">Java</a>
         </nav>
+
+        <header id = "course-header">
+            <h1 id = "course-title"></h1>
+            <p id = "course-description"></p>
+        </header>
 
         <main>
             <section id = "course-content"></section>

@@ -1,0 +1,62 @@
+{
+  "title": "Introducción a la Lógica de Programación",
+  "description": "Aprende los conceptos básicos de la lógica de programación.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "La lógica de programación es la capacidad de analizar un problema y diseñar una serie de pasos para resolverlo de manera ordenada."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Antes de aprender un lenguaje de programación, es importante comprender cómo pensar como un programador."
+    },
+
+    {
+      "type": "heading",
+      "text": "¿Qué es un algoritmo?"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Un algoritmo es una secuencia finita de pasos que permite resolver un problema o realizar una tarea específica."
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo de algoritmo",
+      "text": "Preparar una taza de café: 1. Hervir agua. 2. Agregar café. 3. Servir en una taza. 4. Disfrutar."
+    },
+
+    {
+      "type": "heading",
+      "text": "Importancia de la lógica"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "La lógica permite crear programas más claros, fáciles de mantener y menos propensos a errores."
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Ayuda a resolver problemas.",
+        "Facilita el aprendizaje de nuevos lenguajes.",
+        "Permite diseñar algoritmos eficientes.",
+        "Reduce errores en el desarrollo."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Conclusión"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "La lógica de programación es el fundamento de todo desarrollo de software. Dominarla facilitará el aprendizaje de cualquier lenguaje en el futuro."
+    }
+  ]
+}

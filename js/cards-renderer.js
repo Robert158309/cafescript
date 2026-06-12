@@ -13,7 +13,7 @@ fetch(`../assets/data/${page}/cards.json`)
                 <h3>${course.title}</h3>
                 <p>${course.description}</p>
                 <a href="viewer.html?lang=${page}&course=${course.slug}">
-                    Ver curso →
+                    Ver más →
                 </a>
             </article>
             `;

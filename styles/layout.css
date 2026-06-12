@@ -1,6 +1,8 @@
 @charset "UTF-8";
 
 .nav-link {
+    flex: 1 1 110px;
+    text-align: center;
     color: var(--text-primary);
     text-decoration: none;
     font-weight: 600;
