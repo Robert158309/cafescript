@@ -1,0 +1,128 @@
+{
+  "title": "Algoritmos",
+  "description": "Aprende qué es un algoritmo, cómo funciona y cómo diseñarlo paso a paso para resolver problemas reales.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Un algoritmo es un conjunto de pasos finitos, ordenados y claros que se utilizan para resolver un problema o realizar una tarea específica."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "En programación, todo lo que haces es un algoritmo: desde mostrar un mensaje en pantalla hasta crear una aplicación completa."
+    },
+
+    {
+      "type": "heading",
+      "text": "Características de un algoritmo"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Debe ser finito: tiene un inicio y un final.",
+        "Debe ser claro: cada paso debe ser entendible.",
+        "Debe ser ordenado: los pasos siguen una secuencia lógica.",
+        "Debe resolver un problema específico."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "¿Dónde se usan los algoritmos?"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Los algoritmos están en todas partes: redes sociales, videojuegos, buscadores, aplicaciones móviles y hasta en sistemas bancarios."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Cada vez que haces clic en algo, probablemente estás ejecutando un algoritmo en segundo plano sin darte cuenta."
+    },
+
+    {
+      "type": "heading",
+      "text": "Ejemplo de algoritmo en la vida real"
+    },
+
+    {
+      "type": "example",
+      "title": "Hacer una llamada telefónica",
+      "text": "1. Tomar el teléfono.<br>2. Desbloquearlo.<br>3. Abrir la aplicación de llamadas.<br>4. Marcar el número.<br>5. Presionar llamar."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Aunque parece simple, este proceso es exactamente un algoritmo: una secuencia de pasos que resuelve una tarea."
+    },
+
+    {
+      "type": "heading",
+      "text": "Diseño de algoritmos"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Antes de escribir código, un programador diseña el algoritmo. Esto ayuda a pensar la solución sin preocuparse por el lenguaje de programación."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "El objetivo es entender el problema primero, y luego definir los pasos para resolverlo."
+    },
+
+    {
+      "type": "heading",
+      "text": "Ejemplo de algoritmo en programación"
+    },
+
+    {
+      "type": "example",
+      "title": "Sumar dos números",
+      "text": "1. Pedir el primer número.<br>2. Pedir el segundo número.<br>3. Sumar ambos números.<br>4. Mostrar el resultado."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Este tipo de lógica luego se transforma directamente en código en cualquier lenguaje."
+    },
+
+    {
+      "type": "heading",
+      "text": "Importancia de los algoritmos"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Permiten resolver problemas de forma estructurada.",
+        "Son la base de toda la programación.",
+        "Ayudan a crear soluciones eficientes.",
+        "Facilitan la traducción a código."
+      ]
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Un buen programador no es el que escribe más código, sino el que diseña mejores algoritmos."
+    },
+
+    {
+      "type": "heading",
+      "text": "Conclusión"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Los algoritmos son el corazón de la programación. Aprender a diseñarlos correctamente te permitirá resolver cualquier problema sin importar el lenguaje que uses."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Si dominas esto, ya estás pensando como programador de verdad."
+    }
+  ]
+}

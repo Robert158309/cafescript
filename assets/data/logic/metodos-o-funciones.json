@@ -1,0 +1,146 @@
+{
+  "title": "Métodos o Funciones",
+  "description": "Aprende a dividir problemas complejos en pequeñas tareas reutilizables llamadas funciones o procedimientos.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Las funciones son bloques de código que realizan una tarea específica y pueden reutilizarse cuando sea necesario."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Permiten dividir problemas grandes en partes más pequeñas y manejables."
+    },
+
+    {
+      "type": "heading",
+      "text": "¿Qué es una función?"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Una función es un conjunto de instrucciones que se ejecuta cuando es llamada."
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo básico",
+      "text": "function saludar() {<br>    mostrar('Hola mundo')<br>}"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "En este ejemplo, la función no se ejecuta hasta que es llamada explícitamente."
+    },
+
+    {
+      "type": "heading",
+      "text": "Llamar una función"
+    },
+
+    {
+      "type": "example",
+      "title": "Uso de función",
+      "text": "saludar()"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Al llamar la función, se ejecuta el código que contiene."
+    },
+
+    {
+      "type": "heading",
+      "text": "Funciones con parámetros"
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo con parámetros",
+      "text": "function sumar(a, b) {<br>    resultado = a + b<br>    mostrar(resultado)<br>}"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Los parámetros permiten enviar datos a la función para que los procese."
+    },
+
+    {
+      "type": "heading",
+      "text": "Funciones con retorno"
+    },
+
+    {
+      "type": "example",
+      "title": "Return",
+      "text": "function multiplicar(a, b) {<br>    return a * b<br>}"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "El return permite que la función devuelva un resultado para ser usado después."
+    },
+
+    {
+      "type": "heading",
+      "text": "Tipos de funciones"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Funciones sin parámetros.",
+        "Funciones con parámetros.",
+        "Funciones con retorno.",
+        "Funciones reutilizables en todo el programa."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Ejemplo en la vida real"
+    },
+
+    {
+      "type": "example",
+      "title": "Calculadora",
+      "text": "sumar(5, 3) → 8<br>multiplicar(2, 4) → 8"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Cada operación es una función independiente que puede reutilizarse."
+    },
+
+    {
+      "type": "heading",
+      "text": "Importancia"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Permiten reutilizar código.",
+        "Hacen el programa más ordenado.",
+        "Facilitan el mantenimiento.",
+        "Dividen problemas grandes en partes pequeñas."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Conclusión"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Las funciones son una de las herramientas más importantes en programación."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Permiten construir programas más limpios, organizados y escalables."
+    }
+  ]
+}

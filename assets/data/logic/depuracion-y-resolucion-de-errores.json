@@ -1,0 +1,150 @@
+{
+  "title": "Depuración y Resolución de Errores",
+  "description": "Aprende a identificar, analizar y corregir errores en algoritmos y programas.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "La depuración (debugging) es el proceso de encontrar y corregir errores en un programa o algoritmo."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Es una habilidad esencial en programación, ya que ningún código funciona perfectamente a la primera."
+    },
+
+    {
+      "type": "heading",
+      "text": "¿Qué es un error?"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Un error es un fallo en el código que impide que el programa funcione correctamente o produzca resultados incorrectos."
+    },
+
+    {
+      "type": "heading",
+      "text": "Tipos de errores"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Errores de sintaxis: el código está mal escrito.",
+        "Errores lógicos: el programa funciona, pero da resultados incorrectos.",
+        "Errores en tiempo de ejecución: ocurren mientras el programa se ejecuta."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Errores de sintaxis"
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo",
+      "text": "if (edad > 18<br>    mostrar('Mayor de edad')"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Aquí falta un paréntesis de cierre, lo que provoca un error antes de ejecutar el programa."
+    },
+
+    {
+      "type": "heading",
+      "text": "Errores lógicos"
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo",
+      "text": "edad = 17<br><br>if (edad > 18) {<br>    mostrar('Eres mayor de edad')<br>} else {<br>    mostrar('Eres menor de edad')<br>}"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "El código funciona, pero la condición puede no ser la correcta según lo que se quiere lograr."
+    },
+
+    {
+      "type": "heading",
+      "text": "Errores en tiempo de ejecución"
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo",
+      "text": "lista = [1, 2, 3]<br>mostrar(lista[5])"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Este error ocurre porque se intenta acceder a una posición que no existe."
+    },
+
+    {
+      "type": "heading",
+      "text": "¿Cómo depurar?"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Leer el código paso a paso.",
+        "Usar impresiones (console/log).",
+        "Revisar condiciones y variables.",
+        "Probar partes del código por separado.",
+        "Pensar qué debería pasar vs qué pasa realmente."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Ejemplo de depuración"
+    },
+
+    {
+      "type": "example",
+      "title": "Detectar problema",
+      "text": "suma = 0<br><br>for i = 1 to 5 {<br>    suma = suma + i<br>}<br><br>mostrar(suma)"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Si el resultado es incorrecto, se revisa paso a paso cómo cambia la variable suma."
+    },
+
+    {
+      "type": "heading",
+      "text": "Importancia"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Mejora la calidad del código.",
+        "Reduce errores en producción.",
+        "Fortalece el pensamiento lógico.",
+        "Es parte fundamental del desarrollo."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Conclusión"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "La depuración es una habilidad clave que transforma errores en aprendizaje."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Un buen programador no es el que no se equivoca, sino el que sabe corregir rápido."
+    }
+  ]
+}

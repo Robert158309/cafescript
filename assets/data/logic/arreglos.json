@@ -1,0 +1,131 @@
+{
+  "title": "Arreglos",
+  "description": "Aprende a almacenar múltiples valores en una sola estructura llamada arreglo o array.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Un arreglo (array) es una estructura de datos que permite almacenar múltiples valores en una sola variable."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "En lugar de crear muchas variables, puedes agrupar todos los datos en una sola colección ordenada."
+    },
+
+    {
+      "type": "heading",
+      "text": "¿Qué es un arreglo?"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Un arreglo es una lista de elementos que se almacenan en posiciones ordenadas llamadas índices."
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo básico",
+      "text": "numeros = [10, 20, 30, 40, 50]"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Cada elemento dentro del arreglo tiene una posición, normalmente empezando desde 0."
+    },
+
+    {
+      "type": "heading",
+      "text": "Acceder a elementos"
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo de acceso",
+      "text": "numeros[0]  // 10<br>numeros[1]  // 20<br>numeros[2]  // 30"
+    },
+
+    {
+      "type": "heading",
+      "text": "Modificar elementos"
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo de modificación",
+      "text": "numeros[2] = 99<br>// ahora el arreglo es [10, 20, 99, 40, 50]"
+    },
+
+    {
+      "type": "heading",
+      "text": "¿Para qué sirven?"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Almacenar listas de datos.",
+        "Evitar crear muchas variables.",
+        "Facilitar el procesamiento de información.",
+        "Trabajar con ciclos de forma eficiente."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Arreglos y ciclos"
+    },
+
+    {
+      "type": "example",
+      "title": "Recorrer un arreglo",
+      "text": "for i = 0 to length(numeros) {<br>    mostrar(numeros[i])<br>}"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Los arreglos se usan casi siempre junto con ciclos para procesar todos sus elementos."
+    },
+
+    {
+      "type": "heading",
+      "text": "Ejemplo en la vida real"
+    },
+
+    {
+      "type": "example",
+      "title": "Lista de estudiantes",
+      "text": "estudiantes = ['Ana', 'Luis', 'Pedro', 'Maria']<br><br>Cada nombre es un elemento dentro del mismo arreglo."
+    },
+
+    {
+      "type": "heading",
+      "text": "Importancia"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Permiten organizar datos de forma eficiente.",
+        "Son base de estructuras más complejas.",
+        "Se combinan con ciclos constantemente.",
+        "Son fundamentales en cualquier lenguaje."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Conclusión"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Los arreglos te permiten manejar múltiples datos de forma ordenada y eficiente."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Son una de las estructuras más importantes en programación."
+    }
+  ]
+}

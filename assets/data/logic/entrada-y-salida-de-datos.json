@@ -1,0 +1,130 @@
+{
+  "title": "Entrada y Salida de Datos",
+  "description": "Aprende cómo los programas reciben información del usuario y cómo muestran resultados en pantalla.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Los programas no funcionan en el vacío. Necesitan comunicarse con el usuario para recibir datos y mostrar resultados."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "A esto se le llama entrada y salida de datos, dos conceptos fundamentales en programación."
+    },
+
+    {
+      "type": "heading",
+      "text": "¿Qué es la entrada de datos?"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "La entrada de datos es la información que el usuario proporciona al programa."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Puede venir desde el teclado, formularios, archivos o incluso sensores en sistemas más avanzados."
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo de entrada",
+      "text": "nombre = input('Ingresa tu nombre')<br>edad = input('Ingresa tu edad')"
+    },
+
+    {
+      "type": "heading",
+      "text": "¿Qué es la salida de datos?"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "La salida de datos es la información que el programa muestra al usuario después de procesarla."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Es la forma en la que el programa responde."
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo de salida",
+      "text": "print('Hola mundo')<br>print('Tu edad es:', edad)"
+    },
+
+    {
+      "type": "heading",
+      "text": "Entrada vs salida"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Entrada: datos que el usuario introduce.",
+        "Salida: resultados que el programa muestra.",
+        "Entrada: input, lectura.",
+        "Salida: output, impresión."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Ejemplo completo"
+    },
+
+    {
+      "type": "example",
+      "title": "Programa simple",
+      "text": "nombre = input('Ingresa tu nombre')<br>edad = input('Ingresa tu edad')<br>print('Hola', nombre)<br>print('Tienes', edad, 'años')"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Este programa recibe datos del usuario y luego los muestra procesados en pantalla."
+    },
+
+    {
+      "type": "heading",
+      "text": "Importancia"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Permite interacción con el usuario.",
+        "Hace que los programas sean dinámicos.",
+        "Es la base de aplicaciones reales.",
+        "Conecta lógica con el mundo real."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Ejemplo en la vida real"
+    },
+
+    {
+      "type": "example",
+      "title": "Formulario de registro",
+      "text": "Entrada: nombre, correo, contraseña<br>Salida: mensaje de bienvenida o confirmación"
+    },
+
+    {
+      "type": "heading",
+      "text": "Conclusión"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "La entrada y salida de datos es lo que convierte un algoritmo en un programa real e interactivo."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Sin esto, el programa no podría comunicarse con el usuario."
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+{
+  "title": "Operadores Lógicos",
+  "description": "Aprende a realizar operaciones matemáticas, lógicas y de comparación dentro de la programación.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Los operadores son símbolos que permiten realizar cálculos, comparaciones o decisiones dentro de un programa."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Son fundamentales porque permiten que los programas no solo almacenen datos, sino que también los procesen."
+    },
+
+    {
+      "type": "heading",
+      "text": "Tipos de operadores"
+    },
+
+    {
+      "type": "heading",
+      "text": "1. Operadores matemáticos"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Se utilizan para realizar operaciones aritméticas básicas."
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "+ Suma",
+        "- Resta",
+        "* Multiplicación",
+        "/ División",
+        "% Módulo (residuo)"
+      ]
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo matemático",
+      "text": "a = 10<br>b = 5<br>suma = a + b<br>multiplicacion = a * b"
+    },
+
+    {
+      "type": "heading",
+      "text": "2. Operadores de comparación"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Se usan para comparar valores y siempre devuelven verdadero o falso."
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "== igual a",
+        "!= diferente de",
+        "> mayor que",
+        "< menor que",
+        ">= mayor o igual",
+        "<= menor o igual"
+      ]
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo de comparación",
+      "text": "edad = 18<br>esMayor = edad >= 18"
+    },
+
+    {
+      "type": "heading",
+      "text": "3. Operadores lógicos"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Se usan para combinar condiciones y tomar decisiones más complejas."
+    },
+
+    {
+      "type": "list",
+      "items": ["AND (y lógico)", "OR (o lógico)", "NOT (negación)"]
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo lógico",
+      "text": "edad = 18<br>tienePermiso = true<br>puedeEntrar = edad >= 18 AND tienePermiso"
+    },
+
+    {
+      "type": "heading",
+      "text": "¿Para qué sirven?"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Realizar cálculos automáticos.",
+        "Tomar decisiones en el programa.",
+        "Comparar valores.",
+        "Controlar el flujo de ejecución."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Ejemplo combinado"
+    },
+
+    {
+      "type": "example",
+      "title": "Sistema de acceso",
+      "text": "edad = 20<br>codigoCorrecto = true<br>acceso = (edad >= 18) AND codigoCorrecto"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Aquí el programa decide si una persona puede entrar combinando dos condiciones."
+    },
+
+    {
+      "type": "heading",
+      "text": "Importancia"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Permiten crear lógica dentro del código.",
+        "Son base de las decisiones en programación.",
+        "Se usan en casi todos los programas.",
+        "Conectan datos con acciones."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Conclusión"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Los operadores son la herramienta que permite que un programa piense y tome decisiones."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Sin operadores, el código solo almacenaría información sin hacer nada con ella."
+    }
+  ]
+}

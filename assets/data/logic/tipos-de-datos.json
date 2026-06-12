@@ -1,0 +1,155 @@
+{
+  "title": "Tipos de Datos",
+  "description": "Aprende cómo se clasifica la información en programación y qué tipos de datos existen para almacenar valores correctamente.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "En programación, no toda la información es igual. Los datos se clasifican en diferentes tipos según lo que representan."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Los tipos de datos ayudan a la computadora a entender cómo debe almacenar y manipular la información."
+    },
+
+    {
+      "type": "heading",
+      "text": "¿Por qué existen los tipos de datos?"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Para organizar la información.",
+        "Para evitar errores en cálculos.",
+        "Para optimizar el uso de memoria.",
+        "Para definir reglas en los programas."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Tipos de datos básicos"
+    },
+
+    {
+      "type": "heading",
+      "text": "1. Enteros (int)"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Son números sin decimales. Se usan para contar o representar cantidades exactas."
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo",
+      "text": "edad = 17<br>cantidad = 10"
+    },
+
+    {
+      "type": "heading",
+      "text": "2. Decimales (float / double)"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Son números que incluyen decimales. Se usan para cálculos más precisos."
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo",
+      "text": "precio = 19.99<br>pi = 3.1416"
+    },
+
+    {
+      "type": "heading",
+      "text": "3. Texto (string)"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Representa cadenas de caracteres como palabras, frases o nombres."
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo",
+      "text": "nombre = 'Roberto'<br>mensaje = 'Hola mundo'"
+    },
+
+    {
+      "type": "heading",
+      "text": "4. Booleanos (bool)"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Solo pueden tener dos valores: verdadero o falso. Se usan para decisiones en el programa."
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo",
+      "text": "activo = true<br>esMayor = false"
+    },
+
+    {
+      "type": "heading",
+      "text": "Tipos de datos complejos"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Arreglos (arrays): listas de datos.",
+        "Objetos: estructuras con propiedades.",
+        "Listas dinámicas: colecciones flexibles de datos."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Ejemplo combinado"
+    },
+
+    {
+      "type": "example",
+      "title": "Registro de usuario",
+      "text": "nombre = 'Ana'          // string<br>edad = 20              // int<br>altura = 1.65          // float<br>activo = true          // bool"
+    },
+
+    {
+      "type": "heading",
+      "text": "Importancia"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Permiten manejar datos de forma correcta.",
+        "Evitan errores en operaciones.",
+        "Ayudan a estructurar programas.",
+        "Son base de cualquier lenguaje de programación."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Conclusión"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Los tipos de datos son esenciales para entender cómo funciona la información dentro de un programa."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Dominar esto te permite escribir código más seguro, ordenado y eficiente."
+    }
+  ]
+}

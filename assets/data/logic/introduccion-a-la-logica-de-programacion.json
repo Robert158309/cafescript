@@ -1,16 +1,31 @@
 {
   "title": "Introducción a la Lógica de Programación",
-  "description": "Aprende los conceptos básicos de la lógica de programación.",
+  "description": "Aprende a pensar como un programador desde cero, entendiendo cómo resolver problemas paso a paso.",
 
   "content": [
     {
       "type": "paragraph",
-      "text": "La lógica de programación es la capacidad de analizar un problema y diseñar una serie de pasos para resolverlo de manera ordenada."
+      "text": "La lógica de programación es la habilidad de analizar un problema y convertirlo en pasos ordenados y comprensibles que una computadora pueda seguir."
     },
 
     {
       "type": "paragraph",
-      "text": "Antes de aprender un lenguaje de programación, es importante comprender cómo pensar como un programador."
+      "text": "No necesitas saber ningún lenguaje para empezar. La lógica es el punto de partida de todo programador, sin importar si usas Python, Java o C#."
+    },
+
+    {
+      "type": "heading",
+      "text": "Pensar como programador"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Un programador no empieza escribiendo código, empieza entendiendo el problema. Luego lo divide en partes pequeñas hasta que se vuelve fácil de resolver."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Este proceso se llama descomposición del problema, y es una de las habilidades más importantes en programación."
     },
 
     {
@@ -20,13 +35,37 @@
 
     {
       "type": "paragraph",
-      "text": "Un algoritmo es una secuencia finita de pasos que permite resolver un problema o realizar una tarea específica."
+      "text": "Un algoritmo es un conjunto de pasos finitos y ordenados que se siguen para resolver un problema o realizar una tarea específica."
     },
 
     {
       "type": "example",
-      "title": "Ejemplo de algoritmo",
-      "text": "Preparar una taza de café: 1. Hervir agua. 2. Agregar café. 3. Servir en una taza. 4. Disfrutar."
+      "title": "Ejemplo cotidiano de algoritmo",
+      "text": "Preparar café:<br>1. Hervir agua.<br>2. Colocar café en la taza.<br>3. Agregar el agua caliente.<br>4. Mezclar.<br>5. Servir."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Este mismo concepto se usa en programación, pero en lugar de café, resolvemos problemas como calcular notas, mostrar datos o automatizar tareas."
+    },
+
+    {
+      "type": "heading",
+      "text": "Representación de algoritmos"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Antes de escribir código, los algoritmos se pueden representar de varias formas: texto, diagramas o pseudocódigo."
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Texto: pasos escritos de forma natural.",
+        "Pseudocódigo: lenguaje intermedio parecido a código.",
+        "Diagramas de flujo: representación visual del proceso."
+      ]
     },
 
     {
@@ -36,17 +75,39 @@
 
     {
       "type": "paragraph",
-      "text": "La lógica permite crear programas más claros, fáciles de mantener y menos propensos a errores."
+      "text": "La lógica de programación te ayuda a resolver problemas de manera estructurada, evitando errores y mejorando la claridad de tus soluciones."
     },
 
     {
       "type": "list",
       "items": [
-        "Ayuda a resolver problemas.",
-        "Facilita el aprendizaje de nuevos lenguajes.",
-        "Permite diseñar algoritmos eficientes.",
-        "Reduce errores en el desarrollo."
+        "Te enseña a resolver problemas paso a paso.",
+        "Facilita aprender cualquier lenguaje de programación.",
+        "Mejora tu pensamiento analítico.",
+        "Reduce errores al programar.",
+        "Te prepara para proyectos reales."
       ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Ejemplo mental de lógica"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Imagina que quieres que una persona te entregue un vaso de agua. Si no das instrucciones claras, el resultado puede ser incorrecto."
+    },
+
+    {
+      "type": "example",
+      "title": "Instrucciones correctas",
+      "text": "1. Ve a la cocina.<br>2. Toma un vaso.<br>3. Llénalo con agua.<br>4. Tráelo de vuelta."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Las computadoras funcionan exactamente igual: necesitan instrucciones claras, ordenadas y sin ambigüedad."
     },
 
     {
@@ -56,7 +117,12 @@
 
     {
       "type": "paragraph",
-      "text": "La lógica de programación es el fundamento de todo desarrollo de software. Dominarla facilitará el aprendizaje de cualquier lenguaje en el futuro."
+      "text": "La lógica de programación es la base de todo desarrollo de software. Si la dominas, aprender cualquier lenguaje será mucho más fácil y natural."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "No se trata de memorizar, sino de aprender a pensar de forma estructurada."
     }
   ]
 }

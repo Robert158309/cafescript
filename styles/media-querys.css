@@ -1,4 +1,4 @@
-@media (max-width: 800px) {
+@media (max-width: 1050px) {
 
     header h1 {
         font-size: clamp(1.5rem, 5vw, 2.5rem);
@@ -16,7 +16,7 @@
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1050px) {
 
     main {
         padding: 20px;
@@ -31,9 +31,25 @@
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1050px) {
 
     .notmobile {
         display: none;
+    }
+}
+
+@media (max-width: 1050px) {
+
+    #course-header {
+        padding: 25px;
+        margin-bottom: 30px;
+    }
+
+    #course-content {
+        width: 100%;
+    }
+
+    #course-content ul {
+        padding-left: 20px;
     }
 }

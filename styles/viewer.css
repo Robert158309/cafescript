@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+#course-header {
+    background-color: var(--bg-secondary);
+    padding: clamp(30px, 6vw, 60px);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#course-header h1 {
+    font-size: clamp(2rem, 5vw, 3rem);
+    margin-bottom: 15px;
+}
+
+#course-header p {
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    color: var(--text-secondary);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+#course-content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+#course-content h2 {
+    font-size: clamp(1.4rem, 3vw, 2rem);
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: var(--accent);
+}
+
+#course-content p {
+    font-size: clamp(1rem, 2vw, 1.1rem);
+    color: var(--text-primary);
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+#course-content ul {
+    margin: 20px 0;
+    padding-left: 30px;
+}
+
+#course-content li {
+    margin-bottom: 12px;
+    color: var(--text-primary);
+}
+
+.example {
+    background-color: var(--text-bg);
+    border-left: 4px solid var(--accent);
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 8px;
+}
+
+.example h3 {
+    color: var(--accent);
+    margin-bottom: 10px;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+.example p {
+    margin-bottom: 0;
+}

@@ -1,0 +1,123 @@
+{
+  "title": "Diagramas de Flujo",
+  "description": "Aprende a representar algoritmos de forma visual usando símbolos y flujos de proceso para entender mejor la lógica de programación.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Un diagrama de flujo es una representación gráfica de un algoritmo. En lugar de escribir pasos con texto, se usan símbolos para mostrar el proceso de forma visual."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Este tipo de representación ayuda a entender mejor la lógica antes de escribir código, especialmente en problemas complejos."
+    },
+
+    {
+      "type": "heading",
+      "text": "¿Para qué sirven?"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Visualizar la lógica de un programa.",
+        "Detectar errores antes de programar.",
+        "Organizar ideas de forma clara.",
+        "Facilitar la comunicación entre programadores."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Símbolos básicos"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Óvalo: inicio y fin del proceso.",
+        "Rectángulo: acciones o procesos.",
+        "Rombo: decisiones (sí / no).",
+        "Flechas: dirección del flujo."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Ejemplo simple"
+    },
+
+    {
+      "type": "example",
+      "title": "Decidir si una persona puede votar",
+      "text": "1. Inicio<br>2. Pedir edad<br>3. ¿Edad >= 18?<br>   - Sí → Puede votar<br>   - No → No puede votar<br>4. Fin"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Aunque aquí lo ves en texto, en un diagrama real esto se dibuja con símbolos conectados por flechas."
+    },
+
+    {
+      "type": "heading",
+      "text": "Cómo pensar un diagrama"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Primero identifica el problema. Luego divide el proceso en pasos simples. Finalmente, decide qué tipo de símbolo representa cada paso."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "La clave está en pensar en flujo, no en código."
+    },
+
+    {
+      "type": "heading",
+      "text": "Ejemplo en programación"
+    },
+
+    {
+      "type": "example",
+      "title": "Verificar si un número es positivo",
+      "text": "1. Inicio<br>2. Leer número<br>3. ¿Número > 0?<br>   - Sí → Mostrar 'Positivo'<br>   - No → Mostrar 'No positivo'<br>4. Fin"
+    },
+
+    {
+      "type": "heading",
+      "text": "Importancia"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Ayudan a planificar antes de programar.",
+        "Reducen errores lógicos.",
+        "Mejoran la comprensión de algoritmos.",
+        "Son base para pensamiento estructurado."
+      ]
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Un buen diagrama de flujo es como un mapa: si está claro, el código se vuelve mucho más fácil."
+    },
+
+    {
+      "type": "heading",
+      "text": "Conclusión"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Los diagramas de flujo te ayudan a ver la lógica antes de escribirla. Son una herramienta poderosa para cualquier programador que esté empezando."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Si entiendes esto, ya estás pensando como alguien que diseña software, no solo como alguien que escribe código."
+    }
+  ]
+}

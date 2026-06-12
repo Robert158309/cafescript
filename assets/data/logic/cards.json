@@ -30,9 +30,9 @@
     "slug": "tipos-de-datos"
   },
   {
-    "title": "Operadores",
+    "title": "Operadores Lógicos",
     "description": "Realiza operaciones matemáticas, lógicas y relacionales.",
-    "slug": "operadores"
+    "slug": "operadores-logicos"
   },
   {
     "title": "Entrada y Salida de Datos",
@@ -65,9 +65,9 @@
     "slug": "matrices"
   },
   {
-    "title": "Funciones y Procedimientos",
+    "title": "Métodos o Funciones",
     "description": "Divide problemas complejos en tareas más pequeñas.",
-    "slug": "funciones-y-procedimientos"
+    "slug": "metodos-o-funciones"
   },
   {
     "title": "Depuración y Resolución de Errores",

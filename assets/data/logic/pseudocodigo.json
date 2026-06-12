@@ -1,0 +1,119 @@
+{
+  "title": "Pseudocódigo",
+  "description": "Aprende a escribir soluciones paso a paso usando un lenguaje intermedio entre la lógica y el código real.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "El pseudocódigo es una forma de escribir algoritmos usando un lenguaje sencillo, parecido al español, pero con estructura lógica de programación."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "No pertenece a ningún lenguaje de programación, pero se usa para planificar soluciones antes de escribir código real."
+    },
+
+    {
+      "type": "heading",
+      "text": "¿Para qué sirve?"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Ayuda a planificar programas antes de codificar.",
+        "Reduce errores de lógica.",
+        "Facilita la transición a cualquier lenguaje de programación.",
+        "Mejora el pensamiento estructurado."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Características del pseudocódigo"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Es fácil de leer.",
+        "No sigue reglas estrictas de sintaxis.",
+        "Se enfoca en la lógica, no en el lenguaje.",
+        "Usa palabras como INICIO, FIN, SI, ENTONCES."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Ejemplo básico"
+    },
+
+    {
+      "type": "example",
+      "title": "Sumar dos números",
+      "text": "INICIO<br>Leer numero1<br>Leer numero2<br>suma = numero1 + numero2<br>Mostrar suma<br>FIN"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Este mismo algoritmo luego puede transformarse fácilmente a cualquier lenguaje como Python, Java o JavaScript."
+    },
+
+    {
+      "type": "heading",
+      "text": "Ejemplo con decisión"
+    },
+
+    {
+      "type": "example",
+      "title": "Número positivo o negativo",
+      "text": "INICIO<br>Leer numero<br>SI numero >= 0 ENTONCES<br>    Mostrar 'Positivo'<br>SINO<br>    Mostrar 'Negativo'<br>FIN SI<br>FIN"
+    },
+
+    {
+      "type": "heading",
+      "text": "Palabras comunes en pseudocódigo"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "INICIO / FIN",
+        "LEER (entrada de datos)",
+        "MOSTRAR (salida de datos)",
+        "SI / SINO (condiciones)",
+        "MIENTRAS (ciclos)"
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Importancia"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "El pseudocódigo te ayuda a pensar como programador sin preocuparte por errores de sintaxis o reglas de un lenguaje específico."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Es una herramienta clave para diseñar soluciones claras antes de escribir código real."
+    },
+
+    {
+      "type": "heading",
+      "text": "Conclusión"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "El pseudocódigo es el puente entre la lógica y la programación real. Si lo dominas, aprender cualquier lenguaje será mucho más fácil."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Aquí es donde empiezas a pensar como desarrollador de verdad."
+    }
+  ]
+}

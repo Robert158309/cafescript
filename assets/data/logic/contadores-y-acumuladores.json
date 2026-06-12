@@ -1,0 +1,130 @@
+{
+  "title": "Contadores y Acumuladores",
+  "description": "Aprende técnicas fundamentales para controlar y manipular datos dentro de ciclos.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Los contadores y acumuladores son variables especiales que se utilizan dentro de ciclos para controlar o sumar valores."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Son esenciales para trabajar con estructuras repetitivas de forma eficiente."
+    },
+
+    {
+      "type": "heading",
+      "text": "¿Qué es un contador?"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Un contador es una variable que aumenta o disminuye de forma constante, normalmente en ciclos."
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo de contador",
+      "text": "contador = 0<br><br>for i = 1 to 5 {<br>    contador = contador + 1<br>}"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Se usa para contar repeticiones, eventos o elementos."
+    },
+
+    {
+      "type": "heading",
+      "text": "¿Qué es un acumulador?"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Un acumulador es una variable que suma valores variables en cada iteración de un ciclo."
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo de acumulador",
+      "text": "suma = 0<br><br>for i = 1 to 5 {<br>    suma = suma + i<br>}"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "A diferencia del contador, el acumulador no suma siempre lo mismo, sino valores que cambian."
+    },
+
+    {
+      "type": "heading",
+      "text": "Diferencia entre contador y acumulador"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Contador: incrementa en valores fijos.",
+        "Acumulador: suma valores variables.",
+        "Contador: cuenta iteraciones.",
+        "Acumulador: suma datos."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Ejemplo combinado"
+    },
+
+    {
+      "type": "example",
+      "title": "Contar y sumar números",
+      "text": "suma = 0<br>contador = 0<br><br>for i = 1 to 5 {<br>    suma = suma + i<br>    contador = contador + 1<br>}"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Aquí usamos ambas técnicas dentro del mismo ciclo."
+    },
+
+    {
+      "type": "heading",
+      "text": "Ejemplo en la vida real"
+    },
+
+    {
+      "type": "example",
+      "title": "Calcular total de compras",
+      "text": "Cada vez que compras algo:<br>- contador: cantidad de productos<br>- acumulador: total a pagar"
+    },
+
+    {
+      "type": "heading",
+      "text": "Importancia"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Permiten controlar datos dentro de ciclos.",
+        "Son base de cálculos automáticos.",
+        "Se usan en estadísticas y sistemas.",
+        "Mejoran la lógica en programación."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Conclusión"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Los contadores y acumuladores son herramientas clave para manejar información dentro de estructuras repetitivas."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Dominar esto te acerca mucho más a pensar como programador real."
+    }
+  ]
+}

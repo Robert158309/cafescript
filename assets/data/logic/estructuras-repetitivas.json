@@ -1,0 +1,135 @@
+{
+  "title": "Estructuras Repetitivas",
+  "description": "Aprende a automatizar tareas usando ciclos o bucles como for y while.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Las estructuras repetitivas permiten ejecutar un bloque de código varias veces sin tener que escribirlo repetidamente."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Se utilizan cuando una tarea debe repetirse hasta cumplir una condición o un número de veces."
+    },
+
+    {
+      "type": "heading",
+      "text": "¿Qué es un ciclo?"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Un ciclo es una estructura que repite instrucciones mientras se cumpla una condición."
+    },
+
+    {
+      "type": "heading",
+      "text": "Ciclo FOR"
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo de FOR",
+      "text": "for (i = 1; i <= 5; i++) {<br>    mostrar(i)<br>}"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "El ciclo FOR se usa cuando sabes cuántas veces se va a repetir una acción."
+    },
+
+    {
+      "type": "heading",
+      "text": "Ciclo WHILE"
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo de WHILE",
+      "text": "i = 1<br>while (i <= 5) {<br>    mostrar(i)<br>    i = i + 1<br>}"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "El ciclo WHILE se usa cuando no sabes exactamente cuántas veces se repetirá algo, pero sí conoces la condición."
+    },
+
+    {
+      "type": "heading",
+      "text": "Diferencia entre FOR y WHILE"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "FOR: cuando sabes el número de repeticiones.",
+        "WHILE: cuando dependes de una condición.",
+        "FOR: más estructurado.",
+        "WHILE: más flexible."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Ejemplo en la vida real"
+    },
+
+    {
+      "type": "example",
+      "title": "Contar personas",
+      "text": "FOR: contar del 1 al 10 personas en una fila.<br>WHILE: contar personas hasta que la fila esté vacía."
+    },
+
+    {
+      "type": "heading",
+      "text": "Ciclo infinito"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Un ciclo infinito ocurre cuando la condición nunca deja de cumplirse."
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo peligroso",
+      "text": "while (true) {<br>    mostrar('esto nunca termina')<br>}"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Esto puede congelar un programa si no se controla correctamente."
+    },
+
+    {
+      "type": "heading",
+      "text": "Importancia"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Automatizan tareas repetitivas.",
+        "Reducen código innecesario.",
+        "Mejoran la eficiencia.",
+        "Son esenciales en cualquier lenguaje."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Conclusión"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Las estructuras repetitivas permiten que los programas trabajen de forma automática y eficiente."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Son una herramienta clave para crear programas más potentes y dinámicos."
+    }
+  ]
+}

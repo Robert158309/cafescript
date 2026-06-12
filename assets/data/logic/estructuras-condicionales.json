@@ -1,0 +1,137 @@
+{
+  "title": "Estructuras Condicionales",
+  "description": "Aprende a tomar decisiones en programación utilizando condiciones como if, else y else if.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Las estructuras condicionales permiten que un programa tome decisiones dependiendo de ciertas condiciones."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Gracias a ellas, un programa puede comportarse de diferentes formas según los datos que reciba."
+    },
+
+    {
+      "type": "heading",
+      "text": "¿Qué es una condición?"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Una condición es una expresión que se evalúa como verdadera o falsa."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Dependiendo del resultado, el programa ejecuta un bloque de código diferente."
+    },
+
+    {
+      "type": "heading",
+      "text": "Estructura IF"
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo básico",
+      "text": "edad = 18<br><br>if (edad >= 18) {<br>    mostrar('Eres mayor de edad')<br>}"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Si la condición se cumple, el bloque de código dentro del IF se ejecuta."
+    },
+
+    {
+      "type": "heading",
+      "text": "Estructura IF - ELSE"
+    },
+
+    {
+      "type": "example",
+      "title": "Decisión doble",
+      "text": "edad = 16<br><br>if (edad >= 18) {<br>    mostrar('Eres mayor de edad')<br>} else {<br>    mostrar('Eres menor de edad')<br>}"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "El ELSE se ejecuta cuando la condición del IF no se cumple."
+    },
+
+    {
+      "type": "heading",
+      "text": "Estructura IF - ELSE IF - ELSE"
+    },
+
+    {
+      "type": "example",
+      "title": "Múltiples condiciones",
+      "text": "nota = 75<br><br>if (nota >= 90) {<br>    mostrar('Excelente')<br>} else if (nota >= 70) {<br>    mostrar('Aprobado')<br>} else {<br>    mostrar('Reprobado')<br>}"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Esto permite manejar múltiples decisiones dentro de un mismo flujo."
+    },
+
+    {
+      "type": "heading",
+      "text": "Operadores en condiciones"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "== igual a",
+        "!= diferente de",
+        "> mayor que",
+        "< menor que",
+        ">= mayor o igual",
+        "<= menor o igual"
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Ejemplo combinado"
+    },
+
+    {
+      "type": "example",
+      "title": "Acceso a sistema",
+      "text": "usuarioValido = true<br>edad = 20<br><br>if (usuarioValido && edad >= 18) {<br>    mostrar('Acceso permitido')<br>} else {<br>    mostrar('Acceso denegado')<br>}"
+    },
+
+    {
+      "type": "heading",
+      "text": "Importancia"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Permiten que los programas tomen decisiones.",
+        "Son esenciales en casi cualquier aplicación.",
+        "Controlan el flujo del programa.",
+        "Hacen que el software sea dinámico."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Conclusión"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Las estructuras condicionales son una de las bases más importantes de la programación."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Gracias a ellas, los programas pueden reaccionar a diferentes situaciones como si “pensaran”."
+    }
+  ]
+}

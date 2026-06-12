@@ -1,0 +1,135 @@
+{
+  "title": "Matrices",
+  "description": "Aprende a trabajar con datos organizados en filas y columnas usando matrices (arreglos bidimensionales).",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Una matriz es una estructura de datos que organiza información en filas y columnas, como una tabla."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Es básicamente un arreglo dentro de otro arreglo, lo que permite almacenar datos de forma bidimensional."
+    },
+
+    {
+      "type": "heading",
+      "text": "¿Qué es una matriz?"
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo básico",
+      "text": "matriz = [<br>  [1, 2, 3],<br>  [4, 5, 6],<br>  [7, 8, 9]<br>]"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Cada elemento se accede usando dos índices: fila y columna."
+    },
+
+    {
+      "type": "heading",
+      "text": "Acceso a elementos"
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo de acceso",
+      "text": "matriz[0][0]  // 1<br>matriz[1][2]  // 6<br>matriz[2][1]  // 8"
+    },
+
+    {
+      "type": "heading",
+      "text": "Estructura de una matriz"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Filas: grupos horizontales de datos.",
+        "Columnas: grupos verticales de datos.",
+        "Cada posición tiene coordenadas (fila, columna)."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Recorrer una matriz"
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo con ciclos anidados",
+      "text": "for i = 0 to filas {<br>    for j = 0 to columnas {<br>        mostrar(matriz[i][j])<br>    }<br>}"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Para recorrer una matriz se utilizan ciclos dentro de ciclos."
+    },
+
+    {
+      "type": "heading",
+      "text": "Ejemplo en la vida real"
+    },
+
+    {
+      "type": "example",
+      "title": "Tabla de calificaciones",
+      "text": "matriz = [<br>  [80, 90, 70],<br>  [60, 85, 88],<br>  [100, 95, 92]<br>]"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Cada fila puede representar un estudiante y cada columna una materia."
+    },
+
+    {
+      "type": "heading",
+      "text": "¿Para qué se usan?"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Procesamiento de imágenes.",
+        "Tablas de datos.",
+        "Juegos (tableros).",
+        "Simulaciones matemáticas.",
+        "Sistemas complejos de información."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Importancia"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Permiten organizar datos en 2D.",
+        "Son base de estructuras avanzadas.",
+        "Se usan en ciencia de datos y gráficos.",
+        "Mejoran la comprensión de estructuras complejas."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Conclusión"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Las matrices te permiten manejar datos en forma de tabla, lo que abre la puerta a sistemas más avanzados."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Son un paso importante hacia la programación más compleja y estructurada."
+    }
+  ]
+}

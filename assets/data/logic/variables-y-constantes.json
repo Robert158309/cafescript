@@ -1,0 +1,128 @@
+{
+  "title": "Variables y Constantes",
+  "description": "Aprende a almacenar, modificar y proteger información en la programación usando variables y constantes.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "En programación, necesitamos guardar información para poder usarla más adelante. Para eso existen las variables y las constantes."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Estas herramientas son fundamentales porque casi todo programa trabaja con datos: nombres, números, resultados, estados, etc."
+    },
+
+    {
+      "type": "heading",
+      "text": "¿Qué es una variable?"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Una variable es un espacio en memoria donde se almacena un valor que puede cambiar durante la ejecución del programa."
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo de variable",
+      "text": "nombre = 'Roberto'<br>edad = 17<br>edad = 18  // el valor puede cambiar"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Las variables son dinámicas, lo que significa que su valor no es fijo."
+    },
+
+    {
+      "type": "heading",
+      "text": "¿Qué es una constante?"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Una constante es un valor que se almacena en memoria pero no puede ser modificado después de ser asignado."
+    },
+
+    {
+      "type": "example",
+      "title": "Ejemplo de constante",
+      "text": "PI = 3.1416<br>GRAVEDAD = 9.8"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Las constantes se usan cuando sabemos que un valor no debe cambiar en todo el programa."
+    },
+
+    {
+      "type": "heading",
+      "text": "Diferencia entre variable y constante"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Variable: su valor puede cambiar.",
+        "Constante: su valor es fijo.",
+        "Variable: se usa para datos dinámicos.",
+        "Constante: se usa para valores fijos o reglas del sistema."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Ejemplo en la vida real"
+    },
+
+    {
+      "type": "example",
+      "title": "Analogía simple",
+      "text": "Variable: tu edad (cambia cada año)<br>Constante: tu fecha de nacimiento (no cambia)"
+    },
+
+    {
+      "type": "heading",
+      "text": "Importancia en programación"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Permiten almacenar información del usuario.",
+        "Ayudan a realizar cálculos.",
+        "Permiten controlar el flujo de un programa.",
+        "Hacen posible la reutilización de datos."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Buenas prácticas"
+    },
+
+    {
+      "type": "list",
+      "items": [
+        "Usar nombres claros (ej: edadUsuario en vez de x).",
+        "Usar constantes para valores que no cambian.",
+        "Mantener orden en la declaración de variables."
+      ]
+    },
+
+    {
+      "type": "heading",
+      "text": "Conclusión"
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Las variables y constantes son la base del manejo de datos en programación. Sin ellas, ningún programa podría funcionar correctamente."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "Dominar este concepto es el primer paso real hacia escribir código funcional."
+    }
+  ]
+}
