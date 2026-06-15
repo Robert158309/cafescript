@@ -1,7 +1,77 @@
 [
   {
     "title": "Introducción a C++",
-    "description": "Aprende los conceptos básicos de la programación en C++.",
-    "slug": "introduccion-a-cpp"
+    "description": "Qué es C++, cómo funciona y para qué se usa.",
+    "slug": "introduccion-cpp"
+  },
+  {
+    "title": "Estructura de un programa en C++",
+    "description": "include, main y cómo se ejecuta un programa.",
+    "slug": "estructura-programa-cpp"
+  },
+  {
+    "title": "Variables y tipos de datos",
+    "description": "int, float, double, char, string y su uso.",
+    "slug": "variables-cpp"
+  },
+  {
+    "title": "Entrada y salida de datos",
+    "description": "Uso de cin y cout para interactuar con el usuario.",
+    "slug": "entrada-salida-cpp"
+  },
+  {
+    "title": "Operadores",
+    "description": "Operadores matemáticos, lógicos y de comparación.",
+    "slug": "operadores-cpp"
+  },
+  {
+    "title": "Condicionales (if, else)",
+    "description": "Toma de decisiones en el programa.",
+    "slug": "condicionales-cpp"
+  },
+  {
+    "title": "Switch",
+    "description": "Selección múltiple de opciones.",
+    "slug": "switch-cpp"
+  },
+  {
+    "title": "Ciclos (for)",
+    "description": "Repeticiones controladas con for.",
+    "slug": "for-cpp"
+  },
+  {
+    "title": "Ciclos (while y do while)",
+    "description": "Repeticiones basadas en condiciones.",
+    "slug": "while-cpp"
+  },
+  {
+    "title": "Funciones",
+    "description": "Bloques de código reutilizables que realizan tareas específicas.",
+    "slug": "funciones-cpp"
+  },
+  {
+    "title": "Parámetros y retorno de funciones",
+    "description": "Cómo enviar datos a funciones y devolver resultados.",
+    "slug": "parametros-retorno-funciones-cpp"
+  },
+  {
+    "title": "Arrays",
+    "description": "Almacenamiento de múltiples valores en una sola variable.",
+    "slug": "arrays-cpp"
+  },
+  {
+    "title": "Structs",
+    "description": "Agrupar datos relacionados en una sola estructura.",
+    "slug": "struct-cpp"
+  },
+  {
+    "title": "Clases y objetos",
+    "description": "Introducción a la programación orientada a objetos.",
+    "slug": "clases-objetos-cpp"
+  },
+  {
+    "title": "Métodos en clases",
+    "description": "Funciones dentro de clases para definir comportamiento de objetos.",
+    "slug": "metodos-clases-cpp"
   }
 ]

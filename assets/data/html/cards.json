@@ -1,12 +1,77 @@
 [
   {
     "title": "Introducción a HTML",
-    "description": "Aprende los conceptos básicos de la programación en HTML.",
-    "slug": "introduccion-a-html"
+    "description": "Qué es HTML, cómo funciona la web y cómo se estructura una página.",
+    "slug": "intro-html"
   },
   {
-    "title": "Etiquetas Básicas de HTML",
-    "description": "Aprende a utilizar las etiquetas básicas de HTML.",
-    "slug": "etiquetas-basicas-de-html"
+    "title": "Estructura base de HTML",
+    "description": "html, head, body y cómo se arma un documento correcto.",
+    "slug": "estructura-base-html"
+  },
+  {
+    "title": "Texto en HTML",
+    "description": "Encabezados, párrafos, saltos de línea y formato básico de texto.",
+    "slug": "texto-html"
+  },
+  {
+    "title": "Enlaces y navegación",
+    "description": "Uso de a, rutas internas, externas y navegación entre páginas.",
+    "slug": "enlaces-html"
+  },
+  {
+    "title": "Imágenes en la web",
+    "description": "Cómo insertar imágenes, atributos src, alt y buenas prácticas.",
+    "slug": "imagenes-html"
+  },
+  {
+    "title": "Listas en HTML",
+    "description": "Listas ordenadas y desordenadas para organizar contenido.",
+    "slug": "listas-html"
+  },
+  {
+    "title": "Tablas de datos",
+    "description": "Cómo estructurar información usando tablas HTML.",
+    "slug": "tablas-html"
+  },
+  {
+    "title": "Formularios",
+    "description": "Inputs, botones y cómo recolectar datos del usuario.",
+    "slug": "formularios-html"
+  },
+  {
+    "title": "Inputs y tipos de datos",
+    "description": "text, password, email, number, checkbox, radio y más.",
+    "slug": "inputs-html"
+  },
+  {
+    "title": "Contenedores (div y span)",
+    "description": "Organización básica de contenido en bloques y en línea.",
+    "slug": "contenedores-html"
+  },
+  {
+    "title": "HTML semántico",
+    "description": "header, nav, main, section, article, footer y estructura moderna.",
+    "slug": "semantica-html"
+  },
+  {
+    "title": "CSS con HTML (link y style)",
+    "description": "Cómo conectar CSS externo e interno a HTML.",
+    "slug": "css-html"
+  },
+  {
+    "title": "JavaScript en HTML",
+    "description": "Cómo agregar interactividad con script.",
+    "slug": "js-html"
+  },
+  {
+    "title": "Multimedia",
+    "description": "audio, video e iframe para contenido embebido.",
+    "slug": "multimedia-html"
+  },
+  {
+    "title": "Buenas prácticas",
+    "description": "Código limpio, accesibilidad y estructura profesional.",
+    "slug": "buenas-practicas-html"
   }
 ]

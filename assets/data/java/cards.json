@@ -1,7 +1,187 @@
 [
   {
     "title": "Introducción a Java",
-    "description": "Aprende los conceptos básicos de la programación en Java.",
-    "slug": "introduccion-a-java"
+    "description": "Qué es Java, cómo funciona la JVM y dónde se usa.",
+    "slug": "introduccion-java"
+  },
+  {
+    "title": "Estructura de un programa en Java",
+    "description": "clases, main y estructura básica de ejecución.",
+    "slug": "estructura-java"
+  },
+  {
+    "title": "Variables y tipos de datos",
+    "description": "int, double, char, boolean y String en Java.",
+    "slug": "variables-java"
+  },
+  {
+    "title": "Entrada de datos (Scanner)",
+    "description": "Cómo recibir datos del usuario por consola.",
+    "slug": "scanner-java"
+  },
+  {
+    "title": "Operadores",
+    "description": "Operadores matemáticos, lógicos y relacionales.",
+    "slug": "operadores-java"
+  },
+  {
+    "title": "Condicionales",
+    "description": "if, else if y switch en Java.",
+    "slug": "condicionales-java"
+  },
+  {
+    "title": "Ciclos",
+    "description": "for, while y do while en Java.",
+    "slug": "ciclos-java"
+  },
+  {
+    "title": "Métodos",
+    "description": "Funciones dentro de clases en Java.",
+    "slug": "metodos-java"
+  },
+  {
+    "title": "Parámetros y retorno",
+    "description": "Paso de datos y retorno en métodos.",
+    "slug": "parametros-java"
+  },
+  {
+    "title": "Arrays",
+    "description": "Arreglos unidimensionales y su uso.",
+    "slug": "arrays-java"
+  },
+  {
+    "title": "Arrays multidimensionales",
+    "description": "Matrices y estructuras de datos básicas.",
+    "slug": "matrices-java"
+  },
+  {
+    "title": "Programación orientada a objetos",
+    "description": "Clases, objetos y principios básicos de POO.",
+    "slug": "poo-java"
+  },
+  {
+    "title": "Constructores",
+    "description": "Inicialización de objetos en Java.",
+    "slug": "constructores-java"
+  },
+  {
+    "title": "Encapsulación",
+    "description": "getters y setters para proteger datos.",
+    "slug": "encapsulacion-java"
+  },
+  {
+    "title": "Herencia",
+    "description": "Reutilización de código entre clases.",
+    "slug": "herencia-java"
+  },
+  {
+    "title": "Polimorfismo",
+    "description": "Métodos que se comportan de forma diferente.",
+    "slug": "polimorfismo-java"
+  },
+  {
+    "title": "Strings en Java",
+    "description": "Manipulación de cadenas de texto.",
+    "slug": "strings-java"
+  },
+  {
+    "title": "StringTokenizer",
+    "description": "Separación de texto en partes usando delimitadores.",
+    "slug": "stringtokenizer-java"
+  },
+  {
+    "title": "Manejo de excepciones",
+    "description": "try, catch y control de errores.",
+    "slug": "excepciones-java"
+  },
+  {
+    "title": "Archivos en Java",
+    "description": "Lectura y escritura de archivos de texto.",
+    "slug": "archivos-java"
+  },
+  {
+    "title": "Lectura con Scanner",
+    "description": "Lectura eficiente de archivos.",
+    "slug": "lectura-archivos-java"
+  },
+  {
+    "title": "Escritura con PrintWriter",
+    "description": "Escritura de datos en archivos.",
+    "slug": "escritura-archivos-java"
+  },
+  {
+    "title": "Introducción a Swing",
+    "description": "Crear interfaces gráficas en Java.",
+    "slug": "swing-intro"
+  },
+  {
+    "title": "Componentes Swing",
+    "description": "JFrame, JButton, JLabel, JTextField.",
+    "slug": "componentes-swing"
+  },
+  {
+    "title": "Eventos en Swing",
+    "description": "Acciones de botones y eventos de usuario.",
+    "slug": "eventos-swing"
+  },
+  {
+    "title": "Layouts en Swing",
+    "description": "Organización de componentes en la interfaz.",
+    "slug": "layouts-swing"
+  },
+  {
+    "title": "Introducción a bases de datos",
+    "description": "Conceptos básicos de tablas, registros y relaciones.",
+    "slug": "db-intro-java"
+  },
+  {
+    "title": "MySQL para programadores Java",
+    "description": "Instalación y conceptos básicos de MySQL.",
+    "slug": "mysql-java"
+  },
+  {
+    "title": "Conexión Java-MySQL",
+    "description": "Uso del conector JDBC para conectar Java con MySQL.",
+    "slug": "jdbc-java"
+  },
+  {
+    "title": "Sentencias SQL básicas",
+    "description": "SELECT, INSERT, UPDATE y DELETE.",
+    "slug": "sql-basico-java"
+  },
+  {
+    "title": "Consultas SELECT",
+    "description": "Obtener información desde Java usando JDBC.",
+    "slug": "select-java"
+  },
+  {
+    "title": "INSERT desde Java",
+    "description": "Guardar registros en la base de datos.",
+    "slug": "insert-java"
+  },
+  {
+    "title": "UPDATE desde Java",
+    "description": "Modificar registros existentes.",
+    "slug": "update-java"
+  },
+  {
+    "title": "DELETE desde Java",
+    "description": "Eliminar registros de la base de datos.",
+    "slug": "delete-java"
+  },
+  {
+    "title": "PreparedStatement",
+    "description": "Consultas seguras y parametrizadas.",
+    "slug": "preparedstatement-java"
+  },
+  {
+    "title": "Mostrar datos en JTable",
+    "description": "Visualizar registros de bases de datos en Swing.",
+    "slug": "jtable-java"
+  },
+  {
+    "title": "CRUD completo con Swing",
+    "description": "Aplicación gráfica conectada a MySQL.",
+    "slug": "crud-swing-java"
   }
 ]

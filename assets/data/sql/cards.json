@@ -1,7 +1,222 @@
 [
-    {
-      "title": "Introducción a las bases de datos",
-      "description": "Aprende los conceptos básicos de las bases de datos.",
-      "slug": "introduccion-a-las-bases-de-datos"
-    }
+  {
+    "title": "Introducción a las bases de datos",
+    "description": "Conceptos fundamentales sobre almacenamiento y organización de datos.",
+    "slug": "introduccion-bases-datos"
+  },
+  {
+    "title": "¿Qué es un SGBD?",
+    "description": "Sistemas gestores de bases de datos como MySQL, PostgreSQL y SQL Server.",
+    "slug": "sgbd"
+  },
+  {
+    "title": "Bases de datos relacionales",
+    "description": "Comprender tablas, registros y relaciones.",
+    "slug": "bases-relacionales"
+  },
+  {
+    "title": "Diseño de bases de datos",
+    "description": "Planificación de estructuras de datos eficientes.",
+    "slug": "diseno-bases-datos"
+  },
+  {
+    "title": "Tablas y registros",
+    "description": "Cómo se organiza la información dentro de una base de datos.",
+    "slug": "tablas-registros"
+  },
+  {
+    "title": "Tipos de datos SQL",
+    "description": "INT, VARCHAR, DATE, DECIMAL, BOOLEAN y otros tipos comunes.",
+    "slug": "tipos-datos-sql"
+  },
+  {
+    "title": "Llaves primarias",
+    "description": "Identificación única de registros mediante PRIMARY KEY.",
+    "slug": "primary-key"
+  },
+  {
+    "title": "Llaves foráneas",
+    "description": "Relaciones entre tablas usando FOREIGN KEY.",
+    "slug": "foreign-key"
+  },
+  {
+    "title": "Introducción a SQL",
+    "description": "Sintaxis básica del lenguaje SQL.",
+    "slug": "introduccion-sql"
+  },
+  {
+    "title": "Crear bases de datos",
+    "description": "Uso de CREATE DATABASE.",
+    "slug": "create-database"
+  },
+  {
+    "title": "Crear tablas",
+    "description": "Uso de CREATE TABLE.",
+    "slug": "create-table"
+  },
+  {
+    "title": "Modificar tablas",
+    "description": "ALTER TABLE y cambios estructurales.",
+    "slug": "alter-table"
+  },
+  {
+    "title": "Eliminar tablas y bases de datos",
+    "description": "DROP TABLE y DROP DATABASE.",
+    "slug": "drop-sql"
+  },
+  {
+    "title": "Insertar registros",
+    "description": "Uso de INSERT INTO.",
+    "slug": "insert-into"
+  },
+  {
+    "title": "Consultar datos",
+    "description": "Uso básico de SELECT.",
+    "slug": "select"
+  },
+  {
+    "title": "Filtrado de registros",
+    "description": "Uso de WHERE.",
+    "slug": "where"
+  },
+  {
+    "title": "Ordenar resultados",
+    "description": "Uso de ORDER BY.",
+    "slug": "order-by"
+  },
+  {
+    "title": "Limitar resultados",
+    "description": "Uso de LIMIT y TOP.",
+    "slug": "limit"
+  },
+  {
+    "title": "Actualizar registros",
+    "description": "Uso de UPDATE.",
+    "slug": "update"
+  },
+  {
+    "title": "Eliminar registros",
+    "description": "Uso de DELETE.",
+    "slug": "delete"
+  },
+  {
+    "title": "Operadores de comparación",
+    "description": "Uso de =, <, >, <=, >= y <>.",
+    "slug": "operadores-sql"
+  },
+  {
+    "title": "Operadores lógicos",
+    "description": "AND, OR y NOT.",
+    "slug": "logicos-sql"
+  },
+  {
+    "title": "Búsquedas avanzadas",
+    "description": "LIKE, BETWEEN e IN.",
+    "slug": "busquedas-avanzadas"
+  },
+  {
+    "title": "Funciones de agregación",
+    "description": "COUNT, SUM, AVG, MAX y MIN.",
+    "slug": "funciones-agregacion"
+  },
+  {
+    "title": "Agrupación de datos",
+    "description": "Uso de GROUP BY.",
+    "slug": "group-by"
+  },
+  {
+    "title": "Filtrado de grupos",
+    "description": "Uso de HAVING.",
+    "slug": "having"
+  },
+  {
+    "title": "Relaciones uno a uno",
+    "description": "Modelado de relaciones 1:1.",
+    "slug": "relacion-uno-uno"
+  },
+  {
+    "title": "Relaciones uno a muchos",
+    "description": "Modelado de relaciones 1:N.",
+    "slug": "relacion-uno-muchos"
+  },
+  {
+    "title": "Relaciones muchos a muchos",
+    "description": "Uso de tablas intermedias.",
+    "slug": "relacion-muchos-muchos"
+  },
+  {
+    "title": "Introducción a JOIN",
+    "description": "Combinar información de múltiples tablas.",
+    "slug": "intro-join"
+  },
+  {
+    "title": "INNER JOIN",
+    "description": "Registros coincidentes entre tablas.",
+    "slug": "inner-join"
+  },
+  {
+    "title": "LEFT JOIN",
+    "description": "Todos los registros de la tabla izquierda.",
+    "slug": "left-join"
+  },
+  {
+    "title": "RIGHT JOIN",
+    "description": "Todos los registros de la tabla derecha.",
+    "slug": "right-join"
+  },
+  {
+    "title": "FULL JOIN",
+    "description": "Todos los registros de ambas tablas.",
+    "slug": "full-join"
+  },
+  {
+    "title": "Self Join",
+    "description": "Relacionar una tabla consigo misma.",
+    "slug": "self-join"
+  },
+  {
+    "title": "Subconsultas",
+    "description": "Consultas dentro de consultas.",
+    "slug": "subconsultas"
+  },
+  {
+    "title": "Vistas (Views)",
+    "description": "Consultas almacenadas como tablas virtuales.",
+    "slug": "views"
+  },
+  {
+    "title": "Índices",
+    "description": "Optimización de búsquedas en bases de datos.",
+    "slug": "indices"
+  },
+  {
+    "title": "Normalización",
+    "description": "Evitar redundancia y mejorar el diseño.",
+    "slug": "normalizacion"
+  },
+  {
+    "title": "Primera Forma Normal (1FN)",
+    "description": "Eliminación de grupos repetitivos.",
+    "slug": "primera-forma-normal"
+  },
+  {
+    "title": "Segunda Forma Normal (2FN)",
+    "description": "Dependencias parciales.",
+    "slug": "segunda-forma-normal"
+  },
+  {
+    "title": "Tercera Forma Normal (3FN)",
+    "description": "Dependencias transitivas.",
+    "slug": "tercera-forma-normal"
+  },
+  {
+    "title": "Introducción al CRUD",
+    "description": "Concepto de Crear, Leer, Actualizar y Eliminar.",
+    "slug": "crud-introduccion"
+  },
+  {
+    "title": "CRUD completo con SQL",
+    "description": "Aplicación práctica usando INSERT, SELECT, UPDATE y DELETE.",
+    "slug": "crud-completo"
+  }
 ]

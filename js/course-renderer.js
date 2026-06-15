@@ -17,7 +17,9 @@ fetch(`../assets/data/${lang}/${course}.json`)
     let html = "";
 
     data.content.forEach((block) => {
+
       switch (block.type) {
+        
         case "heading":
           html += `<h2>${block.text}</h2>`;
           break;
@@ -53,7 +55,7 @@ fetch(`../assets/data/${lang}/${course}.json`)
     console.error(error);
 
     container.innerHTML = `
-      <h2>Error</h2>
-      <p>No se pudo cargar el curso.</p>
+      <h2>Error :(</h2>
+      <p>No se pudo cargar el curso. es posible que no exista o aún no lo haya creado.</p>
     `;
   });

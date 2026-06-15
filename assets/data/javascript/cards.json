@@ -1,7 +1,122 @@
 [
   {
     "title": "Introducción a JavaScript",
-    "description": "Aprende los conceptos básicos de la programación en JavaScript.",
-    "slug": "introduccion-a-javascript"
+    "description": "Qué es JavaScript y cómo aporta interactividad a una página web.",
+    "slug": "introduccion-javascript"
+  },
+  {
+    "title": "Conectar JavaScript con HTML",
+    "description": "Uso de script interno y archivos externos.",
+    "slug": "conectar-js-html"
+  },
+  {
+    "title": "Variables y tipos de datos",
+    "description": "let, const, strings, números, booleanos y otros tipos básicos.",
+    "slug": "variables-javascript"
+  },
+  {
+    "title": "Operadores",
+    "description": "Operadores aritméticos, lógicos y de comparación.",
+    "slug": "operadores-javascript"
+  },
+  {
+    "title": "Condicionales",
+    "description": "if, else, else if y switch.",
+    "slug": "condicionales-javascript"
+  },
+  {
+    "title": "Ciclos",
+    "description": "for, while y do while.",
+    "slug": "ciclos-javascript"
+  },
+  {
+    "title": "Funciones",
+    "description": "Creación y uso de funciones.",
+    "slug": "funciones-javascript"
+  },
+  {
+    "title": "Parámetros y retorno",
+    "description": "Enviar y devolver información desde funciones.",
+    "slug": "parametros-retorno-javascript"
+  },
+  {
+    "title": "Arrays",
+    "description": "Almacenamiento y manipulación de colecciones de datos.",
+    "slug": "arrays-javascript"
+  },
+  {
+    "title": "Objetos",
+    "description": "Creación y uso de objetos en JavaScript.",
+    "slug": "objetos-javascript"
+  },
+  {
+    "title": "Métodos de Arrays",
+    "description": "push, pop, shift, unshift, splice y más.",
+    "slug": "metodos-arrays-javascript"
+  },
+  {
+    "title": "Introducción al DOM",
+    "description": "Qué es el DOM y cómo JavaScript interactúa con HTML.",
+    "slug": "intro-dom"
+  },
+  {
+    "title": "Seleccionar elementos",
+    "description": "getElementById, querySelector y querySelectorAll.",
+    "slug": "seleccionar-elementos-dom"
+  },
+  {
+    "title": "Modificar contenido HTML",
+    "description": "textContent, innerHTML y atributos.",
+    "slug": "modificar-html-dom"
+  },
+  {
+    "title": "Modificar estilos con JavaScript",
+    "description": "Cambios dinámicos usando style y classList.",
+    "slug": "modificar-estilos-dom"
+  },
+  {
+    "title": "Eventos",
+    "description": "click, input, submit y otros eventos importantes.",
+    "slug": "eventos-javascript"
+  },
+  {
+    "title": "Formularios con JavaScript",
+    "description": "Captura y validación de datos.",
+    "slug": "formularios-javascript"
+  },
+  {
+    "title": "Temporizadores",
+    "description": "Uso de setTimeout y setInterval.",
+    "slug": "temporizadores-javascript"
+  },
+  {
+    "title": "Introducción a JSON",
+    "description": "Qué es JSON y por qué es tan importante.",
+    "slug": "intro-json"
+  },
+  {
+    "title": "Objetos JavaScript y JSON",
+    "description": "Diferencias y similitudes entre ambos.",
+    "slug": "objetos-json"
+  },
+  {
+    "title": "Renderizado dinámico",
+    "description": "Crear contenido HTML a partir de datos JSON.",
+    "slug": "renderizado-dinamico"
+  },
+  {
+    "title": "LocalStorage",
+    "description": "Guardar información en el navegador.",
+    "slug": "localstorage"
+  },
+  {
+    "title": "Animaciones básicas",
+    "description": "Manipulación de clases y efectos visuales simples.",
+    "slug": "animaciones-basicas"
+  },
+  {
+    "title": "Transiciones con JavaScript",
+    "description": "Controlar animaciones CSS desde JavaScript.",
+    "slug": "transiciones-javascript"
   }
 ]

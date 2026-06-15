@@ -1,7 +1,137 @@
 [
   {
     "title": "Introducción a C#",
-    "description": "Aprende los conceptos básicos de la programación en C#.",
-    "slug": "introduccion-a-csharp"
+    "description": "Qué es C#, dónde se usa y cómo funciona dentro de .NET.",
+    "slug": "introduccion-csharp"
+  },
+  {
+    "title": "Estructura de un programa en consola",
+    "description": "Cómo se organiza un programa básico en C#.",
+    "slug": "estructura-consola-csharp"
+  },
+  {
+    "title": "Variables y tipos de datos",
+    "description": "int, double, string, bool y su uso en C#.",
+    "slug": "variables-csharp"
+  },
+  {
+    "title": "Entrada y salida por consola",
+    "description": "Console.WriteLine y Console.ReadLine.",
+    "slug": "io-consola-csharp"
+  },
+  {
+    "title": "Operadores",
+    "description": "Operadores aritméticos, lógicos y relacionales.",
+    "slug": "operadores-csharp"
+  },
+  {
+    "title": "Condicionales",
+    "description": "if, else y toma de decisiones.",
+    "slug": "condicionales-csharp"
+  },
+  {
+    "title": "Switch",
+    "description": "Estructuras de selección múltiple.",
+    "slug": "switch-csharp"
+  },
+  {
+    "title": "Ciclos (for)",
+    "description": "Repeticiones controladas.",
+    "slug": "for-csharp"
+  },
+  {
+    "title": "Ciclos (while y do while)",
+    "description": "Repeticiones basadas en condiciones.",
+    "slug": "while-csharp"
+  },
+  {
+    "title": "Métodos",
+    "description": "Funciones dentro de clases en C#.",
+    "slug": "metodos-csharp"
+  },
+  {
+    "title": "Parámetros y retorno",
+    "description": "Paso de datos y retorno de valores.",
+    "slug": "parametros-csharp"
+  },
+  {
+    "title": "Arrays",
+    "description": "Almacenamiento de múltiples valores.",
+    "slug": "arrays-csharp"
+  },
+  {
+    "title": "Introducción a POO",
+    "description": "Clases y objetos en C#.",
+    "slug": "poo-csharp"
+  },
+  {
+    "title": "Clases y objetos",
+    "description": "Definición y uso de clases.",
+    "slug": "clases-objetos-csharp"
+  },
+  {
+    "title": "Constructores",
+    "description": "Inicialización de objetos.",
+    "slug": "constructores-csharp"
+  },
+  {
+    "title": "Introducción a Windows Forms",
+    "description": "Qué es una interfaz gráfica en .NET.",
+    "slug": "winforms-intro"
+  },
+  {
+    "title": "Controles básicos",
+    "description": "Button, Label, TextBox y uso básico.",
+    "slug": "controles-winforms"
+  },
+  {
+    "title": "Eventos en Windows Forms",
+    "description": "Click, load y eventos de usuario.",
+    "slug": "eventos-winforms"
+  },
+  {
+    "title": "Propiedades de controles",
+    "description": "Modificar textos, colores y comportamiento.",
+    "slug": "propiedades-controles"
+  },
+  {
+    "title": "Manejo de formularios",
+    "description": "Abrir, cerrar y comunicar forms.",
+    "slug": "forms-winforms"
+  },
+  {
+    "title": "Validación de datos",
+    "description": "Evitar errores en inputs del usuario.",
+    "slug": "validacion-winforms"
+  },
+  {
+    "title": "Introducción a bases de datos",
+    "description": "Qué es una base de datos y cómo se conecta a una app.",
+    "slug": "db-intro"
+  },
+  {
+    "title": "Conexión a base de datos",
+    "description": "Conectar C# con SQL Server o similar.",
+    "slug": "conexion-db"
+  },
+  {
+    "title": "Operaciones CRUD - Crear",
+    "description": "Insertar datos desde Windows Forms.",
+    "slug": "crud-create"
+  },
+  {
+    "title": "Operaciones CRUD - Leer",
+    "description": "Mostrar datos en DataGridView.",
+    "slug": "crud-read"
+  },
+  {
+    "title": "Operaciones CRUD - Actualizar",
+    "description": "Modificar registros existentes.",
+    "slug": "crud-update"
+  },
+  {
+    "title": "Operaciones CRUD - Eliminar",
+    "description": "Borrar registros de la base de datos.",
+    "slug": "crud-delete"
   }
 ]

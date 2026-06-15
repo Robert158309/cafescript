@@ -1,7 +1,147 @@
 [
   {
     "title": "Introducción a Python",
-    "description": "Aprende los conceptos básicos de la programación en Python.",
-    "slug": "introduccion-a-python"
+    "description": "Qué es Python, dónde se utiliza y por qué es tan popular.",
+    "slug": "introduccion-python"
+  },
+  {
+    "title": "Instalación y entorno de trabajo",
+    "description": "Instalación de Python y primeros pasos con VS Code.",
+    "slug": "instalacion-python"
+  },
+  {
+    "title": "Variables y tipos de datos",
+    "description": "int, float, str, bool y uso de variables.",
+    "slug": "variables-python"
+  },
+  {
+    "title": "Entrada y salida de datos",
+    "description": "Uso de input() y print().",
+    "slug": "entrada-salida-python"
+  },
+  {
+    "title": "Operadores",
+    "description": "Operadores aritméticos, lógicos y relacionales.",
+    "slug": "operadores-python"
+  },
+  {
+    "title": "Condicionales",
+    "description": "if, elif y else.",
+    "slug": "condicionales-python"
+  },
+  {
+    "title": "Ciclos",
+    "description": "for y while.",
+    "slug": "ciclos-python"
+  },
+  {
+    "title": "Funciones",
+    "description": "Creación y reutilización de funciones.",
+    "slug": "funciones-python"
+  },
+  {
+    "title": "Parámetros y retorno",
+    "description": "Paso de argumentos y retorno de resultados.",
+    "slug": "parametros-python"
+  },
+  {
+    "title": "Listas",
+    "description": "Creación y manipulación de listas.",
+    "slug": "listas-python"
+  },
+  {
+    "title": "Tuplas",
+    "description": "Colecciones inmutables en Python.",
+    "slug": "tuplas-python"
+  },
+  {
+    "title": "Diccionarios",
+    "description": "Almacenamiento de datos mediante clave y valor.",
+    "slug": "diccionarios-python"
+  },
+  {
+    "title": "Sets",
+    "description": "Colecciones sin elementos duplicados.",
+    "slug": "sets-python"
+  },
+  {
+    "title": "Strings",
+    "description": "Manipulación de cadenas de texto.",
+    "slug": "strings-python"
+  },
+  {
+    "title": "Manejo de excepciones",
+    "description": "Uso de try, except y finally.",
+    "slug": "excepciones-python"
+  },
+  {
+    "title": "Módulos",
+    "description": "Importación y uso de módulos.",
+    "slug": "modulos-python"
+  },
+  {
+    "title": "Crear tus propios módulos",
+    "description": "Organización de código en archivos reutilizables.",
+    "slug": "modulos-personalizados-python"
+  },
+  {
+    "title": "Programación orientada a objetos",
+    "description": "Introducción a clases y objetos.",
+    "slug": "poo-python"
+  },
+  {
+    "title": "Clases y objetos",
+    "description": "Creación y uso de clases.",
+    "slug": "clases-objetos-python"
+  },
+  {
+    "title": "Constructores (__init__)",
+    "description": "Inicialización de objetos.",
+    "slug": "constructores-python"
+  },
+  {
+    "title": "Herencia",
+    "description": "Reutilización de código mediante clases derivadas.",
+    "slug": "herencia-python"
+  },
+  {
+    "title": "Polimorfismo",
+    "description": "Distintas implementaciones para un mismo comportamiento.",
+    "slug": "polimorfismo-python"
+  },
+  {
+    "title": "Archivos de texto",
+    "description": "Lectura y escritura de archivos .txt.",
+    "slug": "archivos-python"
+  },
+  {
+    "title": "Manejo de archivos CSV",
+    "description": "Lectura y escritura de datos tabulares.",
+    "slug": "csv-python"
+  },
+  {
+    "title": "JSON en Python",
+    "description": "Lectura y escritura de archivos JSON.",
+    "slug": "json-python"
+  },
+  {
+    "title": "Introducción a bases de datos",
+    "description": "Conceptos básicos de persistencia de datos.",
+    "slug": "db-intro-python"
+  },
+  {
+    "title": "SQLite con Python",
+    "description": "Creación y administración de bases de datos locales.",
+    "slug": "sqlite-python"
+  },
+  {
+    "title": "Consultas SQL desde Python",
+    "description": "SELECT, INSERT, UPDATE y DELETE.",
+    "slug": "sql-python"
+  },
+  {
+    "title": "CRUD con SQLite",
+    "description": "Aplicaciones completas usando bases de datos.",
+    "slug": "crud-python"
   }
 ]

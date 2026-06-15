@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .nav-link {
-    flex: 1 1 80px;
+    flex: 1;
     text-align: center;
     color: var(--text-primary);
     text-decoration: none;
@@ -48,7 +48,7 @@ header p {
     font-size: clamp(0.9rem, 2vw, 1.2rem);
     text-align: center;
     color: var(--text-secondary);
-    max-width: 600px;
+    max-width: 800px;
     margin: 0 auto;
 }
 
@@ -60,30 +60,107 @@ header p {
     text-align: center;
 }
 
-.quote blockquote {
-    background-color: var(--text-bg);
-    padding: 30px;
-    border-radius: 15px;
-    font-size: clamp(1.25rem, 4vw, 1.75rem);
-    font-style: italic;
+.stats h2 {
+    font-size: clamp(1.5rem, 4vw, 2.2rem);
     text-align: center;
-    color: var(--text-secondary);
-    max-width: 600px;
-    margin: 40px auto;
+    margin-bottom: clamp(16px, 2.6vw, 24px);
+    margin-top: clamp(40px, 6vw, 80px);
+    color: var(--accent);
 }
 
-.path {
-    margin-top: clamp(40px, 6vw, 80px);
+.stats-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin: 3rem 0;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
 }
 
+.stat {
+    flex: 1;
+    min-width: 180px;
+    padding: 1.5rem;
+    text-align: center;
+    background: var(--bg-secondary);
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,.08);
+    transition: transform .2s ease;
+}
+
+.stat:hover {
+    transform: translateY(-5px);
+}
+
+.stat h3 {
+    font-size: 2rem;
+    color: var(--accent);
+    margin-bottom: .5rem;
+}
+
+.stat p {
+    color: var(--text-secondary);
+}
+
+.quote blockquote {
+    padding: 30px;
+    border-left: 4px solid var(--accent);
+    font-size: clamp(1.25rem, 4vw, 1.75rem);
+    font-style: italic;
+    text-align: center;
+    color: var(--text-secondary);
+    max-width: 600px;
+    margin: 40px auto;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.routes {
+    margin-top: clamp(40px, 6vw, 80px);
+    text-align: center;
+    width: 100%;
+    border-radius: 15px;
+    padding: 30px;
+    background-color: var(--bg-secondary);
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.routes h2 {
+    font-size: clamp(1.8rem, 4.5vw, 2.6rem);
+    margin-bottom: clamp(18px, 3vw, 30px);
+    color: var(--text-primary);
+}
+
+.routes p {
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
+    color: var(--text-secondary);
+}
+
+.path {
+    margin-top: clamp(30px, 6vw, 60px);
+}
+
 .path h2 {
     text-align: center;
-    margin-bottom: clamp(25px, 4vw, 40px);
+    margin-bottom: clamp(18px, 3vw, 30px);
     font-size: clamp(1.5rem, 4vw, 2.2rem);
+}
+
+.path-description {
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: clamp(0.9rem, 2vw, 1.2rem);
+    max-width: 700px;
+    margin: 0 auto 40px auto;
 }
 
 .path-grid {
@@ -102,6 +179,10 @@ header p {
     border-radius: 15px;
     padding: clamp(20px, 3vw, 30px);
     transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .step:hover {
@@ -122,8 +203,8 @@ header p {
 }
 
 .cta {
-    margin-top: 40px;
-    font-size: clamp(1rem, 3vw, 1.5rem);
+    margin-top: 50px;
+    font-size: clamp(0.8rem, 2.6vw, 1.3rem);
     text-align: center;
     color: var(--accent);
     font-weight: 600;
@@ -132,7 +213,6 @@ header p {
 footer p {
     font-size: clamp(0.8rem, 2vw, 1rem);
 }
-
 
 .footer-text a {
     color: var(--accent);

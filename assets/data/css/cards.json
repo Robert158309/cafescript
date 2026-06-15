@@ -1,7 +1,77 @@
 [
   {
     "title": "Introducción a CSS",
-    "description": "Aprende los conceptos básicos de la programación en CSS.",
-    "slug": "introduccion-a-css"
+    "description": "Qué es CSS y cómo transforma una página HTML en algo visualmente atractivo.",
+    "slug": "introduccion-css"
+  },
+  {
+    "title": "Cómo conectar CSS con HTML",
+    "description": "Métodos: inline, interno y archivo externo.",
+    "slug": "conectar-css-html"
+  },
+  {
+    "title": "Selectores básicos",
+    "description": "Selectores por etiqueta, clase y id.",
+    "slug": "selectores-basicos-css"
+  },
+  {
+    "title": "Colores en CSS",
+    "description": "Uso de nombres, hex, rgb y rgba.",
+    "slug": "colores-css"
+  },
+  {
+    "title": "Tipografía",
+    "description": "Fuentes, tamaños, pesos y estilo de texto.",
+    "slug": "tipografia-css"
+  },
+  {
+    "title": "Box Model",
+    "description": "margin, padding, border y cómo afecta el diseño.",
+    "slug": "box-model-css"
+  },
+  {
+    "title": "Display",
+    "description": "block, inline, inline-block y none.",
+    "slug": "display-css"
+  },
+  {
+    "title": "Posicionamiento",
+    "description": "static, relative, absolute y fixed.",
+    "slug": "posicionamiento-css"
+  },
+  {
+    "title": "Flexbox",
+    "description": "Alineación moderna de elementos con flex.",
+    "slug": "flexbox-css"
+  },
+  {
+    "title": "Flexbox avanzado",
+    "description": "justify-content, align-items, gap y distribución real.",
+    "slug": "flexbox-avanzado-css"
+  },
+  {
+    "title": "Grid layout",
+    "description": "Sistema de diseño en dos dimensiones (filas y columnas).",
+    "slug": "grid-css"
+  },
+  {
+    "title": "Responsive design",
+    "description": "Cómo adaptar páginas a móviles, tablets y PC.",
+    "slug": "responsive-css"
+  },
+  {
+    "title": "Media queries",
+    "description": "Reglas CSS según tamaño de pantalla.",
+    "slug": "media-queries-css"
+  },
+  {
+    "title": "Pseudo-clases",
+    "description": "hover, active, focus y estados interactivos.",
+    "slug": "pseudo-clases-css"
+  },
+  {
+    "title": "Animaciones básicas",
+    "description": "transitions y keyframes para efectos visuales.",
+    "slug": "animaciones-css"
   }
 ]
