@@ -54,8 +54,17 @@ fetch(`../assets/data/${lang}/${course}.json`)
   .catch((error) => {
     console.error(error);
 
+    header.innerHTML = `
+      <h1>Error 404 Not Found bro</h1>
+      <p>Todavia estoy trabajando en ello, calma 😭</p>
+    `;
     container.innerHTML = `
-      <h2>Error :(</h2>
-      <p>No se pudo cargar el curso. es posible que no exista o aún no lo haya creado.</p>
+
+      <p>☕ Preparando contenido...</p>
+      <p>☕ Moliendo granos...</p>
+      <p>☕ Preparando café...</p>
+      <p>💻 Compilando ejemplos...</p>
+      <p>📚 Escribiendo lecciones...</p>
+
     `;
   });

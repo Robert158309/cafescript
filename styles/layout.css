@@ -223,3 +223,20 @@ footer p {
 .footer-text a:hover {
     text-decoration: underline;
 }
+
+
+/*--------------------------*/
+.notice {
+    padding: 1rem 1.5rem;
+    background: #f8f817;
+}
+
+.notice p {
+    text-align: center;
+    font-size: clamp(18px, 2.2vw, 30px);
+    font-weight: 700;
+    margin: 0;
+    color: black;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
