@@ -13,12 +13,6 @@
     transition: background-color 0.25s ease, color 0.25s ease, transform 0.2s ease;
 }
 
-.nav-link:hover {
-    background-color: var(--accent);
-    color: var(--bg-main);
-    transform: translateY(-2px);
-}
-
 header h1 {
     font-size: clamp(2rem, 5vw, 2.8rem);
     margin-bottom: 15px;
@@ -36,23 +30,16 @@ header p {
     font-weight: 500;
 }
 
-.hero h2 {
-    font-size: clamp(1rem, 3vw, 2rem);
-    margin-bottom: 20px;
-    font-weight: 700;
-    text-align: center;
-}
-
-.motivation p,
-.hero p {
+/* TEXT SECTIONS */
+.texts p {
     font-size: clamp(0.9rem, 2vw, 1.2rem);
     text-align: center;
     color: var(--text-secondary);
     max-width: 800px;
-    margin: 0 auto;
+    margin: 15px auto;
 }
 
-.motivation h2 {
+.texts h2 {
     margin-top: 40px;
     font-size: clamp(1rem, 3vw, 2rem);
     margin-bottom: 20px;
@@ -60,6 +47,7 @@ header p {
     text-align: center;
 }
 
+/* STATS SECTION */
 .stats h2 {
     font-size: clamp(1.5rem, 4vw, 2.2rem);
     text-align: center;
@@ -75,10 +63,6 @@ header p {
     gap: 2rem;
     flex-wrap: wrap;
     margin: 3rem 0;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 .stat {
@@ -92,10 +76,6 @@ header p {
     transition: transform .2s ease;
 }
 
-.stat:hover {
-    transform: translateY(-5px);
-}
-
 .stat h3 {
     font-size: 2rem;
     color: var(--accent);
@@ -106,6 +86,7 @@ header p {
     color: var(--text-secondary);
 }
 
+/* QUOTE SECTION */
 .quote blockquote {
     padding: 30px;
     border-left: 4px solid var(--accent);
@@ -115,23 +96,16 @@ header p {
     color: var(--text-secondary);
     max-width: 600px;
     margin: 40px auto;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
+/* ROUTES TITLE */
 .routes {
+    border-top: 5px solid var(--accent);
+    border-bottom: 5px solid var(--accent);
     margin-top: clamp(40px, 6vw, 80px);
     text-align: center;
     width: 100%;
-    border-radius: 15px;
     padding: 30px;
-    background-color: var(--bg-secondary);
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 .routes h2 {
@@ -145,6 +119,8 @@ header p {
     color: var(--text-secondary);
 }
 
+
+/* PATH CONFIG */
 .path {
     margin-top: clamp(30px, 6vw, 60px);
 }
@@ -179,16 +155,6 @@ header p {
     border-radius: 15px;
     padding: clamp(20px, 3vw, 30px);
     transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
-
-.step:hover {
-    transform: translateY(-5px);
-    border-color: var(--accent);
-    box-shadow: 0 10px 25px rgba(88, 166, 255, 0.15);
 }
 
 .step h3 {
@@ -202,6 +168,7 @@ header p {
     font-size: clamp(0.9rem, 1.5vw, 1rem);
 }
 
+/* CTA DESIGN */
 .cta {
     margin-top: 50px;
     font-size: clamp(0.8rem, 2.6vw, 1.3rem);
@@ -210,33 +177,30 @@ header p {
     font-weight: 600;
 }
 
+/* FOOTER CONFIG */
 footer p {
     font-size: clamp(0.8rem, 2vw, 1rem);
 }
 
-.footer-text a {
-    color: var(--accent);
-    text-decoration: none;
-    font-weight: 600;
-}
-
-.footer-text a:hover {
-    text-decoration: underline;
-}
-
-
-/*--------------------------*/
+/*-------------------------*/
 .notice {
-    padding: 1rem 1.5rem;
-    background: #f8f817;
+    background-color: var(--bg-secondary);
+    border-left: 4px solid var(--accent);
+    padding: 20px;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+.notice h2 {
+    margin-bottom: 10px;
+    color: var(--text-primary);
 }
 
 .notice p {
-    text-align: center;
-    font-size: clamp(18px, 2.2vw, 30px);
-    font-weight: 700;
-    margin: 0;
-    color: black;
-    font-size: 0.95rem;
-    line-height: 1.6;
+    color: var(--text-secondary);
+    margin-bottom: 10px;
+}
+
+.notice p:last-child {
+    margin-bottom: 0;
 }

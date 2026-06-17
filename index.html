@@ -27,38 +27,40 @@
         <link rel = "stylesheet" href = "styles/animations.css">
 
         <script src = "js/scroll-reveal.js" defer ></script>
+        <script src = "js/navigation.js" defer></script>
 
     </head>
 
     <body>
 
-        <header>
-            <h1>CaféScript - Aprendiendo Juntos</h1>
-            <h3>De un estudiante, para estudiantes</h3>
-            <p>Descubre el mundo de la programación con guías sencillas y prácticas</p>
-        </header>
+        <button id = "menu-btn" class = "menu-btn">
+            ☰
+        </button>
 
-        <section class = "notice">
-            <p>
-                Proyecto en progreso. Estamos preparando nuevas lecciones y recursos. Si encuentras contenido faltante, no te preocupes: llegará en futuras actualizaciones.
-            </p>
-        </section>
-
-        <nav>
-            <a class = "nav-link" href = "pages/logic.html">Lógica</a>
-            <a class = "nav-link" href = "pages/html.html">HTML</a>
-            <a class = "nav-link" href = "pages/css.html">CSS</a>
-            <a class = "nav-link" href = "pages/javascript.html">JavaScript</a>
-            <a class = "nav-link" href = "pages/python.html">Python</a>
-            <a class = "nav-link" href = "pages/cs.html">C#</a>
-            <a class = "nav-link" href = "pages/cpp.html">C++</a>
-            <a class = "nav-link" href = "pages/java.html">Java</a>
-            <a class = "nav-link" href = "pages/sql.html">SQL</a>
+        <nav class = "non-selectable" id = "navbar">
+            <a href = "pages/courses.html" class = "nav-link">Cursos</a>
+            <a href = "pages/resources.html" class = "nav-link">Recursos</a>
+            <a href = "pages/about.html" class = "nav-link">Acerca de</a>
+            <a href = "pages/news.html" class = "nav-link">Novedades</a>
         </nav>
+
+        <header class = "non-selectable">
+
+                <h1>CaféScript - Aprendiendo Juntos</h1>
+                <h3>De un estudiante, para estudiantes</h3>
+                <p>
+                    Aprende programación a tu ritmo, con explicaciones claras, ejemplos prácticos 
+                    y un enfoque pensado para estudiantes.
+                </p>
+                <p>
+                    Cada línea de código empieza con una duda. Aquí la convertimos en conocimiento.
+                </p>
+
+        </header>
 
         <main>
 
-            <section class = "hero">
+            <section class = "texts">
 
                 <h2>Aprender a programar no tiene por qué ser complicado</h2>
 
@@ -71,10 +73,6 @@
                     Aquí no importa si estás empezando desde cero o si ya has tocado código antes.
                     Lo importante es avanzar, aunque sea un poco cada día.
                 </p>
-
-            </section>
-
-            <section class = "motivation">
 
                 <h2>Un enfoque diferente</h2>
 
@@ -92,10 +90,10 @@
 
                 <h2>CaféScript en Números</h2>
 
-                <article class = "stats-grid">
+                <article class = "stats-grid non-selectable">
 
                     <div class = "stat">
-                        <h3>9</h3>
+                        <h3>8</h3>
                         <p>Tecnologías</p>
                     </div>
 
@@ -127,29 +125,28 @@
 
             <section class = "path">
 
-                <h2>Ruta de Desarrollo Web</h2>
+                <h2>Desarrollo Web - Frontend</h2>
 
                 <p class = "path-description">
                     Si quieres construir sitios y aplicaciones para la web, esta es tu ruta.
                     Comenzamos con los fundamentos y avanzamos hacia tecnologías más complejas.
-
                 </p>
 
-                <div class = "path-grid">
+                <article class = "path-grid non-selectable">
 
                     <div class = "step">
-                        <h3>1. Lógica</h3>
-                        <p>Aprende a resolver problemas y diseñar algoritmos.</p>
-                    </div>
-
-                    <div class = "step">
-                        <h3>2. HTML</h3>
+                        <h3>1. HTML</h3>
                         <p>Construye la estructura de tus páginas web.</p>
                     </div>
 
                     <div class = "step">
-                        <h3>3. CSS</h3>
+                        <h3>2. CSS</h3>
                         <p>Da estilo y personalidad a tus proyectos.</p>
+                    </div>
+
+                    <div class = "step">
+                        <h3>3. Lógica</h3>
+                        <p>Aprende a resolver problemas y diseñar algoritmos.</p>
                     </div>
 
                     <div class = "step">
@@ -157,25 +154,24 @@
                         <p>Agrega interactividad y dinamismo a la web.</p>
                     </div>
 
-                </div>
+                </article>
 
             </section>
 
             <section class = "path">
 
-                <h2>Ruta de Desarrollo de Software</h2>
+                <h2>Desarrollo de Software</h2>
 
                 <p class = "path-description">
                     Si te interesa crear aplicaciones de escritorio, esta ruta es para ti.
                     Aprenderás a pensar como un desarrollador de software y a usar herramientas poderosas.
-
                 </p>
 
-                <div class = "path-grid">
+                <article class = "path-grid non-selectable">
 
                     <div class = "step">
                         <h3>1. Lógica</h3>
-                        <p>Desarrolla pensamiento computacional y resolución de problemas.</p>
+                        <p>Desarrolla pensamiento lógico y resolución de problemas.</p>
                     </div>
 
                     <div class = "step">
@@ -184,51 +180,51 @@
                     </div>
 
                     <div class = "step">
-                        <h3>3. Java</h3>
-                        <p>Profundiza en programación orientada a objetos.</p>
+                        <h3>3. C++</h3>
+                        <p>Crea aplicaciones de consola básicas con C++</p> 
                     </div>
 
                     <div class = "step">
-                        <h3>4. C#</h3>
-                        <p>Crea aplicaciones modernas usando el ecosistema .NET.</p>
+                        <h3>4. Java</h3>
+                        <p>Profundiza en programación orientada a objetos.</p>
                     </div>
 
-                </div>
+                </article>
 
             </section>
 
             <section class = "path">
 
-                <h2>Ruta de Bases de Datos</h2>
+                <h2>Gestión de Bases de Datos</h2>
 
                 <p class = "path-description">
-                    Si te interesa el manejo de datos, esta ruta te guiará a través de las bases de datos.
-                    Aprenderás a almacenar, consultar y administrar información de manera eficiente.
+                    Si lo tuyo son los datos, esta ruta es para ti. Aprenderas a crear y manejar
+                    datos con motores de bases de datos SQL.
                 </p>
 
-                <div class = "path-grid">
+                <article class = "path-grid non-selectable">
 
                     <div class = "step">
-                        <h3>1. Lógica</h3>
-                        <p>Comprende cómo organizar y relacionar información.</p>
+                        <h3>1. SQL</h3>
+                        <p>Crea tus primeras bases de datos y consultas con SQL.</p>
                     </div>
 
                     <div class = "step">
-                        <h3>2. SQL</h3>
-                        <p>Aprende a consultar y administrar datos.</p>
+                        <h3>2. Lógica</h3>
+                        <p>Aprende a crear algoritmos que puedan comunicarse con SQL.</p>
                     </div>
 
                     <div class = "step">
-                        <h3>3. Python</h3>
-                        <p>Conecta aplicaciones con bases de datos.</p>
+                        <h3>3. C#</h3>
+                        <p>Crea tu primer programa con base de datos con el ecosistema .NET.</p>
                     </div>
 
                     <div class = "step">
-                        <h3>4. C#</h3>
-                        <p>Integra sistemas y aplicaciones con almacenamiento de datos.</p>
+                        <h3>4. Java</h3>
+                        <p>Crea programas con conexión a bases de datos multiplataforma.</p>
                     </div>
 
-                </div>
+                </article>
 
             </section>
 
@@ -245,11 +241,7 @@
         </main>
 
         <footer>
-                <p class = "footer-text">&copy; 2026 CaféScript. Todos los derechos reservados. Created by 
-                    <a href="https://robert158309.github.io/portfolio/" target="_blank" rel="noopener noreferrer">
-                        Roberto
-                    </a>
-                </p>
+                <p class = "footer-text">&copy; 2026 CaféScript. Todos los derechos reservados.</p>
         </footer>
 
     </body>

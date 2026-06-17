@@ -9,14 +9,12 @@ const observer = new IntersectionObserver(
     entries.forEach((entry) => {
       if (entry.isIntersecting) {
         entry.target.classList.add("show");
-      } else {
-        entry.target.classList.remove("show");
       }
     });
   },
 
   {
-    threshold: 0.10,
+    threshold: 0,
     rootMargin: "0px 0px -100px 0px",
   },
 

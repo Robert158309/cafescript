@@ -1,19 +1,22 @@
 @media (max-width: 1050px) {
 
+    header {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     header h1 {
         font-size: clamp(1.5rem, 5vw, 2.5rem);
         margin-bottom: 10px;
-    }
-
-    nav {
-        position: static;
-        gap: 20px;
     }
 
     .nav-link {
         font-size: clamp(0.9rem, 3vw, 1.1rem);
         padding: 20px 12px;
     }
+
 }
 
 @media (max-width: 1050px) {
@@ -33,13 +36,6 @@
 
 @media (max-width: 1050px) {
 
-    .notmobile {
-        display: none;
-    }
-}
-
-@media (max-width: 1050px) {
-
     #course-header {
         padding: 25px;
         margin-bottom: 30px;
@@ -52,4 +48,45 @@
     #course-content ul {
         padding-left: 20px;
     }
+}
+
+@media (max-width: 1200px) {
+
+    .menu-btn {
+        display: block;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        z-index: 2000;
+        background: var(--nav-btn);
+        color: var(--text-primary);
+        border: none;
+        padding: 5px 10px;
+        border-radius: 10px;
+        font-size: 1.5rem;
+        cursor: pointer;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        left: -260px;
+        width: 250px;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 80px;
+        transition: left 0.3s ease;
+        z-index: 1500;
+    }
+
+    nav.active {
+        left: 0;
+    }
+
+    .nav-link {
+        flex: none;
+        width: 90%;
+    }
+
 }

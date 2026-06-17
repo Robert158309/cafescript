@@ -6,7 +6,7 @@ const course = params.get("course");
 const header = document.getElementById("course-header");
 const container = document.getElementById("course-content");
 
-fetch(`../assets/data/${lang}/${course}.json`)
+fetch(`../../assets/data/${lang}/${course}.json`)
   .then((res) => res.json())
   .then((data) => {
     header.innerHTML = `
@@ -17,9 +17,7 @@ fetch(`../assets/data/${lang}/${course}.json`)
     let html = "";
 
     data.content.forEach((block) => {
-
       switch (block.type) {
-        
         case "heading":
           html += `<h2>${block.text}</h2>`;
           break;

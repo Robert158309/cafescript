@@ -118,30 +118,5 @@
     "title": "Manejo de archivos CSV",
     "description": "Lectura y escritura de datos tabulares.",
     "slug": "csv-python"
-  },
-  {
-    "title": "JSON en Python",
-    "description": "Lectura y escritura de archivos JSON.",
-    "slug": "json-python"
-  },
-  {
-    "title": "Introducción a bases de datos",
-    "description": "Conceptos básicos de persistencia de datos.",
-    "slug": "db-intro-python"
-  },
-  {
-    "title": "SQLite con Python",
-    "description": "Creación y administración de bases de datos locales.",
-    "slug": "sqlite-python"
-  },
-  {
-    "title": "Consultas SQL desde Python",
-    "description": "SELECT, INSERT, UPDATE y DELETE.",
-    "slug": "sql-python"
-  },
-  {
-    "title": "CRUD con SQLite",
-    "description": "Aplicaciones completas usando bases de datos.",
-    "slug": "crud-python"
   }
 ]

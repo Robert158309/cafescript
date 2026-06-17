@@ -2,17 +2,17 @@ const page = window.location.pathname.split("/").pop().replace(".html", "");
 
 const container = document.getElementById("courses");
 
-fetch(`../assets/data/${page}/cards.json`)
+fetch(`../../assets/data/${page}/cards.json`)
   .then((res) => res.json())
   .then((courses) => {
     let html = "";
 
     courses.forEach((course) => {
       html += `
-            <article class="card">
+            <article class = "card">
                 <h3>${course.title}</h3>
                 <p>${course.description}</p>
-                <a href="viewer.html?lang=${page}&course=${course.slug}">
+                <a href = "lesson.html?lang=${page}&course=${course.slug}">
                     Ver más →
                 </a>
             </article>

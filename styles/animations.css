@@ -1,3 +1,4 @@
+/* REVEAL ANIMATIONS */
 .reveal {
     opacity: 0;
     transform: translateY(30px);
@@ -10,3 +11,39 @@
     opacity: 1;
     transform: translateY(0);
 }
+
+/* NAV LINKS HOVER */
+.nav-link:hover {
+    background-color: var(--accent);
+    color: var(--bg-main);
+    transform: translateY(-2px);
+}
+
+/* STAT HOVER */
+.stat:hover {
+    transform: translateY(-5px);
+}
+
+/* STEPS HOVER */
+.step:hover {
+    transform: translateY(-5px);
+    border-color: var(--accent);
+    box-shadow: 0 10px 25px rgba(88, 166, 255, 0.15);
+}
+
+/* CARDS HOVER */
+.card:hover {
+    background-color: var(--card-hover);
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.card a:hover {
+    text-decoration: underline;
+}
+
+/* NEWS CARDS HOVER */
+.news-card:hover {
+    transform: translateY(-3px);
+}
+
