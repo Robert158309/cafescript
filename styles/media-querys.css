@@ -75,9 +75,12 @@
         height: 100vh;
         flex-direction: column;
         justify-content: flex-start;
+        flex-wrap: nowrap;
         padding-top: 80px;
         transition: left 0.3s ease;
         z-index: 1500;
+        overflow-x: hidden;
+        overflow-y: auto;
     }
 
     nav.active {

@@ -30,6 +30,13 @@ header p {
     font-weight: 500;
 }
 
+#hero {
+    min-height: calc(75vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /* TEXT SECTIONS */
 .texts p {
     font-size: clamp(0.9rem, 2vw, 1.2rem);

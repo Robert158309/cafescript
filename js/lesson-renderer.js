@@ -6,7 +6,14 @@ const course = params.get("course");
 const header = document.getElementById("course-header");
 const container = document.getElementById("course-content");
 
-fetch(`../../assets/data/${lang}/${course}.json`)
+function escapeHtml(text) {
+  return text
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;");
+}
+
+fetch(`../../assets/data/lessons/${lang}/${course}.json`)
   .then((res) => res.json())
   .then((data) => {
     header.innerHTML = `
@@ -44,6 +51,30 @@ fetch(`../../assets/data/${lang}/${course}.json`)
 
           html += "</ul>";
           break;
+
+        case "image":
+          html += `
+          <figure class = "lesson-figure">
+            <img
+              class = "lesson-image"
+              src = "${block.src}"
+              alt = "${block.alt}"
+            >
+            ${block.caption ? `<figcaption>${block.caption}</figcaption>` : ""}
+          </figure>
+        `;
+          break;
+
+        case "tag":
+          html += `
+            <div class = "tag-explanation">
+              <span class = "tag-name">
+                ${escapeHtml(block.name)}
+              </span>
+              <p>${block.description}</p>
+            </div>
+          `;
+        break;
       }
     });
 

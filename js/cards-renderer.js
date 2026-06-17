@@ -2,7 +2,7 @@ const page = window.location.pathname.split("/").pop().replace(".html", "");
 
 const container = document.getElementById("courses");
 
-fetch(`../../assets/data/${page}/cards.json`)
+fetch(`../../assets/data/lessons/${page}/cards.json`)
   .then((res) => res.json())
   .then((courses) => {
     let html = "";

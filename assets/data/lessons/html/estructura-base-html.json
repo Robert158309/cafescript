@@ -1,0 +1,81 @@
+{
+  "title": "Estructura Base en HTML",
+  "description": "Como iniciar la construcción de una página web",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Para poder crear páginas web, lo primero que tenemos que crear es la estructura. Veamos la estructura como el esqueleto de la página, ya que sobre este iremos colocando todas las etiquetas que nosotros queramos para construir lo que tengamos en mente"
+    },
+    {
+      "type": "heading",
+      "text": "¿Como empiezo?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Para empezar, debes de ir a tu editor de código de confianza, después sigue los siguientes pasos:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Presiona las teclas crtl + n",
+        "Al tener un nuevo archivo abierto, presiona la combinación crtl + s para guardarlo",
+        "Buscas una carpeta para guardar tu archivo y le das doble click",
+        "Ahora nombras tu archivo y al final del nombre ponle la extensión .html, y listo"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ahora que tienes el archivo listo, comienza escribiendo la siguiente estructura"
+    },
+    {
+      "type": "image",
+      "src": "../../assets/img/lessons/html/html-base.webp",
+      "alt": "HTML image"
+    },
+    {
+      "type": "heading",
+      "text": "Partes del documento"
+    },
+    {
+      "type": "tag",
+      "name": "<!DOCTYPE html>",
+      "description": "Indica al navegador que el documento utiliza HTML5. Debe colocarse siempre al inicio del archivo para que el navegador interprete correctamente el código y utilice los estándares modernos de HTML."
+    },
+    {
+      "type": "tag",
+      "name": "<html>",
+      "description": "Es el elemento raíz del documento HTML. Todo el contenido de la página, incluyendo la sección head y body, debe encontrarse dentro de esta etiqueta."
+    },
+    {
+      "type": "tag",
+      "name": "<head>",
+      "description": "Contiene información sobre la página que no se muestra directamente al usuario. Aquí se suelen definir metadatos, el título de la página, enlaces a hojas de estilo CSS y otros recursos importantes para el navegador."
+    },
+    {
+      "type": "tag",
+      "name": "<meta charset=\"utf-8\">",
+      "description": "Define la codificación de caracteres que utilizará el documento. UTF-8 permite mostrar correctamente letras acentuadas, la letra ñ, símbolos especiales y caracteres de muchos idiomas."
+    },
+    {
+      "type": "tag",
+      "name": "<meta name='viewport' content='width=device-width, initial-scale=1.0'>",
+      "description": "Ayuda a que la página se adapte correctamente a diferentes tamaños de pantalla. Gracias a esta etiqueta los sitios web pueden verse bien tanto en computadoras como en teléfonos y tablets."
+    },
+    {
+      "type": "tag",
+      "name": "<title></title>",
+      "description": "Define el título de la página. Este texto aparece en la pestaña del navegador y también puede ser utilizado por motores de búsqueda como Google para identificar el contenido del sitio."
+    },
+    {
+      "type": "tag",
+      "name": "<body>",
+      "description": "Contiene todo el contenido visible de la página web. Aquí se colocan textos, imágenes, enlaces, formularios, tablas, videos y cualquier otro elemento que verá el usuario."
+    },
+    {
+      "type": "tag",
+      "name": "<footer></footer>",
+      "description": "Representa el pie de página del sitio web. Generalmente contiene información como derechos de autor, enlaces adicionales, datos de contacto o enlaces a redes sociales."
+    }
+  ]
+}

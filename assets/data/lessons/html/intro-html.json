@@ -1,0 +1,84 @@
+{
+  "title": "Introducción a HTML",
+  "description": "¿Qué es y como funciona HTML?",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Cuando visitas una página web, tu navegador recibe archivos que le indican qué debe mostrar en pantalla. Uno de los más importantes es HTML."
+    },
+    {
+      "type": "paragraph",
+      "text": "HTML significa HyperText Markup Language (Lenguaje de Marcado de Hipertexto) y es el lenguaje utilizado para definir la estructura y el contenido de una página web."
+    },
+    {
+      "type": "heading",
+      "text": "¿Qué hace HTML?"
+    },
+    {
+      "type": "paragraph",
+      "text": "HTML organiza la información que aparece en una página. Gracias a él es posible mostrar títulos, párrafos, imágenes, enlaces, tablas, formularios y muchos otros elementos."
+    },
+    {
+      "type": "paragraph",
+      "text": "Piensa en HTML como el esqueleto de una página web. Sin él, no existiría una estructura sobre la cual trabajar."
+    },
+    {
+      "type": "heading",
+      "text": "¿Cómo funciona una página web?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cuando escribes una dirección en tu navegador, este solicita los archivos de la página a un servidor. Entre esos archivos suele encontrarse un documento HTML que contiene la estructura del sitio."
+    },
+    {
+      "type": "paragraph",
+      "text": "El navegador interpreta ese documento y construye la página que finalmente ves en pantalla."
+    },
+    { 
+      "type": "heading", 
+      "text": "HTML, CSS y JavaScript" 
+    },
+    {
+      "type": "paragraph",
+      "text": "HTML rara vez trabaja solo. Generalmente se combina con CSS y JavaScript para crear sitios web completos."
+    },
+    {
+      "type": "list",
+      "items": [
+        "HTML define la estructura y el contenido.",
+        "CSS se encarga de la apariencia y el diseño.",
+        "JavaScript agrega interactividad y comportamiento."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Una forma sencilla de recordarlo es pensar en una casa: HTML es la estructura, CSS es la decoración y JavaScript son los sistemas que le dan funcionamiento."
+    },
+    { 
+      "type": "heading", 
+      "text": "¿Por qué aprender HTML?" 
+    },
+    {
+      "type": "list",
+      "items": [
+        "Es la base de toda página web.",
+        "Es relativamente fácil de aprender.",
+        "Te ayuda a comprender cómo funciona Internet.",
+        "Es el primer paso para convertirte en desarrollador web."
+      ]
+    },
+    { 
+      "type": "heading", 
+      "text": "Conclusión" 
+    },
+    {
+      "type": "paragraph",
+      "text": "HTML es el lenguaje que da estructura a las páginas web. Aunque por sí solo no crea diseños complejos ni funciones avanzadas, es el punto de partida para todo proyecto web."
+    },
+    {
+      "type": "paragraph",
+      "text": "En las siguientes lecciones aprenderás cómo está formado un documento HTML y comenzarás a crear tus primeras páginas."
+    }
+  ]
+}
