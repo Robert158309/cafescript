@@ -1,0 +1,82 @@
+{
+  "title": "JavaScript en HTML",
+  "description": "Aprende cómo agregar interactividad a tus páginas web usando JavaScript con la etiqueta script.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "JavaScript es el lenguaje que permite agregar interactividad a las páginas web. Gracias a él puedes responder acciones del usuario como clics, formularios o cambios en la página."
+    },
+    {
+      "type": "heading",
+      "text": "¿Dónde se usa JavaScript?"
+    },
+    {
+      "type": "paragraph",
+      "text": "JavaScript puede usarse directamente dentro del HTML o en archivos externos. La forma más común es mediante la etiqueta script."
+    },
+    {
+      "type": "heading",
+      "text": "Etiqueta script"
+    },
+    {
+      "type": "tag",
+      "name": "<script>",
+      "description": "Permite insertar código JavaScript dentro de un documento HTML o enlazar archivos externos .js."
+    },
+    {
+      "type": "heading",
+      "text": "JavaScript interno"
+    },
+    {
+      "type": "paragraph",
+      "text": "El JavaScript interno se escribe directamente dentro del archivo HTML usando la etiqueta script."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de script interno",
+      "code": "<script>\n    alert('Hola mundo');\n</script>"
+    },
+    {
+      "type": "heading",
+      "text": "JavaScript externo"
+    },
+    {
+      "type": "paragraph",
+      "text": "También puedes conectar un archivo JavaScript externo para mantener el código más ordenado."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de script externo",
+      "code": "<script src=\"app.js\"></script>"
+    },
+    {
+      "type": "heading",
+      "text": "Ubicación del script"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Dentro del <head> (menos recomendado)",
+        "Al final del <body> (más común)",
+        "En archivo externo .js (mejor práctica)"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ejemplo completo"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "HTML con JavaScript",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Ejemplo JS</title>\n</head>\n<body>\n\n    <h1>Hola mundo</h1>\n    <button onclick=\"saludar()\">Haz clic</button>\n\n    <script>\n        function saludar() {\n            alert('Hola desde JavaScript');\n        }\n    </script>\n\n</body>\n</html>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Con JavaScript puedes hacer que tu página deje de ser estática y empiece a reaccionar a lo que hace el usuario."
+    }
+  ]
+}

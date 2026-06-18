@@ -1,0 +1,76 @@
+{
+  "title": "CSS con HTML (link y style)",
+  "description": "Aprende cómo conectar CSS externo e interno en HTML para darle estilo a tus páginas web.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "CSS (Cascading Style Sheets) es el lenguaje que se usa para dar estilo a las páginas web. Permite cambiar colores, tamaños, posiciones y mucho más."
+    },
+    {
+      "type": "heading",
+      "text": "¿Dónde se puede usar CSS?"
+    },
+    {
+      "type": "paragraph",
+      "text": "CSS puede aplicarse de tres formas: en línea, interno y externo. En esta lección veremos los dos más importantes: interno y externo."
+    },
+    {
+      "type": "heading",
+      "text": "CSS interno (style)"
+    },
+    {
+      "type": "tag",
+      "name": "<style>",
+      "description": "Se utiliza dentro del <head> del documento HTML para escribir CSS directamente en el archivo."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de CSS interno",
+      "code": "<head>\n    <style>\n        body {\n            background-color: black;\n            color: white;\n        }\n    </style>\n</head>"
+    },
+    {
+      "type": "heading",
+      "text": "CSS externo (link)"
+    },
+    {
+      "type": "tag",
+      "name": "<link>",
+      "description": "Se utiliza para conectar un archivo CSS externo con el documento HTML. Es la forma más recomendada de usar CSS."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de CSS externo",
+      "code": "<head>\n    <link rel=\"stylesheet\" href=\"styles.css\">\n</head>"
+    },
+    {
+      "type": "heading",
+      "text": "¿Cómo funciona cada uno?"
+    },
+    {
+      "type": "list",
+      "items": [
+        "style → CSS dentro del HTML",
+        "link → conecta un archivo CSS externo",
+        "externo → recomendado para proyectos grandes",
+        "interno → útil para pruebas rápidas"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ejemplo completo con CSS interno"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "HTML con estilo interno",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n    <style>\n        h1 {\n            color: blue;\n        }\n        p {\n            font-size: 18px;\n        }\n    </style>\n</head>\n<body>\n    <h1>Hola mundo</h1>\n    <p>Esto tiene estilo con CSS interno</p>\n</body>\n</html>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Con esto ya puedes empezar a darle estilo real a tus páginas web y separarlas de la estructura HTML."
+    }
+  ]
+}

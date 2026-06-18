@@ -1,0 +1,61 @@
+{
+  "title": "Introducción a CSS",
+  "description": "Aprende qué es CSS y cómo transforma una página HTML en una experiencia visual atractiva.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "CSS es el lenguaje que se utiliza para dar estilo a las páginas web. Mientras HTML define la estructura, CSS define cómo se ve esa estructura."
+    },
+    {
+      "type": "paragraph",
+      "text": "Sin CSS, las páginas web solo serían texto plano sin diseño. Con CSS, puedes cambiar colores, tamaños, posiciones y crear interfaces modernas."
+    },
+    {
+      "type": "heading",
+      "text": "¿Qué hace CSS?"
+    },
+    {
+      "type": "paragraph",
+      "text": "CSS se encarga de transformar una página básica en algo visualmente agradable y fácil de usar."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Define colores y fondos",
+        "Controla tamaños de texto e imágenes",
+        "Organiza la disposición de los elementos",
+        "Mejora la experiencia del usuario"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Relación con HTML"
+    },
+    {
+      "type": "paragraph",
+      "text": "HTML y CSS trabajan juntos. HTML crea la estructura y CSS le da estilo. Uno sin el otro está incompleto en el desarrollo web moderno."
+    },
+    {
+      "type": "paragraph",
+      "text": "Piensa en HTML como el esqueleto de una página y CSS como la apariencia visual que la hace atractiva."
+    },
+    {
+      "type": "heading",
+      "text": "¿Por qué es importante CSS?"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Permite crear páginas profesionales",
+        "Mejora la experiencia del usuario",
+        "Hace los sitios más modernos y atractivos",
+        "Es esencial en cualquier desarrollo web"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Aprender CSS es el siguiente paso natural después de dominar HTML, ya que te permite controlar completamente el diseño de tus páginas."
+    }
+  ]
+}

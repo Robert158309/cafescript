@@ -1,0 +1,102 @@
+{
+  "title": "Posicionamiento",
+  "description": "Aprende cómo funcionan los tipos de posicionamiento en CSS: static, relative, absolute y fixed.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "La propiedad position en CSS define cómo se ubica un elemento dentro de la página. Es clave para controlar layouts avanzados."
+    },
+    {
+      "type": "heading",
+      "text": "Position: static"
+    },
+    {
+      "type": "paragraph",
+      "text": "Es el valor por defecto. Los elementos se colocan en el flujo normal del documento."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo static",
+      "code": "div {\n    position: static;\n}"
+    },
+    {
+      "type": "paragraph",
+      "text": "No permite mover el elemento con top, left, right o bottom."
+    },
+    {
+      "type": "heading",
+      "text": "Position: relative"
+    },
+    {
+      "type": "paragraph",
+      "text": "Permite mover el elemento respecto a su posición original sin sacarlo del flujo normal."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo relative",
+      "code": "div {\n    position: relative;\n    top: 10px;\n    left: 20px;\n}"
+    },
+    {
+      "type": "heading",
+      "text": "Position: absolute"
+    },
+    {
+      "type": "paragraph",
+      "text": "Saca el elemento del flujo normal y lo posiciona respecto al primer contenedor con posición relativa."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo absolute",
+      "code": "div {\n    position: absolute;\n    top: 0;\n    right: 0;\n}"
+    },
+    {
+      "type": "paragraph",
+      "text": "Se usa mucho para menús, etiquetas flotantes o elementos superpuestos."
+    },
+    {
+      "type": "heading",
+      "text": "Position: fixed"
+    },
+    {
+      "type": "paragraph",
+      "text": "Fija el elemento en la pantalla, aunque el usuario haga scroll."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo fixed",
+      "code": "nav {\n    position: fixed;\n    top: 0;\n    width: 100%;\n}"
+    },
+    {
+      "type": "heading",
+      "text": "Comparación rápida"
+    },
+    {
+      "type": "list",
+      "items": [
+        "static → posición normal (por defecto)",
+        "relative → se mueve desde su posición original",
+        "absolute → se posiciona libremente dentro de un contenedor",
+        "fixed → se queda pegado en la pantalla"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ejemplo combinado"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Demo de posicionamiento",
+      "code": ".contenedor {\n    position: relative;\n}\n\n.caja {\n    position: absolute;\n    top: 10px;\n    right: 10px;\n}\n\n.menu {\n    position: fixed;\n    top: 0;\n    width: 100%;\n}"
+    },
+    {
+      "type": "paragraph",
+      "text": "El posicionamiento es fundamental para construir interfaces modernas y controlar elementos flotantes en la página."
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "title": "Tablas de datos",
+  "description": "Aprende a estructurar tablas en HTML y a usar atributos como rowspan y colspan para combinar celdas.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Las tablas en HTML permiten organizar información en filas y columnas. Además, existen atributos que permiten combinar celdas para estructuras más avanzadas."
+    },
+    {
+      "type": "heading",
+      "text": "Etiqueta table"
+    },
+    {
+      "type": "paragraph",
+      "text": "La etiqueta &lt;table&gt; es el contenedor principal de toda la tabla."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Estructura base",
+      "code": "<table>\n    <!-- contenido -->\n</table>"
+    },
+    {
+      "type": "heading",
+      "text": "Filas y columnas"
+    },
+    {
+      "type": "paragraph",
+      "text": "Las filas se crean con &lt;tr&gt; y las celdas con &lt;td&gt; o &lt;th&gt;."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo básico",
+      "code": "<table>\n    <tr>\n        <th>Nombre</th>\n        <th>Edad</th>\n    </tr>\n    <tr>\n        <td>Ana</td>\n        <td>17</td>\n    </tr>\n</table>"
+    },
+    {
+      "type": "heading",
+      "text": "Atributo colspan"
+    },
+    {
+      "type": "paragraph",
+      "text": "El atributo colspan permite que una celda ocupe varias columnas al mismo tiempo."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de colspan",
+      "code": "<table>\n    <tr>\n        <th colspan=\"2\">Información del estudiante</th>\n    </tr>\n    <tr>\n        <td>Nombre</td>\n        <td>Juan</td>\n    </tr>\n</table>"
+    },
+    {
+      "type": "heading",
+      "text": "Atributo rowspan"
+    },
+    {
+      "type": "paragraph",
+      "text": "El atributo rowspan permite que una celda ocupe varias filas al mismo tiempo."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de rowspan",
+      "code": "<table>\n    <tr>\n        <td rowspan=\"2\">Nombre</td>\n        <td>Juan</td>\n    </tr>\n    <tr>\n        <td>Edad: 20</td>\n    </tr>\n</table>"
+    },
+    {
+      "type": "heading",
+      "text": "Tabla combinada"
+    },
+    {
+      "type": "paragraph",
+      "text": "Puedes combinar rowspan y colspan para crear estructuras de tablas más complejas y organizadas."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo combinado",
+      "code": "<table>\n    <tr>\n        <th colspan=\"3\">Reporte de notas</th>\n    </tr>\n    <tr>\n        <td rowspan=\"2\">Estudiante</td>\n        <td>Nota 1</td>\n        <td>Nota 2</td>\n    </tr>\n    <tr>\n        <td>85</td>\n        <td>90</td>\n    </tr>\n</table>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Estas herramientas permiten crear tablas más flexibles y visualmente organizadas."
+    }
+  ]
+}

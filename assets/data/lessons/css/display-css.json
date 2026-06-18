@@ -1,0 +1,102 @@
+{
+  "title": "Display",
+  "description": "Aprende cómo funciona la propiedad display: block, inline, inline-block y none.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "La propiedad display en CSS define cómo se comporta un elemento dentro de la página. Es una de las bases más importantes del diseño web."
+    },
+    {
+      "type": "heading",
+      "text": "Display block"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los elementos block ocupan todo el ancho disponible y siempre empiezan en una nueva línea."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo block",
+      "code": "div {\n    display: block;\n}"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ejemplos de elementos block: div, p, h1-h6."
+    },
+    {
+      "type": "heading",
+      "text": "Display inline"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los elementos inline solo ocupan el espacio necesario y no rompen la línea."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo inline",
+      "code": "span {\n    display: inline;\n}"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ejemplos de elementos inline: span, a, strong."
+    },
+    {
+      "type": "heading",
+      "text": "Display inline-block"
+    },
+    {
+      "type": "paragraph",
+      "text": "Combina lo mejor de ambos: se comporta como inline pero permite usar width y height."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo inline-block",
+      "code": "button {\n    display: inline-block;\n    width: 120px;\n    height: 40px;\n}"
+    },
+    {
+      "type": "heading",
+      "text": "Display none"
+    },
+    {
+      "type": "paragraph",
+      "text": "Oculta completamente el elemento, como si no existiera en la página."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo none",
+      "code": "div {\n    display: none;\n}"
+    },
+    {
+      "type": "heading",
+      "text": "Comparación rápida"
+    },
+    {
+      "type": "list",
+      "items": [
+        "block → ocupa todo el ancho",
+        "inline → ocupa solo su contenido",
+        "inline-block → mezcla de ambos",
+        "none → desaparece del layout"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ejemplo combinado"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Demo de display",
+      "code": "div {\n    display: block;\n}\n\nspan {\n    display: inline;\n}\n\nbutton {\n    display: inline-block;\n}\n\n.oculto {\n    display: none;\n}"
+    },
+    {
+      "type": "paragraph",
+      "text": "Display es clave para entender cómo se posicionan y comportan los elementos en una página web."
+    }
+  ]
+}

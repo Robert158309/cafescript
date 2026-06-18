@@ -1,5 +1,10 @@
 [
   {
+    "title": "Nuevos Lanzamientos",
+    "date": "17 de junio de 2026",
+    "content": "Me alegra compartir una nueva actualización para CaféScript. Ya se encuentran disponibles las nuevas lecciones de HTML y CSS, cubriendo desde los fundamentos hasta temas como Flexbox, Grid Layout, Responsive Design y Media Queries.<br> Además, quiero adelantar una de las próximas novedades de la plataforma: el Centro de Práctica. Este módulo permitirá poner a prueba tus conocimientos mediante ejercicios y desafíos diseñados para reforzar lo aprendido.<br> Gracias por acompañar este proyecto. Aún queda mucho contenido por crear, pero cada actualización nos acerca un paso más a esa meta."
+  },
+  {
     "title": "Primer Lanzamiento",
     "date": "16 de junio de 2026",
     "content": "Después de muchas horas de planificación, pruebas, errores, correcciones y varias tazas de café, CaféScript da oficialmente sus primeros pasos. Esta primera versión incluye la estructura principal del proyecto, las rutas de aprendizaje, el sistema de cursos y las bases que permitirán seguir expandiendo el contenido en el futuro. Aunque todavía queda mucho trabajo por delante, este lanzamiento representa el inicio de una idea nacida con un objetivo sencillo: compartir conocimiento, aprender junto a otros estudiantes y demostrar que la programación puede enseñarse de una forma clara y accesible. Gracias por acompañar este comienzo. Lo mejor aún está por venir. 🎉🎉🎉"

@@ -1,0 +1,107 @@
+{
+  "title": "Formularios",
+  "description": "Inputs, botones y cómo recolectar datos del usuario en HTML mediante formularios.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Los formularios en HTML permiten recopilar información del usuario. Se utilizan en registros, inicios de sesión, encuestas y cualquier sistema donde el usuario ingrese datos."
+    },
+    {
+      "type": "heading",
+      "text": "Etiqueta form"
+    },
+    {
+      "type": "tag",
+      "name": "<form>",
+      "description": "Es el contenedor principal del formulario. Dentro de esta etiqueta se colocan todos los campos de entrada como inputs, botones, selects, etc."
+    },
+    {
+      "type": "heading",
+      "text": "Inputs"
+    },
+    {
+      "type": "tag",
+      "name": "<input>",
+      "description": "Permite al usuario ingresar datos como texto, números, contraseñas o correos. Es una de las etiquetas más importantes en formularios."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de input",
+      "code": "<input type=\"text\" placeholder=\"Escribe tu nombre\">"
+    },
+    {
+      "type": "heading",
+      "text": "Tipos de input"
+    },
+    {
+      "type": "list",
+      "items": [
+        "text → texto normal",
+        "password → oculta caracteres",
+        "email → valida formato de correo",
+        "number → solo números",
+        "checkbox → selección múltiple",
+        "radio → selección única"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Botones"
+    },
+    {
+      "type": "tag",
+      "name": "<button>",
+      "description": "Se utiliza para ejecutar acciones dentro del formulario, como enviar datos o limpiar campos."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de botón",
+      "code": "<button type=\"submit\">Enviar</button>"
+    },
+    {
+      "type": "heading",
+      "text": "Etiqueta label"
+    },
+    {
+      "type": "tag",
+      "name": "<label>",
+      "description": "Se utiliza para describir un campo del formulario. Mejora la accesibilidad y la experiencia del usuario."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de label",
+      "code": "<label for=\"nombre\">Nombre:</label>\n<input type=\"text\" id=\"nombre\">"
+    },
+    {
+      "type": "heading",
+      "text": "Estructura básica de un formulario"
+    },
+    {
+      "type": "paragraph",
+      "text": "Un formulario completo combina form, inputs, labels y botones para capturar datos del usuario de forma organizada."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Formulario completo",
+      "code": "<form>\n    <label for=\"nombre\">Nombre:</label>\n    <input type=\"text\" id=\"nombre\" placeholder=\"Escribe tu nombre\">\n\n    <label for=\"correo\">Correo:</label>\n    <input type=\"email\" id=\"correo\" placeholder=\"Escribe tu correo\">\n\n    <label for=\"password\">Contraseña:</label>\n    <input type=\"password\" id=\"password\">\n\n    <button type=\"submit\">Enviar</button>\n</form>"
+    },
+    {
+      "type": "heading",
+      "text": "Cómo funciona el envío"
+    },
+    {
+      "type": "tag",
+      "name": "submit",
+      "description": "Cuando el botón tiene type=\"submit\", el formulario envía los datos al servidor o a la acción definida en el atributo action del form."
+    },
+    {
+      "type": "paragraph",
+      "text": "El atributo action del form define a dónde se enviarán los datos. Sin él, el formulario no realiza ninguna acción real."
+    }
+  ]
+}

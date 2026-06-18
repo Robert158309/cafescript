@@ -1,0 +1,61 @@
+{
+  "title": "Flexbox",
+  "description": "Aprende a alinear y distribuir elementos usando Flexbox con CSS externo.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Flexbox es un sistema de diseño en CSS que permite organizar elementos dentro de un contenedor de forma flexible y eficiente."
+    },
+
+    {
+      "type": "paragraph",
+      "text": "En este ejemplo trabajaremos con CSS externo para mantener una estructura más limpia y profesional."
+    },
+
+    {
+      "type": "heading",
+      "text": "Ejemplo"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "index.html",
+      "code": "<div class=\"container\">\n    <div class=\"box\"></div>\n    <div class=\"box\"></div>\n    <div class=\"box\"></div>\n</div>"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "styles.css",
+      "code": ".container {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    gap: 15px;\n    height: 200px;\n}\n\n.box {\n    width: 60px;\n    height: 60px;\n    background-color: dodgerblue;\n}"
+    },
+    {
+      "type": "paragraph",
+      "text": "Aquí el contenedor se convierte en un flex container y los elementos internos se alinean automáticamente."
+    },
+    {
+      "type": "heading",
+      "text": "Atributos importantes de Flexbox"
+    },
+    {
+      "type": "tag",
+      "name": "display: flex",
+      "description": "Activa Flexbox en un contenedor, permitiendo organizar sus elementos de forma flexible."
+    },
+    {
+      "type": "tag",
+      "name": "justify-content",
+      "description": "Controla la alineación horizontal de los elementos dentro del contenedor flex."
+    },
+    {
+      "type": "tag",
+      "name": "align-items",
+      "description": "Controla la alineación vertical de los elementos dentro del contenedor flex."
+    },
+    {
+      "type": "tag",
+      "name": "gap",
+      "description": "Define el espacio entre los elementos dentro del contenedor sin usar márgenes."
+    }
+  ]
+}

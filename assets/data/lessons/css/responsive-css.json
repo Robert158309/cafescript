@@ -1,0 +1,92 @@
+{
+  "title": "Responsive design",
+  "description": "Aprende cómo adaptar páginas web a diferentes tamaños de pantalla usando unidades flexibles como %, vh, vw y clamp.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "El diseño responsive permite que una página web se adapte automáticamente a diferentes dispositivos como móviles, tablets y computadoras."
+    },
+    {
+      "type": "paragraph",
+      "text": "En lugar de usar tamaños fijos, se utilizan unidades flexibles que permiten que el diseño fluya según el tamaño de la pantalla."
+    },
+    {
+      "type": "heading",
+      "text": "Unidades relativas (%)"
+    },
+    {
+      "type": "paragraph",
+      "text": "El porcentaje se basa en el tamaño del elemento padre, lo que permite que los elementos se adapten dinámicamente."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo con %",
+      "code": "div {\n    width: 50%;\n}"
+    },
+    {
+      "type": "heading",
+      "text": "Unidades de viewport (vh y vw)"
+    },
+    {
+      "type": "paragraph",
+      "text": "vh y vw se basan en el tamaño de la pantalla del usuario."
+    },
+    {
+      "type": "list",
+      "items": ["vw → ancho de la pantalla", "vh → alto de la pantalla"]
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo vh y vw",
+      "code": "section {\n    width: 100vw;\n    height: 100vh;\n}"
+    },
+    {
+      "type": "heading",
+      "text": "Función clamp()"
+    },
+    {
+      "type": "paragraph",
+      "text": "clamp() permite definir un tamaño flexible con un mínimo, un valor ideal y un máximo."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo clamp",
+      "code": "h1 {\n    font-size: clamp(16px, 4vw, 40px);\n}"
+    },
+    {
+      "type": "paragraph",
+      "text": "Esto hace que el texto crezca o disminuya dependiendo del tamaño de la pantalla sin romper el diseño."
+    },
+    {
+      "type": "heading",
+      "text": "Comparación de unidades"
+    },
+    {
+      "type": "list",
+      "items": [
+        "% → relativo al contenedor",
+        "vw → relativo al ancho de pantalla",
+        "vh → relativo al alto de pantalla",
+        "clamp() → tamaño flexible controlado"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ejemplo combinado"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Diseño responsive básico",
+      "code": "body {\n    width: 100vw;\n    min-height: 100vh;\n}\n\n.container {\n    width: 80%;\n    padding: 2rem;\n}\n\nh1 {\n    font-size: clamp(20px, 5vw, 50px);\n}"
+    },
+    {
+      "type": "paragraph",
+      "text": "Con estas unidades puedes empezar a construir páginas que se adapten a cualquier pantalla sin usar media queries todavía."
+    }
+  ]
+}

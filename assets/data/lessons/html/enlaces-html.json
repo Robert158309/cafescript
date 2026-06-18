@@ -1,0 +1,84 @@
+{
+  "title": "Enlaces y navegación",
+  "description": "Aprende a crear enlaces en HTML, navegar entre páginas y conectar recursos internos y externos.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Los enlaces son una parte fundamental de la web. Permiten conectar páginas entre sí, acceder a sitios externos y crear una navegación fluida dentro de un proyecto."
+    },
+    {
+      "type": "heading",
+      "text": "Etiqueta <a> en HTML"
+    },
+    {
+      "type": "paragraph",
+      "text": "La etiqueta <a> (anchor) se utiliza para crear enlaces. Su atributo principal es href, que indica a dónde dirige el enlace."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo básico de enlace",
+      "code": "<a href=\"https://www.google.com\">Ir a Google</a>"
+    },
+    {
+      "type": "heading",
+      "text": "Enlaces internos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los enlaces internos permiten navegar dentro del mismo sitio web, conectando diferentes páginas del proyecto."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de enlace interno",
+      "code": "<a href=\"about.html\">Ir a la página About</a>"
+    },
+    {
+      "type": "heading",
+      "text": "Enlaces externos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los enlaces externos llevan al usuario a páginas fuera de tu sitio web, como redes sociales o documentación."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de enlace externo",
+      "code": "<a href=\"https://developer.mozilla.org\">Documentación MDN</a>"
+    },
+    {
+      "type": "heading",
+      "text": "Abrir enlaces en una nueva pestaña"
+    },
+    {
+      "type": "paragraph",
+      "text": "Puedes hacer que un enlace se abra en una nueva pestaña usando el atributo target=\"_blank\"."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Abrir en nueva pestaña",
+      "code": "<a href=\"https://google.com\" target=\"_blank\">Abrir Google</a>"
+    },
+    {
+      "type": "heading",
+      "text": "Buenas prácticas"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Usa textos claros en los enlaces (evita “haz clic aquí”).",
+        "Verifica que las rutas internas estén correctas.",
+        "Usa target=\"_blank\" solo cuando sea necesario.",
+        "Mantén una navegación simple y ordenada."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Los enlaces son la base de la navegación en la web. Sin ellos, las páginas estarían aisladas y sin conexión entre sí."
+    }
+  ]
+}

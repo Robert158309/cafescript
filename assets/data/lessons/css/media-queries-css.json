@@ -1,0 +1,91 @@
+{
+  "title": "Media queries",
+  "description": "Aprende a aplicar estilos CSS dependiendo del tamaño de la pantalla del dispositivo.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Las media queries permiten aplicar diferentes estilos CSS dependiendo del tamaño de la pantalla, orientación o características del dispositivo."
+    },
+    {
+      "type": "paragraph",
+      "text": "Son la base del diseño responsive real en CSS."
+    },
+    {
+      "type": "heading",
+      "text": "¿Cómo funcionan?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Se usan condiciones. Si la pantalla cumple una regla (por ejemplo ser menor a cierto tamaño), entonces se aplican estilos específicos."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Sintaxis básica",
+      "code": "@media (max-width: 768px) {\n    body {\n        background-color: lightgray;\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "text": "En este ejemplo, si la pantalla es menor o igual a 768px, el fondo cambia de color."
+    },
+    {
+      "type": "heading",
+      "text": "Breakpoints comunes"
+    },
+    {
+      "type": "list",
+      "items": [
+        "320px → teléfonos pequeños",
+        "768px → tablets",
+        "1024px → laptops",
+        "1200px+ → pantallas grandes"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ejemplo responsive completo"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Diseño adaptable",
+      "code": "body {\n    font-size: 18px;\n}\n\n.container {\n    width: 80%;\n    margin: auto;\n}\n\n@media (max-width: 768px) {\n    body {\n        font-size: 14px;\n    }\n\n    .container {\n        width: 95%;\n    }\n}"
+    },
+    {
+      "type": "paragraph",
+      "text": "Aquí el diseño se adapta automáticamente en pantallas más pequeñas reduciendo tamaños y ampliando el contenedor."
+    },
+    {
+      "type": "heading",
+      "text": "Media queries múltiples"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Varias condiciones",
+      "code": "@media (max-width: 1024px) {\n    /* tablets y laptops pequeñas */\n}\n\n@media (max-width: 768px) {\n    /* tablets */\n}\n\n@media (max-width: 480px) {\n    /* móviles */\n}"
+    },
+    {
+      "type": "paragraph",
+      "text": "Puedes combinar varias media queries para crear diseños completamente adaptables a cualquier pantalla."
+    },
+    {
+      "type": "heading",
+      "text": "Resumen final"
+    },
+    {
+      "type": "list",
+      "items": [
+        "@media → regla para dispositivos",
+        "max-width → pantallas más pequeñas",
+        "min-width → pantallas más grandes",
+        "Permiten diseño responsive real"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Las media queries son el paso final para convertir una página estática en un diseño completamente adaptable."
+    }
+  ]
+}

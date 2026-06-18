@@ -1,0 +1,76 @@
+{
+  "title": "IDs y Clases",
+  "description": "Aprende a identificar y agrupar elementos HTML usando id y class para aplicar estilos y lógica.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "En HTML, los atributos id y class se utilizan para identificar y agrupar elementos. Son fundamentales para CSS y JavaScript."
+    },
+    {
+      "type": "heading",
+      "text": "¿Qué es un ID?"
+    },
+    {
+      "type": "tag",
+      "name": "id",
+      "description": "Es un identificador único para un solo elemento en la página. No se puede repetir."
+    },
+    {
+      "type": "paragraph",
+      "text": "El id debe ser único dentro del documento HTML, lo que significa que solo un elemento puede tener ese valor."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de ID",
+      "code": "<h1 id=\"titulo-principal\">Hola mundo</h1>"
+    },
+    {
+      "type": "heading",
+      "text": "¿Qué es una clase?"
+    },
+    {
+      "type": "tag",
+      "name": "class",
+      "description": "Permite agrupar varios elementos bajo el mismo nombre para aplicar estilos o comportamientos en conjunto."
+    },
+    {
+      "type": "paragraph",
+      "text": "A diferencia del id, una clase puede repetirse en múltiples elementos."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de class",
+      "code": "<p class=\"texto\">Este es un párrafo</p>\n<p class=\"texto\">Este también</p>"
+    },
+    {
+      "type": "heading",
+      "text": "Diferencia entre id y class"
+    },
+    {
+      "type": "list",
+      "items": [
+        "id → único por elemento",
+        "class → puede repetirse",
+        "id → se usa para un elemento específico",
+        "class → se usa para grupos de elementos"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Uso en CSS"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los id y las clases se utilizan principalmente para aplicar estilos con CSS."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo en CSS",
+      "code": "#titulo-principal {\n    color: blue;\n}\n\n.texto {\n    color: gray;\n}"
+    }
+  ]
+}

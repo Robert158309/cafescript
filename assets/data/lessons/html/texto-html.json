@@ -1,0 +1,80 @@
+{
+  "title": "Texto en HTML",
+  "description": "Aprende cómo estructurar texto en una página web usando encabezados, párrafos, saltos de línea y formato básico.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "En HTML, el texto es uno de los elementos más importantes. Todo lo que se muestra en una página web, desde títulos hasta descripciones, está formado por texto estructurado con etiquetas."
+    },
+    {
+      "type": "heading",
+      "text": "Encabezados en HTML"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los encabezados se utilizan para definir títulos y subtítulos dentro de una página web. HTML ofrece seis niveles de encabezados, desde &lt;h1&gt; hasta &lt;h6&gt;."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de encabezados",
+      "code": "<h1>Título principal</h1>\n<h2>Subtítulo</h2>\n<h3>Sección</h3>\n<h4>Subsección</h4>\n<h5>Detalle</h5>\n<h6>Texto pequeño</h6>"
+    },
+    {
+      "type": "heading",
+      "text": "Párrafos en HTML"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los párrafos se utilizan para escribir bloques de texto. Se definen con la etiqueta &lt;p&gt; y automáticamente separan el contenido en líneas claras y legibles."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de párrafo",
+      "code": "<p>Este es un párrafo en HTML.</p>\n<p>Este es otro párrafo separado.</p>"
+    },
+    {
+      "type": "heading",
+      "text": "Saltos de línea"
+    },
+    {
+      "type": "paragraph",
+      "text": "Si necesitas hacer un salto de línea dentro de un texto sin crear un nuevo párrafo, puedes usar la etiqueta &lt;br&gt;."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de salto de línea",
+      "code": "<p>Primera línea<br>Segunda línea<br>Tercera línea</p>"
+    },
+    {
+      "type": "heading",
+      "text": "Formato básico de texto"
+    },
+    {
+      "type": "paragraph",
+      "text": "HTML también permite aplicar formato básico al texto para resaltar partes importantes."
+    },
+    {
+      "type": "list",
+      "items": [
+        "&lt;b&gt;Texto en negrita&lt;/b&gt; → resalta palabras importantes",
+        "&lt;i&gt;Texto en cursiva&lt;/i&gt; → enfatiza información",
+        "&lt;strong&gt;Texto importante&lt;/strong&gt; → importancia semántica",
+        "&lt;em&gt;Texto enfatizado&lt;/em&gt; → énfasis en lectura"
+      ]
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de formato de texto",
+      "code": "<p><b>Negrita</b> y <i>cursiva</i></p>\n<p><strong>Importante</strong> y <em>enfatizado</em></p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Con estas etiquetas puedes empezar a estructurar texto de forma clara y ordenada en cualquier página web."
+    }
+  ]
+}

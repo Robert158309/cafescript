@@ -1,0 +1,80 @@
+{
+  "title": "HTML semántico",
+  "description": "Aprende a estructurar páginas web usando etiquetas semánticas como header, nav, main, section, article y footer.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "El HTML semántico se refiere al uso de etiquetas que describen claramente el propósito del contenido. Esto ayuda tanto al navegador como a los desarrolladores a entender mejor la estructura de la página."
+    },
+    {
+      "type": "heading",
+      "text": "¿Qué es lo semántico?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Significa que las etiquetas tienen significado. No solo organizan visualmente, sino que explican qué representa cada parte del contenido."
+    },
+    {
+      "type": "heading",
+      "text": "Estructura principal"
+    },
+    {
+      "type": "tag",
+      "name": "<header>",
+      "description": "Representa la parte superior de una página o sección. Normalmente contiene títulos, logos o navegación."
+    },
+    {
+      "type": "tag",
+      "name": "<nav>",
+      "description": "Contiene los enlaces de navegación del sitio web."
+    },
+    {
+      "type": "tag",
+      "name": "<main>",
+      "description": "Es el contenido principal de la página. Solo debe haber uno por documento."
+    },
+    {
+      "type": "tag",
+      "name": "<section>",
+      "description": "Agrupa contenido relacionado dentro de una página."
+    },
+    {
+      "type": "tag",
+      "name": "<article>",
+      "description": "Representa contenido independiente que puede tener sentido por sí solo, como una noticia o publicación."
+    },
+    {
+      "type": "tag",
+      "name": "<footer>",
+      "description": "Es el pie de página. Normalmente contiene información de contacto, derechos de autor o enlaces secundarios."
+    },
+    {
+      "type": "heading",
+      "text": "Ejemplo de estructura semántica"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Estructura moderna",
+      "code": "<header>\n    <h1>Mi sitio web</h1>\n</header>\n\n<nav>\n    <a href=\"#\">Inicio</a>\n    <a href=\"#\">Cursos</a>\n</nav>\n\n<main>\n    <section>\n        <article>\n            <h2>Título del artículo</h2>\n            <p>Contenido principal aquí</p>\n        </article>\n    </section>\n</main>\n\n<footer>\n    <p>Derechos reservados</p>\n</footer>"
+    },
+    {
+      "type": "heading",
+      "text": "Importancia del HTML semántico"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Mejora la accesibilidad del sitio web",
+        "Ayuda al SEO (posicionamiento en buscadores)",
+        "Hace el código más ordenado y legible",
+        "Facilita el mantenimiento del proyecto"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Usar HTML semántico es una práctica profesional que permite construir páginas más claras, accesibles y escalables."
+    }
+  ]
+}

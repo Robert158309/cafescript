@@ -5,11 +5,6 @@
     "slug": "introduccion-css"
   },
   {
-    "title": "Cómo conectar CSS con HTML",
-    "description": "Métodos: inline, interno y archivo externo.",
-    "slug": "conectar-css-html"
-  },
-  {
     "title": "Selectores básicos",
     "description": "Selectores por etiqueta, clase y id.",
     "slug": "selectores-basicos-css"
@@ -45,11 +40,6 @@
     "slug": "flexbox-css"
   },
   {
-    "title": "Flexbox avanzado",
-    "description": "justify-content, align-items, gap y distribución real.",
-    "slug": "flexbox-avanzado-css"
-  },
-  {
     "title": "Grid layout",
     "description": "Sistema de diseño en dos dimensiones (filas y columnas).",
     "slug": "grid-css"
@@ -63,15 +53,5 @@
     "title": "Media queries",
     "description": "Reglas CSS según tamaño de pantalla.",
     "slug": "media-queries-css"
-  },
-  {
-    "title": "Pseudo-clases",
-    "description": "hover, active, focus y estados interactivos.",
-    "slug": "pseudo-clases-css"
-  },
-  {
-    "title": "Animaciones básicas",
-    "description": "transitions y keyframes para efectos visuales.",
-    "slug": "animaciones-css"
   }
 ]

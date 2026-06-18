@@ -1,0 +1,99 @@
+{
+  "title": "Tipografía",
+  "description": "Aprende a controlar fuentes, tamaños, pesos y a usar fuentes personalizadas con @font-face.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "La tipografía en CSS controla cómo se ve el texto en una página web. Esto incluye la fuente, el tamaño, el grosor y el estilo."
+    },
+    {
+      "type": "heading",
+      "text": "Familia de fuentes (font-family)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Define qué tipo de letra se va a usar en el texto. Puedes usar fuentes del sistema o fuentes personalizadas."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo font-family",
+      "code": "body {\n    font-family: Arial, sans-serif;\n}"
+    },
+    {
+      "type": "heading",
+      "text": "Tamaño de texto (font-size)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Permite cambiar el tamaño del texto en la página."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo font-size",
+      "code": "h1 {\n    font-size: 32px;\n}\n\np {\n    font-size: 16px;\n}"
+    },
+    {
+      "type": "heading",
+      "text": "Peso de fuente (font-weight)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Controla qué tan grueso o delgado es el texto."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo font-weight",
+      "code": "h1 {\n    font-weight: bold;\n}\n\np {\n    font-weight: normal;\n}"
+    },
+    {
+      "type": "heading",
+      "text": "Estilo de texto (font-style)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Permite aplicar estilos como cursiva al texto."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo font-style",
+      "code": "p {\n    font-style: italic;\n}"
+    },
+    {
+      "type": "heading",
+      "text": "Fuentes personalizadas (@font-face)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Con @font-face puedes cargar fuentes externas y usarlas en tu página web, incluso si el usuario no las tiene instaladas."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo @font-face",
+      "code": "@font-face {\n    font-family: 'MiFuente';\n    src: url('fonts/mifuente.woff2') format('woff2');\n}\n\nbody {\n    font-family: 'MiFuente', sans-serif;\n}"
+    },
+    {
+      "type": "heading",
+      "text": "Resumen"
+    },
+    {
+      "type": "list",
+      "items": [
+        "font-family → define la fuente",
+        "font-size → tamaño del texto",
+        "font-weight → grosor del texto",
+        "font-style → estilo como cursiva",
+        "@font-face → permite usar fuentes personalizadas"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "La tipografía es clave en el diseño web, ya que influye directamente en la lectura y la experiencia del usuario."
+    }
+  ]
+}

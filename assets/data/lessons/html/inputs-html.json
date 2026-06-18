@@ -1,0 +1,129 @@
+{
+  "title": "Inputs y tipos de datos",
+  "description": "Aprende los diferentes tipos de inputs en HTML como text, password, email, number, checkbox y radio.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Los inputs en HTML permiten al usuario ingresar diferentes tipos de datos en un formulario. Cada tipo de input tiene una función específica."
+    },
+    {
+      "type": "heading",
+      "text": "Etiqueta input"
+    },
+    {
+      "type": "tag",
+      "name": "<input>",
+      "description": "Es la etiqueta principal para recibir datos del usuario. Puede cambiar su comportamiento dependiendo del atributo type."
+    },
+    {
+      "type": "heading",
+      "text": "Input tipo text"
+    },
+    {
+      "type": "tag",
+      "name": "type=\"text\"",
+      "description": "Permite ingresar texto normal como nombres, apellidos o cualquier información básica."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo text",
+      "code": "<input type=\"text\" placeholder=\"Escribe tu nombre\">"
+    },
+    {
+      "type": "heading",
+      "text": "Input tipo password"
+    },
+    {
+      "type": "tag",
+      "name": "type=\"password\"",
+      "description": "Oculta los caracteres mientras el usuario escribe. Se usa para contraseñas."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo password",
+      "code": "<input type=\"password\" placeholder=\"Escribe tu contraseña\">"
+    },
+    {
+      "type": "heading",
+      "text": "Input tipo email"
+    },
+    {
+      "type": "tag",
+      "name": "type=\"email\"",
+      "description": "Valida que el texto tenga formato de correo electrónico."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo email",
+      "code": "<input type=\"email\" placeholder=\"correo@ejemplo.com\">"
+    },
+    {
+      "type": "heading",
+      "text": "Input tipo number"
+    },
+    {
+      "type": "tag",
+      "name": "type=\"number\"",
+      "description": "Permite ingresar solo números. Puede incluir controles para subir o bajar valores."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo number",
+      "code": "<input type=\"number\" min=\"0\" max=\"100\">"
+    },
+    {
+      "type": "heading",
+      "text": "Input tipo checkbox"
+    },
+    {
+      "type": "tag",
+      "name": "type=\"checkbox\"",
+      "description": "Permite seleccionar una o varias opciones de forma independiente."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo checkbox",
+      "code": "<input type=\"checkbox\"> Acepto los términos"
+    },
+    {
+      "type": "heading",
+      "text": "Input tipo radio"
+    },
+    {
+      "type": "tag",
+      "name": "type=\"radio\"",
+      "description": "Permite seleccionar solo una opción dentro de un grupo."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo radio",
+      "code": "<input type=\"radio\" name=\"opcion\"> Opción 1\n<input type=\"radio\" name=\"opcion\"> Opción 2"
+    },
+    {
+      "type": "heading",
+      "text": "Resumen"
+    },
+    {
+      "type": "list",
+      "items": [
+        "text → texto libre",
+        "password → texto oculto",
+        "email → validación de correo",
+        "number → solo números",
+        "checkbox → múltiples selecciones",
+        "radio → una sola selección"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Cada tipo de input cumple una función diferente dentro de los formularios y ayuda a controlar mejor los datos que ingresa el usuario."
+    }
+  ]
+}

@@ -13,6 +13,12 @@ function escapeHtml(text) {
     .replaceAll(">", "&gt;");
 }
 
+function cleanCode(code) {
+  return code
+    .replace(/^\s+/gm, "") // quita espacios al inicio de cada línea
+    .trim();
+}
+
 fetch(`../../assets/data/lessons/${lang}/${course}.json`)
   .then((res) => res.json())
   .then((data) => {
@@ -74,11 +80,23 @@ fetch(`../../assets/data/lessons/${lang}/${course}.json`)
               <p>${block.description}</p>
             </div>
           `;
+          break;
+
+        case "code":
+          html += `
+            <div class = "code-block">
+              ${block.title ? `<div class = "code-title non-selectable">${block.title}</div>` : ""}
+              <pre><code class = "language-${block.language}">${escapeHtml(block.code)}</code></pre>
+            </div>
+          `;
         break;
       }
     });
-
+    
     container.innerHTML = html;
+
+    Prism.highlightAll();
+
   })
   .catch((error) => {
     console.error(error);

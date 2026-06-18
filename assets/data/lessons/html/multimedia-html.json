@@ -1,0 +1,83 @@
+{
+  "title": "Multimedia",
+  "description": "Aprende a usar audio, video e iframe para mostrar contenido multimedia en páginas web.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "HTML permite insertar contenido multimedia como audio, video y páginas externas mediante iframes. Esto hace que una página sea más dinámica e interactiva."
+    },
+    {
+      "type": "heading",
+      "text": "Etiqueta audio"
+    },
+    {
+      "type": "tag",
+      "name": "<audio>",
+      "description": "Se utiliza para reproducir archivos de audio en la página web. Puede incluir controles como play, pause y volumen."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de audio",
+      "code": "<audio controls>\n    <source src=\"audio.mp3\" type=\"audio/mpeg\">\n    Tu navegador no soporta audio.\n</audio>"
+    },
+    {
+      "type": "heading",
+      "text": "Etiqueta video"
+    },
+    {
+      "type": "tag",
+      "name": "<video>",
+      "description": "Permite mostrar videos directamente en la página web con controles de reproducción."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de video",
+      "code": "<video width=\"320\" controls>\n    <source src=\"video.mp4\" type=\"video/mp4\">\n    Tu navegador no soporta video.\n</video>"
+    },
+    {
+      "type": "heading",
+      "text": "Etiqueta iframe"
+    },
+    {
+      "type": "tag",
+      "name": "<iframe>",
+      "description": "Permite incrustar contenido externo como mapas, videos de YouTube o páginas web dentro de tu sitio."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de iframe",
+      "code": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/dQw4w9WgXcQ\"></iframe>"
+    },
+    {
+      "type": "heading",
+      "text": "¿Para qué se usa cada uno?"
+    },
+    {
+      "type": "list",
+      "items": [
+        "audio → reproducir música o sonidos",
+        "video → mostrar contenido audiovisual",
+        "iframe → incrustar contenido externo",
+        "controls → permite interactuar con audio y video"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ejemplo completo"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Página con multimedia",
+      "code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>Multimedia</title>\n</head>\n<body>\n\n    <h1>Ejemplo multimedia</h1>\n\n    <h2>Audio</h2>\n    <audio controls>\n        <source src=\"audio.mp3\" type=\"audio/mpeg\">\n    </audio>\n\n    <h2>Video</h2>\n    <video width=\"320\" controls>\n        <source src=\"video.mp4\" type=\"video/mp4\">\n    </video>\n\n    <h2>Video embebido</h2>\n    <iframe width=\"400\" height=\"250\" src=\"https://www.youtube.com/embed/dQw4w9WgXcQ\"></iframe>\n\n</body>\n</html>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Con multimedia puedes hacer que tus páginas web sean mucho más atractivas y dinámicas para el usuario."
+    }
+  ]
+}

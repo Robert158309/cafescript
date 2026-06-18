@@ -1,0 +1,96 @@
+{
+  "title": "Box Model",
+  "description": "Aprende cómo margin, padding y border afectan el diseño de los elementos en CSS.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "El Box Model es el concepto fundamental de cómo CSS organiza cada elemento en la página. Cada elemento se comporta como una caja."
+    },
+    {
+      "type": "heading",
+      "text": "¿Qué es una caja?"
+    },
+    {
+      "type": "paragraph",
+      "text": "En CSS, todo elemento HTML se representa como una caja compuesta por contenido, padding, border y margin."
+    },
+    {
+      "type": "heading",
+      "text": "Contenido (content)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Es el área donde se muestra el texto, imágenes u otros elementos."
+    },
+    {
+      "type": "heading",
+      "text": "Padding"
+    },
+    {
+      "type": "paragraph",
+      "text": "Es el espacio entre el contenido y el borde del elemento. Sirve para dar “aire” interno."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo padding",
+      "code": "div {\n    padding: 20px;\n}"
+    },
+    {
+      "type": "heading",
+      "text": "Border"
+    },
+    {
+      "type": "paragraph",
+      "text": "Es el borde que rodea el elemento. Donde el orden es: grosor_color_estilo."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo border",
+      "code": "div {\n    border: 2px solid black;\n}"
+    },
+    {
+      "type": "heading",
+      "text": "Margin"
+    },
+    {
+      "type": "paragraph",
+      "text": "Es el espacio externo entre un elemento y otros elementos alrededor."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo margin",
+      "code": "div {\n    margin: 30px;\n}"
+    },
+    {
+      "type": "heading",
+      "text": "Ejemplo completo"
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Box Model en acción",
+      "code": "div {\n    width: 200px;\n    padding: 20px;\n    border: 3px solid blue;\n    margin: 40px;\n    background-color: lightgray;\n}"
+    },
+    {
+      "type": "heading",
+      "text": "Resumen del Box Model"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Content → contenido del elemento",
+        "Padding → espacio interno",
+        "Border → borde del elemento",
+        "Margin → espacio externo"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Entender el Box Model es clave para controlar el diseño y evitar problemas de alineación en CSS."
+    }
+  ]
+}

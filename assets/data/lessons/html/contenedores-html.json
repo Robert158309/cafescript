@@ -1,0 +1,66 @@
+{
+  "title": "Contenedores (div y span)",
+  "description": "Aprende cómo organizar contenido en bloques y elementos en línea usando div y span en HTML.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "En HTML, los contenedores permiten agrupar elementos para organizarlos mejor dentro de una página web. Los más comunes son div y span."
+    },
+    {
+      "type": "heading",
+      "text": "Contenedor div"
+    },
+    {
+      "type": "tag",
+      "name": "<div>",
+      "description": "Es un contenedor de tipo bloque. Se utiliza para agrupar secciones completas de contenido como textos, imágenes o formularios."
+    },
+    {
+      "type": "paragraph",
+      "text": "El div ocupa todo el ancho disponible y siempre se coloca en una nueva línea."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de div",
+      "code": "<div>\n    <h2>Título</h2>\n    <p>Contenido dentro del div</p>\n</div>"
+    },
+    {
+      "type": "heading",
+      "text": "Contenedor span"
+    },
+    {
+      "type": "tag",
+      "name": "<span>",
+      "description": "Es un contenedor en línea. Se utiliza para modificar partes pequeñas de texto dentro de otros elementos."
+    },
+    {
+      "type": "paragraph",
+      "text": "A diferencia de div, span no genera saltos de línea y solo ocupa el espacio necesario."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de span",
+      "code": "<p>Este es un <span>texto resaltado</span> dentro de un párrafo.</p>"
+    },
+    {
+      "type": "heading",
+      "text": "Diferencia entre div y span"
+    },
+    {
+      "type": "list",
+      "items": [
+        "div → elemento de bloque",
+        "span → elemento en línea",
+        "div → agrupa secciones completas",
+        "span → modifica partes pequeñas de texto"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ambos son fundamentales para estructurar páginas web de forma ordenada y flexible."
+    }
+  ]
+}

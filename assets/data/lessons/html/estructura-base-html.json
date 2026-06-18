@@ -29,9 +29,10 @@
       "text": "Ahora que tienes el archivo listo, comienza escribiendo la siguiente estructura"
     },
     {
-      "type": "image",
-      "src": "../../assets/img/lessons/html/html-base.webp",
-      "alt": "HTML image"
+      "type": "code",
+      "language": "html",
+      "title": "index.html",
+      "code": "<!DOCTYPE html>\n<html>\n    <head>\n        <meta charset=\"utf-8\">\n        <meta name=\"viewport\" content=\"width=device-width\">\n        <title></title>\n    </head>\n    <body>\n        <footer></footer>\n    </body>\n</html>"
     },
     {
       "type": "heading",

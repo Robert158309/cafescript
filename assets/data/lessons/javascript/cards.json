@@ -45,16 +45,6 @@
     "slug": "arrays-javascript"
   },
   {
-    "title": "Objetos",
-    "description": "Creación y uso de objetos en JavaScript.",
-    "slug": "objetos-javascript"
-  },
-  {
-    "title": "Métodos de Arrays",
-    "description": "push, pop, shift, unshift, splice y más.",
-    "slug": "metodos-arrays-javascript"
-  },
-  {
     "title": "Introducción al DOM",
     "description": "Qué es el DOM y cómo JavaScript interactúa con HTML.",
     "slug": "intro-dom"
@@ -70,11 +60,6 @@
     "slug": "modificar-html-dom"
   },
   {
-    "title": "Modificar estilos con JavaScript",
-    "description": "Cambios dinámicos usando style y classList.",
-    "slug": "modificar-estilos-dom"
-  },
-  {
     "title": "Eventos",
     "description": "click, input, submit y otros eventos importantes.",
     "slug": "eventos-javascript"
@@ -83,11 +68,6 @@
     "title": "Formularios con JavaScript",
     "description": "Captura y validación de datos.",
     "slug": "formularios-javascript"
-  },
-  {
-    "title": "Temporizadores",
-    "description": "Uso de setTimeout y setInterval.",
-    "slug": "temporizadores-javascript"
   },
   {
     "title": "Introducción a JSON",

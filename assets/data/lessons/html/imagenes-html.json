@@ -1,0 +1,70 @@
+{
+  "title": "Imágenes en la web",
+  "description": "Aprende a insertar imágenes en HTML usando la etiqueta <img>, sus atributos principales y buenas prácticas.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Las imágenes son una parte esencial de la web. Permiten mejorar la apariencia de una página y hacer que el contenido sea más visual y entendible."
+    },
+    {
+      "type": "heading",
+      "text": "Etiqueta <img>"
+    },
+    {
+      "type": "paragraph",
+      "text": "La etiqueta <img> se utiliza para mostrar imágenes en HTML. Es una etiqueta vacía, lo que significa que no tiene cierre."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo básico de imagen",
+      "code": "<img src=\"imagen.jpg\" alt=\"Descripción de la imagen\">"
+    },
+    {
+      "type": "heading",
+      "text": "Atributo src"
+    },
+    {
+      "type": "paragraph",
+      "text": "El atributo src indica la ruta de la imagen que se va a mostrar. Puede ser una imagen local o una URL externa."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de src",
+      "code": "<img src=\"assets/img/foto.png\" alt=\"Foto de ejemplo\">"
+    },
+    {
+      "type": "heading",
+      "text": "Atributo alt"
+    },
+    {
+      "type": "paragraph",
+      "text": "El atributo alt proporciona una descripción de la imagen. Se utiliza cuando la imagen no carga y también ayuda a la accesibilidad."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de alt",
+      "code": "<img src=\"logo.png\" alt=\"Logo de la página\">"
+    },
+    {
+      "type": "heading",
+      "text": "Buenas prácticas"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Usa imágenes optimizadas para la web (evita archivos muy pesados).",
+        "Siempre incluye el atributo alt.",
+        "Usa rutas organizadas en carpetas.",
+        "Evita imágenes innecesarias que ralenticen la página."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Las imágenes mejoran la experiencia del usuario, pero deben usarse con equilibrio para no afectar el rendimiento de la página."
+    }
+  ]
+}

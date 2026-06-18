@@ -1,0 +1,84 @@
+{
+  "title": "Colores en CSS",
+  "description": "Aprende a usar colores en CSS con nombres, hexadecimal, RGB y RGBA.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "CSS permite aplicar colores a textos, fondos y elementos usando diferentes sistemas. Cada uno tiene sus ventajas dependiendo del caso."
+    },
+    {
+      "type": "heading",
+      "text": "Colores por nombre"
+    },
+    {
+      "type": "paragraph",
+      "text": "CSS tiene nombres de colores predefinidos como red, blue o green."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo con nombres",
+      "code": "h1 {\n    color: blue;\n}\n\np {\n    color: red;\n}"
+    },
+    {
+      "type": "heading",
+      "text": "Colores hexadecimales"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los colores hex usan un sistema basado en valores de 0 a F para representar rojo, verde y azul."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo hex",
+      "code": "body {\n    background-color: #1e1e1e;\n    color: #ffffff;\n}"
+    },
+    {
+      "type": "heading",
+      "text": "Colores RGB"
+    },
+    {
+      "type": "paragraph",
+      "text": "RGB define colores combinando rojo, verde y azul con valores del 0 al 255."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo RGB",
+      "code": "h2 {\n    color: rgb(255, 0, 0);\n}"
+    },
+    {
+      "type": "heading",
+      "text": "Colores RGBA"
+    },
+    {
+      "type": "paragraph",
+      "text": "RGBA es igual a RGB pero agrega transparencia con un valor llamado alpha."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo RGBA",
+      "code": "div {\n    background-color: rgba(0, 0, 0, 0.5);\n}"
+    },
+    {
+      "type": "heading",
+      "text": "Resumen de tipos de color"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Nombre → fácil de usar pero limitado",
+        "Hex → el más usado en diseño web",
+        "RGB → control preciso de colores",
+        "RGBA → RGB con transparencia"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Dominar los colores en CSS te permite crear interfaces más atractivas y profesionales."
+    }
+  ]
+}

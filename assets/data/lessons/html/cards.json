@@ -25,6 +25,11 @@
     "slug": "imagenes-html"
   },
   {
+    "title": "Multimedia",
+    "description": "audio, video e iframe para contenido embebido.",
+    "slug": "multimedia-html"
+  },
+  {
     "title": "Listas en HTML",
     "description": "Listas ordenadas y desordenadas para organizar contenido.",
     "slug": "listas-html"
@@ -33,6 +38,11 @@
     "title": "Tablas de datos",
     "description": "Cómo estructurar información usando tablas HTML.",
     "slug": "tablas-html"
+  },
+  {
+    "title": "IDs y Clases",
+    "description": "Darle nombres personalizados a elementos HTML.",
+    "slug": "idsclases-html"
   },
   {
     "title": "Formularios",
@@ -63,15 +73,5 @@
     "title": "JavaScript en HTML",
     "description": "Cómo agregar interactividad con script.",
     "slug": "js-html"
-  },
-  {
-    "title": "Multimedia",
-    "description": "audio, video e iframe para contenido embebido.",
-    "slug": "multimedia-html"
-  },
-  {
-    "title": "Buenas prácticas",
-    "description": "Código limpio, accesibilidad y estructura profesional.",
-    "slug": "buenas-practicas-html"
   }
 ]

@@ -1,0 +1,70 @@
+{
+  "title": "Listas en HTML",
+  "description": "Listas ordenadas y desordenadas para organizar contenido.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Las listas en HTML se utilizan para organizar información de forma clara y estructurada. Son muy útiles para mostrar elementos relacionados entre sí."
+    },
+    {
+      "type": "heading",
+      "text": "Listas desordenadas"
+    },
+    {
+      "type": "paragraph",
+      "text": "Las listas desordenadas se crean con la etiqueta &lt;ul&gt; y muestran los elementos con viñetas."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de lista desordenada",
+      "code": "<ul>\n    <li>Manzana</li>\n    <li>Pera</li>\n    <li>Banano</li>\n</ul>"
+    },
+    {
+      "type": "heading",
+      "text": "Listas ordenadas"
+    },
+    {
+      "type": "paragraph",
+      "text": "Las listas ordenadas se crean con la etiqueta &lt;ol&gt; y muestran los elementos en orden numérico."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de lista ordenada",
+      "code": "<ol>\n    <li>Primer paso</li>\n    <li>Segundo paso</li>\n    <li>Tercer paso</li>\n</ol>"
+    },
+    {
+      "type": "heading",
+      "text": "Elemento de lista"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cada elemento dentro de una lista se define con la etiqueta &lt;li&gt;, que representa cada ítem."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Ejemplo de &lt;li&gt;",
+      "code": "<li>Elemento 1</li>\n<li>Elemento 2</li>\n<li>Elemento 3</li>"
+    },
+    {
+      "type": "heading",
+      "text": "Buenas prácticas"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Usa &lt;ul&gt; cuando el orden no importa.",
+        "Usa &lt;ol&gt; cuando el orden sí importa.",
+        "Mantén los elementos claros y cortos.",
+        "Evita listas demasiado largas sin estructura."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Las listas ayudan a organizar mejor la información y hacen el contenido más fácil de leer."
+    }
+  ]
+}

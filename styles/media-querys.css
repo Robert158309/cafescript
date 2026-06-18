@@ -93,3 +93,16 @@
     }
 
 }
+
+@media (max-width: 700px) {
+
+    #courses {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    #news {
+        columns: 1;
+    }
+}

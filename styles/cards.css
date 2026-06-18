@@ -76,12 +76,16 @@
     display: grid;
     grid-template-columns: repeat(
         auto-fit,
-        minmax(45%, 1fr)
+        minmax(350px, 1fr)
     );
     gap: 20px;
 }
 
 .news-card {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    break-inside: avoid;
     background-color: var(--card-bg);
     color: var(--card-text);
     padding: 20px;
@@ -99,9 +103,15 @@
 
 .news-card h3 {
     margin-bottom: 10px;
+    font-size: clamp(1.1rem, 1.1vw, 1.8rem);
 }
 
 .news-card p {
+    font-size: clamp(1rem, 0.5vw, 1.2rem);
     line-height: 1.6;
     text-align: justify;
+}
+
+.news-date {
+    font-size: clamp(0.8rem, 0.75rem + 0.2vw, 0.95rem);
 }

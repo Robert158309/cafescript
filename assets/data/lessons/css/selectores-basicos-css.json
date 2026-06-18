@@ -1,0 +1,93 @@
+{
+  "title": "Selectores básicos",
+  "description": "Aprende cómo CSS selecciona elementos HTML usando etiquetas, clases e IDs.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Los selectores en CSS sirven para indicar qué elementos del HTML deben recibir estilos. Son la base de cualquier diseño web."
+    },
+    {
+      "type": "heading",
+      "text": "Selector por etiqueta"
+    },
+    {
+      "type": "paragraph",
+      "text": "Selecciona todos los elementos del mismo tipo en la página."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo selector por etiqueta",
+      "code": "p {\n    color: blue;\n    font-size: 16px;\n}"
+    },
+    {
+      "type": "heading",
+      "text": "Selector por clase"
+    },
+    {
+      "type": "tag",
+      "name": ".clase",
+      "description": "Se usa para aplicar estilos a varios elementos que comparten una misma clase."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo selector por clase",
+      "code": ".titulo {\n    color: red;\n    font-weight: bold;\n}"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Uso en HTML",
+      "code": "<h1 class=\"titulo\">Hola mundo</h1>\n<h1 class=\"titulo\">Otro título</h1>"
+    },
+    {
+      "type": "heading",
+      "text": "Selector por ID"
+    },
+    {
+      "type": "tag",
+      "name": "#id",
+      "description": "Se usa para seleccionar un único elemento dentro de la página."
+    },
+    {
+      "type": "code",
+      "language": "css",
+      "title": "Ejemplo selector por ID",
+      "code": "#principal {\n    background-color: black;\n    color: white;\n}"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "Uso en HTML",
+      "code": "<div id=\"principal\">Contenido principal</div>"
+    },
+    {
+      "type": "heading",
+      "text": "Comparación rápida"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Etiqueta → afecta a todos los elementos del tipo",
+        "Clase → afecta a varios elementos reutilizables",
+        "ID → afecta a un solo elemento único"
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ejemplo combinado"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "HTML + CSS básico",
+      "code": "<style>\n    p {\n        color: green;\n    }\n\n    .destacado {\n        font-size: 20px;\n        font-weight: bold;\n    }\n\n    #titulo {\n        color: purple;\n    }\n</style>\n\n<h1 id=\"titulo\">Título principal</h1>\n<p class=\"destacado\">Texto importante</p>\n<p>Texto normal</p>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Con los selectores puedes controlar exactamente qué elementos se estilizan en tu página web."
+    }
+  ]
+}
