@@ -51,7 +51,7 @@
   },
   {
     "title": "Seleccionar elementos",
-    "description": "getElementById, querySelector y querySelectorAll.",
+    "description": "getElementById, getElementByClass, etc.",
     "slug": "seleccionar-elementos-dom"
   },
   {
@@ -73,30 +73,5 @@
     "title": "Introducción a JSON",
     "description": "Qué es JSON y por qué es tan importante.",
     "slug": "intro-json"
-  },
-  {
-    "title": "Objetos JavaScript y JSON",
-    "description": "Diferencias y similitudes entre ambos.",
-    "slug": "objetos-json"
-  },
-  {
-    "title": "Renderizado dinámico",
-    "description": "Crear contenido HTML a partir de datos JSON.",
-    "slug": "renderizado-dinamico"
-  },
-  {
-    "title": "LocalStorage",
-    "description": "Guardar información en el navegador.",
-    "slug": "localstorage"
-  },
-  {
-    "title": "Animaciones básicas",
-    "description": "Manipulación de clases y efectos visuales simples.",
-    "slug": "animaciones-basicas"
-  },
-  {
-    "title": "Transiciones con JavaScript",
-    "description": "Controlar animaciones CSS desde JavaScript.",
-    "slug": "transiciones-javascript"
   }
 ]

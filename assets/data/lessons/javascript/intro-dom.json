@@ -1,0 +1,111 @@
+{
+  "title": "Introducción al DOM",
+  "description": "Qué es el DOM y cómo JavaScript interactúa con HTML.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Hasta este punto JavaScript ha trabajado principalmente con variables, funciones, ciclos y estructuras de datos. Sin embargo, una de las razones por las que JavaScript se volvió tan popular es su capacidad para interactuar directamente con las páginas web."
+    },
+    {
+      "type": "paragraph",
+      "text": "Para lograrlo existe el DOM, una estructura que representa todos los elementos de una página HTML y permite que JavaScript pueda leerlos, modificarlos o reaccionar a ellos."
+    },
+    {
+      "type": "heading",
+      "text": "¿Qué significa DOM?"
+    },
+    {
+      "type": "paragraph",
+      "text": "DOM significa Document Object Model (Modelo de Objetos del Documento). Es una representación de la página web creada por el navegador cuando carga un archivo HTML."
+    },
+    {
+      "type": "paragraph",
+      "text": "Gracias al DOM, JavaScript puede entender que una página está formada por títulos, párrafos, imágenes, botones, formularios y muchos otros elementos."
+    },
+    {
+      "type": "heading",
+      "text": "Del HTML al DOM"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cuando el navegador lee un archivo HTML, construye una estructura organizada que relaciona todos los elementos entre sí."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "index.html",
+      "code": "<body>\n    <h1>CaféScript</h1>\n\n    <p>Aprende programación.</p>\n</body>"
+    },
+    {
+      "type": "paragraph",
+      "text": "El navegador interpreta este contenido y crea una estructura interna que JavaScript puede utilizar para interactuar con la página."
+    },
+    {
+      "type": "heading",
+      "text": "El objeto document"
+    },
+    {
+      "type": "paragraph",
+      "text": "JavaScript accede al DOM mediante un objeto especial llamado document."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "document.js",
+      "code": "console.log(document);"
+    },
+    {
+      "type": "tag",
+      "name": "document",
+      "description": "Objeto principal que representa la página web cargada en el navegador."
+    },
+    {
+      "type": "paragraph",
+      "text": "Prácticamente todas las operaciones relacionadas con el DOM comienzan utilizando este objeto."
+    },
+    {
+      "type": "heading",
+      "text": "¿Qué podemos hacer con el DOM?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gracias al DOM, JavaScript puede realizar tareas como:"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Cambiar textos.",
+        "Modificar estilos.",
+        "Crear elementos nuevos.",
+        "Eliminar elementos existentes.",
+        "Detectar clics y otras interacciones.",
+        "Actualizar contenido sin recargar la página."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "JavaScript y HTML trabajando juntos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sin el DOM, JavaScript sería simplemente un lenguaje capaz de realizar cálculos y procesar datos. Gracias al DOM puede controlar y modificar lo que el usuario ve en la página."
+    },
+    {
+      "type": "paragraph",
+      "text": "Es esta combinación entre HTML, CSS y JavaScript la que hace posibles las aplicaciones web modernas."
+    },
+    {
+      "type": "heading",
+      "text": "Lo que veremos después"
+    },
+    {
+      "type": "paragraph",
+      "text": "En las siguientes lecciones aprenderemos a seleccionar elementos específicos del DOM, modificar su contenido, cambiar estilos y responder a eventos generados por el usuario."
+    },
+    {
+      "type": "paragraph",
+      "text": "Por ahora lo importante es comprender que el DOM es el puente que conecta JavaScript con los elementos de una página web."
+    }
+  ]
+}

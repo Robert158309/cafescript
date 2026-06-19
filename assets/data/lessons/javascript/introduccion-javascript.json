@@ -1,0 +1,96 @@
+{
+ "title": "Introducción a JavaScript",
+ "description": "Qué es JavaScript y cómo aporta interactividad a una página web.",
+
+ "content": [
+  {
+   "type": "paragraph",
+   "text": "Hasta ahora hemos trabajado con HTML para crear la estructura de una página y CSS para darle estilo. Sin embargo, las páginas web modernas necesitan algo más: la capacidad de reaccionar a las acciones del usuario. Aquí es donde entra JavaScript."
+  },
+  {
+   "type": "paragraph",
+   "text": "JavaScript es un lenguaje de programación que permite agregar interactividad y comportamiento a las páginas web. Gracias a él podemos detectar clics, validar formularios, mostrar mensajes, crear animaciones, actualizar contenido y mucho más."
+  },
+  {
+   "type": "heading",
+   "text": "¿Qué hace JavaScript?"
+  },
+  {
+   "type": "paragraph",
+   "text": "JavaScript puede controlar prácticamente todo lo que ocurre dentro de una página web. Cuando un usuario presiona un botón, escribe en un formulario o interactúa con algún elemento, JavaScript puede responder y realizar acciones específicas."
+  },
+  {
+   "type": "list",
+   "items": [
+     "Mostrar mensajes al usuario.",
+     "Validar formularios.",
+     "Modificar contenido de la página.",
+     "Crear animaciones.",
+     "Realizar cálculos.",
+     "Cargar información desde servidores.",
+      "Construir aplicaciones web completas."
+    ]
+  },
+  {
+   "type": "heading",
+   "text": "HTML, CSS y JavaScript"
+  },
+  {
+   "type": "paragraph",
+   "text": "Estos tres lenguajes trabajan juntos para construir la mayoría de sitios web modernos."
+  },
+  {
+   "type": "tag",
+   "name": "HTML",
+   "description": "Define la estructura y el contenido de la página."
+  },
+  {
+   "type": "tag",
+   "name": "CSS",
+   "description": "Controla la apariencia visual, colores, tamaños y diseño."
+  },
+  {
+   "type": "tag",
+   "name": "JavaScript",
+   "description": "Añade comportamiento, lógica e interactividad."
+  },
+  {
+   "type": "paragraph",
+   "text": "Una forma sencilla de recordarlo es imaginar una casa. HTML representa la estructura de la construcción, CSS la decoración y el aspecto visual, mientras que JavaScript sería la electricidad y los mecanismos que permiten que todo funcione."
+  },
+  {
+   "type": "heading",
+   "text": "Tu primer código JavaScript"
+  },
+  {
+   "type": "paragraph",
+   "text": "El siguiente ejemplo muestra una instrucción sencilla que escribe un mensaje en la consola del navegador."
+  },
+  {
+   "type": "code",
+   "language": "javascript",
+   "title": "primer-ejemplo.js",
+   "code": "console.log(\"Hola Mundo\");"
+  },
+  {
+   "type": "paragraph",
+   "text": "La función console.log() permite mostrar mensajes en la consola del navegador. Es una de las herramientas más utilizadas para realizar pruebas y depurar programas."
+  },
+  {
+   "type": "heading",
+   "text": "¿Dónde se ejecuta JavaScript?"
+  },
+  {
+   "type": "paragraph",
+   "text": "JavaScript suele ejecutarse directamente dentro del navegador del usuario. Esto significa que el código puede interactuar con la página web y responder inmediatamente a las acciones realizadas por quien la visita."
+  },
+  {
+   "type": "paragraph",
+   "text": "Actualmente JavaScript también puede ejecutarse fuera del navegador utilizando herramientas como Node.js, permitiendo crear servidores, aplicaciones de escritorio y otros tipos de software."
+  },
+  {
+   "type": "paragraph",
+   "text": "No te preocupes si algunos términos te parecen desconocidos. Iremos avanzando paso a paso y construyendo una base sólida antes de llegar a los temas más complejos."
+  }
+ ]
+}

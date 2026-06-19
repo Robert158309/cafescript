@@ -1,0 +1,167 @@
+{
+  "title": "Arrays",
+  "description": "Almacenamiento y manipulación de colecciones de datos.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Hasta ahora hemos almacenado información en variables individuales. Sin embargo, existen situaciones donde necesitamos guardar múltiples valores relacionados. Para ello utilizamos los arrays."
+    },
+    {
+      "type": "paragraph",
+      "text": "Un array es una estructura de datos que permite almacenar varios elementos dentro de una sola variable. Podemos imaginarlo como una caja con varios compartimentos donde cada uno contiene un valor."
+    },
+    {
+      "type": "heading",
+      "text": "Creando un array"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los arrays se crean utilizando corchetes."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "array.js",
+      "code": "let frutas = [\"Manzana\", \"Banana\", \"Naranja\"];"
+    },
+    {
+      "type": "tag",
+      "name": "[]",
+      "description": "Los corchetes indican que estamos creando un array."
+    },
+    {
+      "type": "paragraph",
+      "text": "Cada elemento se separa mediante comas y puede contener cualquier tipo de dato."
+    },
+    {
+      "type": "heading",
+      "text": "Accediendo a elementos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cada elemento posee una posición llamada índice. Los índices comienzan desde cero."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "indices.js",
+      "code": "let frutas = [\"Manzana\", \"Banana\", \"Naranja\"];\n\nconsole.log(frutas[0]);\nconsole.log(frutas[1]);\nconsole.log(frutas[2]);"
+    },
+    {
+      "type": "paragraph",
+      "text": "Aunque el array contiene tres elementos, sus posiciones son 0, 1 y 2."
+    },
+    {
+      "type": "heading",
+      "text": "Modificando elementos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Podemos cambiar el contenido de cualquier posición utilizando su índice."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "modificar.js",
+      "code": "let frutas = [\"Manzana\", \"Banana\", \"Naranja\"];\n\nfrutas[1] = \"Pera\";\n\nconsole.log(frutas);"
+    },
+    {
+      "type": "heading",
+      "text": "Conociendo el tamaño del array"
+    },
+    {
+      "type": "paragraph",
+      "text": "La propiedad length permite conocer cuántos elementos contiene un array."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "length.js",
+      "code": "let frutas = [\"Manzana\", \"Banana\", \"Naranja\"];\n\nconsole.log(frutas.length);"
+    },
+    {
+      "type": "tag",
+      "name": ".length",
+      "description": "Devuelve la cantidad de elementos almacenados en un array."
+    },
+    {
+      "type": "heading",
+      "text": "Agregando elementos"
+    },
+    {
+      "type": "paragraph",
+      "text": "JavaScript incluye métodos que facilitan añadir nuevos elementos."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "push.js",
+      "code": "let frutas = [\"Manzana\", \"Banana\"];\n\nfrutas.push(\"Naranja\");\n\nconsole.log(frutas);"
+    },
+    {
+      "type": "tag",
+      "name": ".push()",
+      "description": "Agrega un elemento al final del array."
+    },
+    {
+      "type": "heading",
+      "text": "Eliminando elementos"
+    },
+    {
+      "type": "paragraph",
+      "text": "También es posible eliminar elementos del final del array."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "pop.js",
+      "code": "let frutas = [\"Manzana\", \"Banana\", \"Naranja\"];\n\nfrutas.pop();\n\nconsole.log(frutas);"
+    },
+    {
+      "type": "tag",
+      "name": ".pop()",
+      "description": "Elimina el último elemento del array."
+    },
+    {
+      "type": "heading",
+      "text": "Recorriendo un array"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los ciclos son especialmente útiles cuando trabajamos con arrays."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "for-array.js",
+      "code": "let frutas = [\"Manzana\", \"Banana\", \"Naranja\"];\n\nfor(let i = 0; i < frutas.length; i++) {\n    console.log(frutas[i]);\n}"
+    },
+    {
+      "type": "paragraph",
+      "text": "Este ciclo visita cada posición del array y muestra su contenido."
+    },
+    {
+      "type": "heading",
+      "text": "Arrays con distintos tipos de datos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Aunque normalmente se utilizan para almacenar datos similares, JavaScript permite mezclar distintos tipos dentro del mismo array."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "mixto.js",
+      "code": "let datos = [\"Roberto\", 17, true, null];"
+    },
+    {
+      "type": "paragraph",
+      "text": "Sin embargo, en la mayoría de proyectos se recomienda mantener datos relacionados dentro del mismo array para facilitar la organización."
+    },
+    {
+      "type": "paragraph",
+      "text": "Los arrays son una de las estructuras más utilizadas en programación. Más adelante los combinaremos con objetos, funciones y métodos avanzados para manejar grandes cantidades de información de manera eficiente."
+    }
+  ]
+}

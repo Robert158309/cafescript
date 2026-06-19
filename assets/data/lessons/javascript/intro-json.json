@@ -1,0 +1,174 @@
+{
+  "title": "Introducción a JSON",
+  "description": "Qué es JSON y por qué es tan importante.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "A lo largo de este curso hemos trabajado con variables, arrays, objetos, funciones y el DOM. Ahora conoceremos una de las tecnologías más utilizadas en el desarrollo moderno: JSON."
+    },
+    {
+      "type": "paragraph",
+      "text": "JSON es un formato de texto diseñado para almacenar y transportar información de manera sencilla. Actualmente es utilizado por aplicaciones web, APIs, servidores, videojuegos, aplicaciones móviles y prácticamente cualquier sistema que necesite intercambiar datos."
+    },
+    {
+      "type": "heading",
+      "text": "¿Qué significa JSON?"
+    },
+    {
+      "type": "paragraph",
+      "text": "JSON significa JavaScript Object Notation (Notación de Objetos de JavaScript). Aunque nació inspirado en la sintaxis de JavaScript, actualmente puede utilizarse en prácticamente cualquier lenguaje de programación."
+    },
+    {
+      "type": "heading",
+      "text": "¿Por qué existe JSON?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Las aplicaciones necesitan compartir información constantemente. Un servidor puede enviar datos a una página web, una aplicación móvil puede solicitar información a una API o un videojuego puede cargar configuraciones desde un archivo."
+    },
+    {
+      "type": "paragraph",
+      "text": "JSON proporciona una forma organizada y fácil de entender para representar esos datos."
+    },
+    {
+      "type": "heading",
+      "text": "Primer ejemplo de JSON"
+    },
+    {
+      "type": "code",
+      "language": "json",
+      "title": "usuario.json",
+      "code": "{\n    \"nombre\": \"Roberto\",\n    \"edad\": 18,\n    \"activo\": true\n}"
+    },
+    {
+      "type": "paragraph",
+      "text": "Este JSON almacena información relacionada con un usuario mediante pares clave-valor."
+    },
+    {
+      "type": "heading",
+      "text": "Entendiendo la estructura"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los datos dentro de JSON se organizan utilizando claves y valores."
+    },
+    {
+      "type": "list",
+      "items": [
+        "\"nombre\" es la clave.",
+        "\"Roberto\" es el valor.",
+        "\"edad\" es la clave.",
+        "18 es el valor.",
+        "\"activo\" es la clave.",
+        "true es el valor."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Tipos de datos compatibles"
+    },
+    {
+      "type": "paragraph",
+      "text": "JSON permite almacenar distintos tipos de información."
+    },
+    {
+      "type": "code",
+      "language": "json",
+      "title": "tipos.json",
+      "code": "{\n    \"texto\": \"Hola\",\n    \"numero\": 25,\n    \"booleano\": true,\n    \"nulo\": null\n}"
+    },
+    {
+      "type": "heading",
+      "text": "Arrays en JSON"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los arrays también pueden utilizarse dentro de JSON."
+    },
+    {
+      "type": "code",
+      "language": "json",
+      "title": "frutas.json",
+      "code": "{\n    \"frutas\": [\n        \"Manzana\",\n        \"Banana\",\n        \"Naranja\"\n    ]\n}"
+    },
+    {
+      "type": "paragraph",
+      "text": "Esto permite almacenar listas completas de datos."
+    },
+    {
+      "type": "heading",
+      "text": "Objetos dentro de objetos"
+    },
+    {
+      "type": "paragraph",
+      "text": "JSON también permite agrupar información compleja utilizando objetos anidados."
+    },
+    {
+      "type": "code",
+      "language": "json",
+      "title": "perfil.json",
+      "code": "{\n    \"usuario\": {\n        \"nombre\": \"Roberto\",\n        \"edad\": 18\n    }\n}"
+    },
+    {
+      "type": "heading",
+      "text": "JSON vs Objeto JavaScript"
+    },
+    {
+      "type": "paragraph",
+      "text": "Aunque se parecen mucho, no son exactamente lo mismo."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "objeto.js",
+      "code": "let usuario = {\n    nombre: \"Roberto\",\n    edad: 18\n};"
+    },
+    {
+      "type": "code",
+      "language": "json",
+      "title": "usuario.json",
+      "code": "{\n    \"nombre\": \"Roberto\",\n    \"edad\": 18\n}"
+    },
+    {
+      "type": "paragraph",
+      "text": "En JSON las claves siempre deben escribirse entre comillas dobles. En JavaScript esto no es obligatorio."
+    },
+    {
+      "type": "heading",
+      "text": "¿Dónde veremos JSON?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Probablemente ya has trabajado con JSON sin darte cuenta."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Archivos de configuración.",
+        "APIs web.",
+        "Aplicaciones móviles.",
+        "Videojuegos.",
+        "Bases de datos.",
+        "Plataformas educativas.",
+        "Sistemas de gestión de contenido."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "De hecho, muchas plataformas modernas cargan información desde archivos JSON para generar contenido dinámicamente."
+    },
+    {
+      "type": "heading",
+      "text": "¿Por qué es tan importante?"
+    },
+    {
+      "type": "paragraph",
+      "text": "JSON se ha convertido en el estándar de facto para el intercambio de datos en internet. Es ligero, fácil de leer para humanos y sencillo de procesar para los programas."
+    },
+    {
+      "type": "paragraph",
+      "text": "Con esta lección finalizamos los fundamentos de JavaScript. A partir de aquí estarás preparado para explorar temas más avanzados, aunque mejor ni te los menciono todavía porque quizá termine asustándote. Créeme, algunos nombres suenan más peligrosos de lo que realmente son."
+    }
+  ]
+}

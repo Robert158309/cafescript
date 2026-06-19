@@ -1,0 +1,157 @@
+{
+  "title": "Funciones",
+  "description": "Creación y uso de funciones.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "A medida que nuestros programas crecen, es común encontrarnos repitiendo bloques de código varias veces. Las funciones nos permiten agrupar instrucciones relacionadas dentro de un mismo bloque para reutilizarlas cuando sea necesario."
+    },
+    {
+      "type": "paragraph",
+      "text": "Podemos imaginar una función como una herramienta o máquina que realiza una tarea específica. Cada vez que la necesitemos, simplemente la utilizamos en lugar de volver a escribir todas las instrucciones."
+    },
+    {
+      "type": "heading",
+      "text": "¿Por qué utilizar funciones?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Las funciones ayudan a mantener el código organizado, facilitan la lectura de los programas y permiten reutilizar lógica sin duplicar código."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "sin-funciones.js",
+      "code": "console.log(\"Bienvenido\");\nconsole.log(\"Bienvenido\");\nconsole.log(\"Bienvenido\");"
+    },
+    {
+      "type": "paragraph",
+      "text": "Aunque este ejemplo funciona, resulta más práctico crear una función para realizar la tarea cuando sea necesario."
+    },
+    {
+      "type": "heading",
+      "text": "Creando una función"
+    },
+    {
+      "type": "paragraph",
+      "text": "Para crear una función utilizamos la palabra reservada function seguida de un nombre."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "funcion.js",
+      "code": "function saludar() {\n    console.log(\"Bienvenido\");\n}"
+    },
+    {
+      "type": "tag",
+      "name": "function",
+      "description": "Palabra reservada utilizada para crear una función."
+    },
+    {
+      "type": "paragraph",
+      "text": "En este momento la función existe, pero aún no se ejecuta. Primero debemos llamarla."
+    },
+    {
+      "type": "heading",
+      "text": "Llamando una función"
+    },
+    {
+      "type": "paragraph",
+      "text": "Para ejecutar una función escribimos su nombre seguido de paréntesis."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "llamada.js",
+      "code": "function saludar() {\n    console.log(\"Bienvenido\");\n}\n\nsaludar();"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cada vez que se llame a la función, el bloque de código contenido en ella será ejecutado."
+    },
+    {
+      "type": "heading",
+      "text": "Ejecutando una función varias veces"
+    },
+    {
+      "type": "paragraph",
+      "text": "Una de las mayores ventajas de las funciones es que pueden reutilizarse tantas veces como sea necesario."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "reutilizacion.js",
+      "code": "function saludar() {\n    console.log(\"Hola\");\n}\n\nsaludar();\nsaludar();\nsaludar();"
+    },
+    {
+      "type": "paragraph",
+      "text": "Esto evita duplicar código y facilita futuras modificaciones."
+    },
+    {
+      "type": "heading",
+      "text": "Nombres de funciones"
+    },
+    {
+      "type": "paragraph",
+      "text": "Es recomendable utilizar nombres que describan claramente la tarea que realiza la función."
+    },
+    {
+      "type": "list",
+      "items": [
+        "calcularPromedio()",
+        "mostrarMenu()",
+        "iniciarJuego()",
+        "cerrarSesion()"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Un nombre descriptivo hace que el código sea más fácil de entender para otras personas y para nosotros mismos en el futuro."
+    },
+    {
+      "type": "heading",
+      "text": "Funciones incorporadas"
+    },
+    {
+      "type": "paragraph",
+      "text": "JavaScript incluye muchas funciones ya preparadas que podemos utilizar directamente."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "funciones-incorporadas.js",
+      "code": "console.log(\"Hola Mundo\");"
+    },
+    {
+      "type": "paragraph",
+      "text": "En este ejemplo estamos utilizando la función log() perteneciente al objeto console."
+    },
+    {
+      "type": "heading",
+      "text": "Consejos"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Utiliza nombres descriptivos.",
+        "Crea funciones para tareas específicas.",
+        "Evita escribir funciones demasiado largas.",
+        "Reutiliza funciones siempre que sea posible.",
+        "Mantén el código organizado."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Lo que veremos más adelante"
+    },
+    {
+      "type": "paragraph",
+      "text": "Las funciones pueden ser mucho más poderosas de lo que hemos visto hasta ahora. Más adelante aprenderemos cómo recibir información mediante parámetros y cómo devolver resultados utilizando valores de retorno."
+    },
+    {
+      "type": "paragraph",
+      "text": "Por ahora lo importante es comprender que una función es un bloque de código reutilizable que puede ejecutarse cuando nosotros decidamos."
+    }
+  ]
+}

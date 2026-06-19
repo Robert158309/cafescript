@@ -1,0 +1,183 @@
+{
+  "title": "Formularios con JavaScript",
+  "description": "Captura y validación de datos.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Los formularios son una de las herramientas más importantes del desarrollo web. Gracias a ellos los usuarios pueden ingresar información como nombres, correos electrónicos, contraseñas, comentarios y muchos otros datos."
+    },
+    {
+      "type": "paragraph",
+      "text": "JavaScript permite capturar la información introducida por el usuario y validarla antes de enviarla a un servidor."
+    },
+    {
+      "type": "heading",
+      "text": "Creando un formulario básico"
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "index.html",
+      "code": "<form id=\"registro\">\n    <input type=\"text\" id=\"nombre\" placeholder=\"Nombre\">\n    <button type=\"submit\">Enviar</button>\n</form>"
+    },
+    {
+      "type": "paragraph",
+      "text": "Este formulario contiene un campo de texto y un botón de envío."
+    },
+    {
+      "type": "heading",
+      "text": "Capturando valores"
+    },
+    {
+      "type": "paragraph",
+      "text": "Podemos obtener el contenido escrito por el usuario utilizando la propiedad value."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "value.js",
+      "code": "let campoNombre = document.getElementById(\"nombre\").value;"
+    },
+    {
+      "type": "tag",
+      "name": ".value",
+      "description": "Obtiene o modifica el valor de un campo de formulario."
+    },
+    {
+      "type": "paragraph",
+      "text": "Esta propiedad es una de las más utilizadas cuando trabajamos con formularios."
+    },
+    {
+      "type": "heading",
+      "text": "Detectando el envío"
+    },
+    {
+      "type": "paragraph",
+      "text": "El evento submit se ejecuta cuando el usuario intenta enviar el formulario."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "submit.js",
+      "code": "let formulario = document.getElementById(\"registro\");\n\nformulario.addEventListener(\"submit\", function() {\n    console.log(\"Formulario enviado\");\n});"
+    },
+    {
+      "type": "heading",
+      "text": "Evitando el comportamiento por defecto"
+    },
+    {
+      "type": "paragraph",
+      "text": "Normalmente, al enviarse un formulario la página se recarga. En muchas aplicaciones queremos evitar esto para procesar la información manualmente."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "preventdefault.js",
+      "code": "formulario.addEventListener(\"submit\", function(event) {\n\n    event.preventDefault();\n\n    console.log(\"Envío detenido\");\n});"
+    },
+    {
+      "type": "tag",
+      "name": "preventDefault()",
+      "description": "Evita la acción predeterminada de un evento."
+    },
+    {
+      "type": "paragraph",
+      "text": "Este método es muy común al trabajar con formularios modernos."
+    },
+    {
+      "type": "heading",
+      "text": "Validación básica"
+    },
+    {
+      "type": "paragraph",
+      "text": "Una validación consiste en comprobar que los datos ingresados cumplen ciertas condiciones."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "validacion.js",
+      "code": "formulario.addEventListener(\"submit\", function(event) {\n\n    event.preventDefault();\n\n    let nombre = document.getElementById(\"nombre\").value;\n\n    if(nombre === \"\") {\n        console.log(\"El nombre es obligatorio\");\n    }\n});"
+    },
+    {
+      "type": "paragraph",
+      "text": "En este ejemplo verificamos que el usuario haya escrito algo antes de continuar."
+    },
+    {
+      "type": "heading",
+      "text": "Validando longitud"
+    },
+    {
+      "type": "paragraph",
+      "text": "También es posible comprobar la cantidad de caracteres ingresados."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "longitud.js",
+      "code": "if(nombre.length < 3) {\n    console.log(\"El nombre es demasiado corto\");\n}"
+    },
+    {
+      "type": "tag",
+      "name": ".length",
+      "description": "Devuelve la cantidad de caracteres de una cadena."
+    },
+    {
+      "type": "heading",
+      "text": "Validando correos electrónicos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Una validación simple puede consistir en verificar la presencia de ciertos caracteres."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "correo.js",
+      "code": "let correo = document.getElementById(\"correo\").value;\n\nif(!correo.includes(\"@\")) {\n    console.log(\"Correo inválido\");\n}"
+    },
+    {
+      "type": "tag",
+      "name": ".includes()",
+      "description": "Comprueba si una cadena contiene un texto específico."
+    },
+    {
+      "type": "heading",
+      "text": "Mostrando mensajes al usuario"
+    },
+    {
+      "type": "paragraph",
+      "text": "Además de imprimir mensajes en consola, podemos mostrar información directamente en la página."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "index.html",
+      "code": "<p id=\"mensaje\"></p>"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "mensaje.js",
+      "code": "let mensaje = document.getElementById(\"mensaje\");\n\nmensaje.textContent = \"Formulario enviado correctamente\";"
+    },
+    {
+      "type": "heading",
+      "text": "Consejo"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Valida siempre los datos antes de procesarlos.",
+        "Proporciona mensajes claros al usuario.",
+        "Evita campos obligatorios innecesarios.",
+        "Comprueba formatos importantes como correos electrónicos.",
+        "No confíes únicamente en la validación del lado del cliente."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "JavaScript permite capturar información de formularios, validarla y reaccionar al envío de datos. Estas habilidades son fundamentales para crear aplicaciones web funcionales y mejorar la experiencia de los usuarios."
+    }
+  ]
+}

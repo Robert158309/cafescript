@@ -1,0 +1,178 @@
+{
+  "title": "Variables y tipos de datos",
+  "description": "let, const, strings, números, booleanos y otros tipos básicos.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Las variables son uno de los conceptos más importantes de la programación. Permiten almacenar información para utilizarla más adelante dentro de nuestro código. Podemos imaginar una variable como una caja que guarda datos."
+    },
+    {
+      "type": "paragraph",
+      "text": "Gracias a las variables podemos guardar nombres, números, resultados de cálculos, estados y prácticamente cualquier información que necesitemos durante la ejecución de un programa."
+    },
+    {
+      "type": "heading",
+      "text": "Declarando variables"
+    },
+    {
+      "type": "paragraph",
+      "text": "En JavaScript moderno se utilizan principalmente las palabras clave let y const para crear variables."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "variables.js",
+      "code": "let nombre = \"Roberto\";\nconst pais = \"Guatemala\";"
+    },
+    {
+      "type": "tag",
+      "name": "let",
+      "description": "Permite crear variables cuyo valor puede cambiar posteriormente."
+    },
+    {
+      "type": "tag",
+      "name": "const",
+      "description": "Permite crear variables cuyo valor no debe modificarse después de su creación."
+    },
+    {
+      "type": "heading",
+      "text": "Modificando una variable"
+    },
+    {
+      "type": "paragraph",
+      "text": "Las variables creadas con let pueden recibir nuevos valores cuando sea necesario."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "variables.js",
+      "code": "let edad = 16;\n\nedad = 17;\n\nconsole.log(edad);"
+    },
+    {
+      "type": "paragraph",
+      "text": "En este caso la variable edad inicialmente contiene el valor 16, pero posteriormente se actualiza a 17."
+    },
+    {
+      "type": "heading",
+      "text": "¿Qué es un tipo de dato?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cada dato almacenado en una variable pertenece a una categoría conocida como tipo de dato. El tipo de dato determina cómo se almacena y cómo puede utilizarse la información."
+    },
+    {
+      "type": "heading",
+      "text": "Strings (cadenas de texto)"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los strings se utilizan para almacenar texto."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "strings.js",
+      "code": "let nombre = \"Ana\";\nlet mensaje = \"Bienvenido a CaféScript\";"
+    },
+    {
+      "type": "tag",
+      "name": "String",
+      "description": "Representa texto. Se escribe normalmente entre comillas dobles o simples."
+    },
+    {
+      "type": "heading",
+      "text": "Números"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los números permiten realizar operaciones matemáticas."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "numeros.js",
+      "code": "let edad = 16;\nlet temperatura = 24.5;\nlet resultado = 10 + 5;"
+    },
+    {
+      "type": "tag",
+      "name": "Number",
+      "description": "Representa números enteros y decimales."
+    },
+    {
+      "type": "heading",
+      "text": "Booleanos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los valores booleanos solamente pueden tener dos estados: verdadero o falso."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "booleanos.js",
+      "code": "let conectado = true;\nlet aprobado = false;"
+    },
+    {
+      "type": "tag",
+      "name": "Boolean",
+      "description": "Representa valores lógicos. Solo puede contener true o false."
+    },
+    {
+      "type": "heading",
+      "text": "Undefined"
+    },
+    {
+      "type": "paragraph",
+      "text": "Una variable que ha sido creada pero que aún no tiene valor asignado posee automáticamente el valor undefined."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "undefined.js",
+      "code": "let usuario;\n\nconsole.log(usuario);"
+    },
+    {
+      "type": "tag",
+      "name": "undefined",
+      "description": "Indica que una variable existe pero todavía no contiene ningún valor."
+    },
+    {
+      "type": "heading",
+      "text": "Null"
+    },
+    {
+      "type": "paragraph",
+      "text": "El valor null se utiliza cuando deseamos indicar explícitamente que una variable no contiene ningún dato."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "null.js",
+      "code": "let usuario = null;"
+    },
+    {
+      "type": "tag",
+      "name": "null",
+      "description": "Representa la ausencia intencional de un valor."
+    },
+    {
+      "type": "heading",
+      "text": "Consejos"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Utiliza const siempre que el valor no vaya a cambiar.",
+        "Utiliza let cuando necesites modificar el valor posteriormente.",
+        "Asigna nombres descriptivos a tus variables.",
+        "Evita nombres demasiado cortos o confusos.",
+        "Mantén una nomenclatura consistente en todo el proyecto."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Comprender las variables y los tipos de datos es fundamental para avanzar en JavaScript. A partir de este punto comenzaremos a manipular información y construir programas cada vez más complejos."
+    }
+  ]
+}

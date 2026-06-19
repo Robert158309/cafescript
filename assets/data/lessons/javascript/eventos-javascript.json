@@ -1,0 +1,194 @@
+{
+  "title": "Eventos",
+  "description": "click, input, submit y otros eventos importantes.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Hasta ahora hemos aprendido a seleccionar elementos y modificar su contenido. Sin embargo, las páginas web modernas reaccionan constantemente a las acciones de los usuarios. Esto es posible gracias a los eventos."
+    },
+    {
+      "type": "paragraph",
+      "text": "Un evento es una acción que ocurre dentro de la página, como hacer clic en un botón, escribir en un campo de texto o enviar un formulario."
+    },
+    {
+      "type": "heading",
+      "text": "¿Qué es un evento?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cada vez que el usuario interactúa con una página, el navegador genera eventos que JavaScript puede detectar y procesar."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Hacer clic en un botón.",
+        "Mover el mouse.",
+        "Escribir en un campo de texto.",
+        "Enviar un formulario.",
+        "Presionar una tecla.",
+        "Cargar una página."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Escuchando eventos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Para reaccionar a un evento utilizamos addEventListener(). Este método permite ejecutar una función cuando ocurre una acción específica."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "index.html",
+      "code": "<button id=\"btn\">Haz clic</button>"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "click.js",
+      "code": "let boton = document.getElementById(\"btn\");\n\nboton.addEventListener(\"click\", function() {\n    console.log(\"Botón presionado\");\n});"
+    },
+    {
+      "type": "tag",
+      "name": "addEventListener()",
+      "description": "Permite escuchar y reaccionar a eventos."
+    },
+    {
+      "type": "heading",
+      "text": "El evento click"
+    },
+    {
+      "type": "paragraph",
+      "text": "Es uno de los eventos más utilizados. Se activa cuando el usuario hace clic sobre un elemento."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "click-alert.js",
+      "code": "boton.addEventListener(\"click\", function() {\n    alert(\"Hola\");\n});"
+    },
+    {
+      "type": "tag",
+      "name": "click",
+      "description": "Se dispara cuando el usuario hace clic sobre un elemento."
+    },
+    {
+      "type": "heading",
+      "text": "El evento input"
+    },
+    {
+      "type": "paragraph",
+      "text": "El evento input ocurre cada vez que el contenido de un campo cambia."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "index.html",
+      "code": "<input id=\"nombre\">"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "input.js",
+      "code": "let campo = document.getElementById(\"nombre\");\n\ncampo.addEventListener(\"input\", function() {\n    console.log(\"El usuario está escribiendo\");\n});"
+    },
+    {
+      "type": "tag",
+      "name": "input",
+      "description": "Se ejecuta cuando cambia el contenido de un campo."
+    },
+    {
+      "type": "heading",
+      "text": "El evento submit"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los formularios generan el evento submit cuando el usuario intenta enviarlos."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "index.html",
+      "code": "<form id=\"formulario\">\n    <button>Enviar</button>\n</form>"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "submit.js",
+      "code": "let formulario = document.getElementById(\"formulario\");\n\nformulario.addEventListener(\"submit\", function() {\n    console.log(\"Formulario enviado\");\n});"
+    },
+    {
+      "type": "tag",
+      "name": "submit",
+      "description": "Se activa cuando un formulario es enviado."
+    },
+    {
+      "type": "heading",
+      "text": "El objeto event"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cuando ocurre un evento, JavaScript genera un objeto que contiene información sobre lo sucedido."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "event.js",
+      "code": "boton.addEventListener(\"click\", function(event) {\n    console.log(event);\n});"
+    },
+    {
+      "type": "paragraph",
+      "text": "Este objeto almacena datos como el elemento involucrado, la posición del cursor y muchos otros detalles."
+    },
+    {
+      "type": "heading",
+      "text": "Otros eventos comunes"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "otros-eventos.js",
+      "code": "elemento.addEventListener(\"mouseover\", funcion);\nelemento.addEventListener(\"mouseout\", funcion);\nelemento.addEventListener(\"keydown\", funcion);\nelemento.addEventListener(\"keyup\", funcion);"
+    },
+    {
+      "type": "tag",
+      "name": "mouseover",
+      "description": "Ocurre cuando el cursor entra sobre un elemento."
+    },
+    {
+      "type": "tag",
+      "name": "mouseout",
+      "description": "Ocurre cuando el cursor sale de un elemento."
+    },
+    {
+      "type": "tag",
+      "name": "keydown",
+      "description": "Se ejecuta cuando una tecla es presionada."
+    },
+    {
+      "type": "tag",
+      "name": "keyup",
+      "description": "Se ejecuta cuando una tecla es liberada."
+    },
+    {
+      "type": "heading",
+      "text": "Ejemplo"
+    },
+    {
+      "type": "paragraph",
+      "text": "Podemos combinar eventos con modificaciones del DOM para crear páginas interactivas."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "ejemplo.js",
+      "code": "let boton = document.getElementById(\"btn\");\nlet titulo = document.getElementById(\"titulo\");\n\nboton.addEventListener(\"click\", function() {\n    titulo.textContent = \"¡Evento detectado!\";\n});"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los eventos son el corazón de la interactividad en JavaScript. Gracias a ellos podemos construir interfaces dinámicas que reaccionen a las acciones de los usuarios en tiempo real."
+    }
+  ]
+}

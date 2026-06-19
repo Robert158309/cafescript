@@ -1,0 +1,200 @@
+{
+  "title": "Modificar contenido HTML",
+  "description": "textContent, innerHTML y atributos.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Una vez que somos capaces de seleccionar elementos del DOM, podemos comenzar a modificarlos. Esta es una de las características más poderosas de JavaScript, ya que permite actualizar el contenido de una página sin necesidad de recargarla."
+    },
+    {
+      "type": "paragraph",
+      "text": "Podemos cambiar textos, insertar nuevo HTML, modificar atributos e incluso actualizar imágenes, enlaces y formularios mientras el usuario interactúa con la página."
+    },
+    {
+      "type": "heading",
+      "text": "Modificando texto con textContent"
+    },
+    {
+      "type": "paragraph",
+      "text": "La propiedad textContent permite leer o modificar el texto de un elemento."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "index.html",
+      "code": "<h1 id=\"titulo\">Hola Mundo</h1>"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "textcontent.js",
+      "code": "let titulo = document.getElementById(\"titulo\");\n\ntitulo.textContent = \"Bienvenido a CaféScript\";"
+    },
+    {
+      "type": "tag",
+      "name": "textContent",
+      "description": "Permite leer o modificar el texto contenido dentro de un elemento."
+    },
+    {
+      "type": "paragraph",
+      "text": "Después de ejecutar este código, el texto mostrado en pantalla cambiará automáticamente."
+    },
+    {
+      "type": "heading",
+      "text": "Leyendo contenido"
+    },
+    {
+      "type": "paragraph",
+      "text": "textContent también puede utilizarse para obtener el texto actual de un elemento."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "leer-texto.js",
+      "code": "let titulo = document.getElementById(\"titulo\");\n\nconsole.log(titulo.textContent);"
+    },
+    {
+      "type": "heading",
+      "text": "Insertando HTML con innerHTML"
+    },
+    {
+      "type": "paragraph",
+      "text": "Mientras que textContent trabaja únicamente con texto, innerHTML permite insertar código HTML completo."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "innerhtml.js",
+      "code": "let titulo = document.getElementById(\"titulo\");\n\ntitulo.innerHTML = \"<strong>Bienvenido</strong>\";"
+    },
+    {
+      "type": "tag",
+      "name": "innerHTML",
+      "description": "Permite leer o modificar el contenido HTML de un elemento."
+    },
+    {
+      "type": "paragraph",
+      "text": "En este caso, el navegador interpretará la etiqueta &lt;strong&gt; y mostrará el texto en negrita."
+    },
+    {
+      "type": "heading",
+      "text": "Diferencia entre textContent e innerHTML"
+    },
+    {
+      "type": "paragraph",
+      "text": "Aunque parecen similares, su comportamiento es diferente."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "comparacion.js",
+      "code": "elemento.textContent = \"<h1>Hola</h1>\";\n\nelemento.innerHTML = \"<h1>Hola</h1>\";"
+    },
+    {
+      "type": "paragraph",
+      "text": "Con textContent aparecerá literalmente el texto &lt;h1&gt;Hola&lt;/h1&gt;. Con innerHTML se creará un encabezado HTML real."
+    },
+    {
+      "type": "heading",
+      "text": "Modificando atributos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Además del contenido, también podemos modificar atributos HTML mediante JavaScript."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "index.html",
+      "code": "<img id=\"foto\" src=\"imagen1.jpg\">"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "atributos.js",
+      "code": "let foto = document.getElementById(\"foto\");\n\nfoto.src = \"imagen2.jpg\";"
+    },
+    {
+      "type": "paragraph",
+      "text": "Al ejecutar este código, la imagen mostrada cambiará automáticamente."
+    },
+    {
+      "type": "heading",
+      "text": "getAttribute()"
+    },
+    {
+      "type": "paragraph",
+      "text": "Este método permite obtener el valor actual de un atributo."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "getattribute.js",
+      "code": "let foto = document.getElementById(\"foto\");\n\nconsole.log(foto.getAttribute(\"src\"));"
+    },
+    {
+      "type": "tag",
+      "name": "getAttribute()",
+      "description": "Obtiene el valor de un atributo específico."
+    },
+    {
+      "type": "heading",
+      "text": "setAttribute()"
+    },
+    {
+      "type": "paragraph",
+      "text": "Este método permite crear o modificar atributos."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "setattribute.js",
+      "code": "let foto = document.getElementById(\"foto\");\n\nfoto.setAttribute(\"src\", \"imagen3.jpg\");"
+    },
+    {
+      "type": "tag",
+      "name": "setAttribute()",
+      "description": "Crea o modifica atributos de un elemento."
+    },
+    {
+      "type": "heading",
+      "text": "Modificando enlaces"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los atributos de los enlaces también pueden cambiarse dinámicamente."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "index.html",
+      "code": "<a id=\"enlace\" href=\"#\">Visitar sitio</a>"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "enlaces.js",
+      "code": "let enlace = document.getElementById(\"enlace\");\n\nenlace.href = \"https://cafescript.dev\";"
+    },
+    {
+      "type": "heading",
+      "text": "Resumen"
+    },
+    {
+      "type": "list",
+      "items": [
+        "textContent modifica únicamente texto.",
+        "innerHTML permite insertar HTML.",
+        "Los atributos pueden modificarse desde JavaScript.",
+        "getAttribute() obtiene valores de atributos.",
+        "setAttribute() crea o modifica atributos.",
+        "JavaScript puede actualizar el contenido de una página en tiempo real."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Modificar contenido es uno de los primeros pasos para crear páginas dinámicas. En la siguiente lección aprenderemos a responder a acciones del usuario mediante eventos."
+    }
+  ]
+}

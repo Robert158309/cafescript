@@ -1,0 +1,188 @@
+{
+  "title": "Seleccionar elementos",
+  "description": "getElementById, getElementsByClassName, getElementsByTagName y querySelector.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "En la lección anterior aprendimos que el DOM representa todos los elementos de una página web. Ahora veremos cómo localizar elementos específicos para poder trabajar con ellos desde JavaScript."
+    },
+    {
+      "type": "paragraph",
+      "text": "Este proceso se conoce como selección de elementos. Antes de modificar un elemento, cambiar su contenido o responder a sus eventos, primero debemos encontrarlo dentro del documento."
+    },
+    {
+      "type": "heading",
+      "text": "Seleccionar por ID"
+    },
+    {
+      "type": "paragraph",
+      "text": "Si un elemento posee un atributo id, podemos localizarlo utilizando getElementById()."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "index.html",
+      "code": "<h1 id=\"titulo\">Bienvenido</h1>"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "script.js",
+      "code": "let titulo = document.getElementById(\"titulo\");\n\nconsole.log(titulo);"
+    },
+    {
+      "type": "tag",
+      "name": "getElementById()",
+      "description": "Selecciona un único elemento utilizando su atributo id."
+    },
+    {
+      "type": "heading",
+      "text": "Seleccionar por clase"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cuando varios elementos comparten la misma clase, podemos seleccionarlos mediante getElementsByClassName()."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "index.html",
+      "code": "<p class=\"mensaje\">Hola</p>\n<p class=\"mensaje\">Mundo</p>"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "script.js",
+      "code": "let mensajes = document.getElementsByClassName(\"mensaje\");\n\nconsole.log(mensajes);"
+    },
+    {
+      "type": "tag",
+      "name": "getElementsByClassName()",
+      "description": "Obtiene todos los elementos que poseen una clase determinada."
+    },
+    {
+      "type": "paragraph",
+      "text": "Observa que el método devuelve una colección de elementos y no un único elemento."
+    },
+    {
+      "type": "heading",
+      "text": "Seleccionar por etiqueta"
+    },
+    {
+      "type": "paragraph",
+      "text": "También es posible seleccionar todos los elementos de una misma etiqueta HTML."
+    },
+    {
+      "type": "code",
+      "language": "html",
+      "title": "index.html",
+      "code": "<p>Primer párrafo</p>\n<p>Segundo párrafo</p>"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "script.js",
+      "code": "let parrafos = document.getElementsByTagName(\"p\");\n\nconsole.log(parrafos);"
+    },
+    {
+      "type": "tag",
+      "name": "getElementsByTagName()",
+      "description": "Obtiene todos los elementos que utilizan una etiqueta específica."
+    },
+    {
+      "type": "heading",
+      "text": "querySelector()"
+    },
+    {
+      "type": "paragraph",
+      "text": "JavaScript moderno suele utilizar querySelector(), ya que permite seleccionar elementos utilizando la misma sintaxis de selectores que CSS."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "queryselector.js",
+      "code": "let titulo = document.querySelector(\"#titulo\");"
+    },
+    {
+      "type": "paragraph",
+      "text": "Para seleccionar un ID se utiliza #, igual que en CSS."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "queryselector-clase.js",
+      "code": "let mensaje = document.querySelector(\".mensaje\");"
+    },
+    {
+      "type": "paragraph",
+      "text": "Para seleccionar una clase se utiliza el punto (.)."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "queryselector-etiqueta.js",
+      "code": "let parrafo = document.querySelector(\"p\");"
+    },
+    {
+      "type": "tag",
+      "name": "querySelector()",
+      "description": "Selecciona el primer elemento que coincida con un selector CSS."
+    },
+    {
+      "type": "heading",
+      "text": "querySelectorAll()"
+    },
+    {
+      "type": "paragraph",
+      "text": "Si necesitamos obtener todos los elementos que coinciden con un selector, podemos utilizar querySelectorAll()."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "queryselectorall.js",
+      "code": "let mensajes = document.querySelectorAll(\".mensaje\");\n\nconsole.log(mensajes);"
+    },
+    {
+      "type": "tag",
+      "name": "querySelectorAll()",
+      "description": "Obtiene todos los elementos que coinciden con un selector CSS."
+    },
+    {
+      "type": "heading",
+      "text": "Accediendo a elementos de una colección"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cuando un método devuelve múltiples elementos, podemos acceder a ellos utilizando índices."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "colecciones.js",
+      "code": "let mensajes = document.getElementsByClassName(\"mensaje\");\n\nconsole.log(mensajes[0]);\nconsole.log(mensajes[1]);"
+    },
+    {
+      "type": "paragraph",
+      "text": "Al igual que los arrays, las colecciones comienzan en la posición 0."
+    },
+    {
+      "type": "heading",
+      "text": "¿Cuál debería utilizar?"
+    },
+    {
+      "type": "list",
+      "items": [
+        "getElementById() para elementos con ID único.",
+        "getElementsByClassName() para grupos de elementos con la misma clase.",
+        "getElementsByTagName() para etiquetas específicas.",
+        "querySelector() para seleccionar el primer elemento coincidente.",
+        "querySelectorAll() para seleccionar múltiples elementos mediante selectores CSS."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Seleccionar elementos es el primer paso para manipular el DOM. Una vez que JavaScript puede localizar un elemento, será posible modificar su contenido, cambiar estilos, responder a eventos y crear experiencias interactivas dentro de la página web."
+    }
+  ]
+}

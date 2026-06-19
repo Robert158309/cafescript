@@ -1,0 +1,155 @@
+{
+  "title": "Condicionales",
+  "description": "if, else, else if y switch.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Hasta ahora nuestros programas ejecutan instrucciones en orden, una tras otra. Sin embargo, muchas veces necesitamos que el programa tome decisiones dependiendo de ciertas condiciones. Para ello utilizamos estructuras condicionales."
+    },
+    {
+      "type": "paragraph",
+      "text": "Las condicionales permiten ejecutar diferentes bloques de código según el resultado de una expresión que devuelve true o false."
+    },
+    {
+      "type": "heading",
+      "text": "La estructura if"
+    },
+    {
+      "type": "paragraph",
+      "text": "La instrucción if ejecuta un bloque de código únicamente cuando una condición se cumple."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "if.js",
+      "code": "let edad = 18;\n\nif (edad >= 18) {\n    console.log(\"Eres mayor de edad\");\n}"
+    },
+    {
+      "type": "tag",
+      "name": "if",
+      "description": "Ejecuta un bloque de código si una condición es verdadera."
+    },
+    {
+      "type": "paragraph",
+      "text": "Si la condición devuelve false, el código dentro de las llaves no se ejecutará."
+    },
+    {
+      "type": "heading",
+      "text": "La estructura else"
+    },
+    {
+      "type": "paragraph",
+      "text": "La instrucción else permite ejecutar código cuando la condición del if no se cumple."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "if-else.js",
+      "code": "let edad = 15;\n\nif (edad >= 18) {\n    console.log(\"Eres mayor de edad\");\n} else {\n    console.log(\"Eres menor de edad\");\n}"
+    },
+    {
+      "type": "tag",
+      "name": "else",
+      "description": "Ejecuta un bloque alternativo cuando la condición del if es falsa."
+    },
+    {
+      "type": "heading",
+      "text": "La estructura else if"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cuando existen varias posibilidades podemos utilizar else if para comprobar múltiples condiciones."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "else-if.js",
+      "code": "let nota = 75;\n\nif (nota >= 90) {\n    console.log(\"Excelente\");\n} else if (nota >= 70) {\n    console.log(\"Aprobado\");\n} else {\n    console.log(\"Reprobado\");\n}"
+    },
+    {
+      "type": "tag",
+      "name": "else if",
+      "description": "Permite evaluar condiciones adicionales cuando el if principal no se cumple."
+    },
+    {
+      "type": "heading",
+      "text": "Anidando condicionales"
+    },
+    {
+      "type": "paragraph",
+      "text": "También es posible colocar condicionales dentro de otras condicionales cuando la lógica del programa lo requiere."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "anidadas.js",
+      "code": "let edad = 20;\nlet tieneCarnet = true;\n\nif (edad >= 18) {\n\n    if (tieneCarnet) {\n        console.log(\"Puede conducir\");\n    }\n\n}"
+    },
+    {
+      "type": "heading",
+      "text": "La estructura switch"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cuando necesitamos comparar una misma variable contra varios valores específicos, switch puede resultar más cómodo que utilizar múltiples else if."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "switch.js",
+      "code": "let dia = 3;\n\nswitch (dia) {\n\n    case 1:\n        console.log(\"Lunes\");\n        break;\n\n    case 2:\n        console.log(\"Martes\");\n        break;\n\n    case 3:\n        console.log(\"Miércoles\");\n        break;\n\n    default:\n        console.log(\"Día no válido\");\n}"
+    },
+    {
+      "type": "tag",
+      "name": "switch",
+      "description": "Permite evaluar múltiples posibles valores de una misma variable."
+    },
+    {
+      "type": "tag",
+      "name": "case",
+      "description": "Representa una posible coincidencia dentro de un switch."
+    },
+    {
+      "type": "tag",
+      "name": "break",
+      "description": "Detiene la ejecución del switch después de encontrar una coincidencia."
+    },
+    {
+      "type": "tag",
+      "name": "default",
+      "description": "Se ejecuta cuando ningún case coincide con el valor evaluado."
+    },
+    {
+      "type": "heading",
+      "text": "¿if o switch?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Ambas estructuras permiten tomar decisiones, pero cada una tiene situaciones donde resulta más conveniente."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Utiliza if cuando trabajes con comparaciones o condiciones complejas.",
+        "Utiliza else if cuando existan varias condiciones relacionadas.",
+        "Utiliza switch cuando compares una variable contra múltiples valores concretos.",
+        "Escoge siempre la opción que haga el código más fácil de leer."
+      ]
+    },
+    {
+      "type": "heading",
+      "text": "Ejemplo práctico"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "ejemplo-practico.js",
+      "code": "let usuarioConectado = true;\n\nif (usuarioConectado) {\n    console.log(\"Bienvenido al sistema\");\n} else {\n    console.log(\"Debes iniciar sesión\");\n}"
+    },
+    {
+      "type": "paragraph",
+      "text": "Las condicionales son una de las herramientas más importantes de la programación. Gracias a ellas nuestros programas pueden reaccionar a distintas situaciones y comportarse de manera inteligente según los datos que reciben."
+    }
+  ]
+}

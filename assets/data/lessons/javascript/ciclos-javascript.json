@@ -1,0 +1,179 @@
+{
+  "title": "Ciclos",
+  "description": "for, while y do while.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Los ciclos, también conocidos como bucles, permiten ejecutar un mismo bloque de código varias veces sin necesidad de escribirlo repetidamente. Son una de las herramientas más utilizadas en programación para automatizar tareas repetitivas."
+    },
+    {
+      "type": "paragraph",
+      "text": "Gracias a los ciclos podemos recorrer listas de datos, realizar cálculos repetitivos, procesar información y ejecutar acciones hasta que se cumpla una determinada condición."
+    },
+    {
+      "type": "heading",
+      "text": "¿Por qué utilizar ciclos?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Imagina que deseas mostrar los números del 1 al 5 en la consola."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "sin-ciclos.js",
+      "code": "console.log(1);\nconsole.log(2);\nconsole.log(3);\nconsole.log(4);\nconsole.log(5);"
+    },
+    {
+      "type": "paragraph",
+      "text": "Aunque funciona, este método se vuelve poco práctico cuando la cantidad de repeticiones aumenta. Aquí es donde los ciclos nos ayudan."
+    },
+    {
+      "type": "heading",
+      "text": "El ciclo for"
+    },
+    {
+      "type": "paragraph",
+      "text": "El ciclo for es uno de los más utilizados. Se emplea cuando conocemos de antemano cuántas veces debe repetirse una acción."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "for.js",
+      "code": "for(let i = 1; i <= 5; i++) {\n    console.log(i);\n}"
+    },
+    {
+      "type": "tag",
+      "name": "for",
+      "description": "Ejecuta un bloque de código una cantidad determinada de veces."
+    },
+    {
+      "type": "paragraph",
+      "text": "La estructura del ciclo for está formada por tres partes."
+    },
+    {
+      "type": "list",
+      "items": [
+        "Inicialización: crea la variable de control.",
+        "Condición: determina si el ciclo continúa ejecutándose.",
+        "Actualización: modifica el valor de la variable de control."
+      ]
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "estructura-for.js",
+      "code": "for(inicializacion; condicion; actualizacion) {\n    // código a repetir\n}"
+    },
+    {
+      "type": "heading",
+      "text": "Contando hacia atrás"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los ciclos también pueden decrementarse."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "cuenta-regresiva.js",
+      "code": "for(let i = 10; i >= 1; i--) {\n    console.log(i);\n}"
+    },
+    {
+      "type": "heading",
+      "text": "El ciclo while"
+    },
+    {
+      "type": "paragraph",
+      "text": "El ciclo while ejecuta un bloque de código mientras una condición sea verdadera."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "while.js",
+      "code": "let contador = 1;\n\nwhile(contador <= 5) {\n    console.log(contador);\n    contador++;\n}"
+    },
+    {
+      "type": "tag",
+      "name": "while",
+      "description": "Ejecuta un bloque de código mientras una condición sea verdadera."
+    },
+    {
+      "type": "paragraph",
+      "text": "Antes de cada repetición, JavaScript verifica la condición. Si esta deja de cumplirse, el ciclo finaliza."
+    },
+    {
+      "type": "heading",
+      "text": "El ciclo do while"
+    },
+    {
+      "type": "paragraph",
+      "text": "El ciclo do while es similar a while, pero tiene una diferencia importante: siempre ejecuta el bloque al menos una vez."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "do-while.js",
+      "code": "let contador = 1;\n\ndo {\n    console.log(contador);\n    contador++;\n} while(contador <= 5);"
+    },
+    {
+      "type": "tag",
+      "name": "do while",
+      "description": "Ejecuta un bloque de código al menos una vez antes de evaluar la condición."
+    },
+    {
+      "type": "heading",
+      "text": "La diferencia entre while y do while"
+    },
+    {
+      "type": "paragraph",
+      "text": "Observa el siguiente ejemplo."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "comparacion.js",
+      "code": "let numero = 10;\n\nwhile(numero < 5) {\n    console.log(\"while\");\n}\n\ndo {\n    console.log(\"do while\");\n} while(numero < 5);"
+    },
+    {
+      "type": "paragraph",
+      "text": "En este caso el ciclo while nunca se ejecuta porque la condición es falsa desde el inicio. Sin embargo, el do while se ejecuta una vez antes de comprobar la condición."
+    },
+    {
+      "type": "heading",
+      "text": "Cuidado con los ciclos infinitos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Uno de los errores más comunes al trabajar con ciclos es olvidar modificar la variable de control."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "error.js",
+      "code": "let contador = 1;\n\nwhile(contador <= 5) {\n    console.log(contador);\n}"
+    },
+    {
+      "type": "paragraph",
+      "text": "Como la variable contador nunca cambia, la condición siempre será verdadera y el ciclo continuará ejecutándose indefinidamente."
+    },
+    {
+      "type": "heading",
+      "text": "¿Cuál debo usar?"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Utiliza for cuando conozcas cuántas repeticiones necesitas.",
+        "Utiliza while cuando la cantidad de repeticiones dependa de una condición.",
+        "Utiliza do while cuando el bloque deba ejecutarse al menos una vez.",
+        "Asegúrate siempre de que la condición pueda llegar a ser falsa."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Los ciclos son fundamentales para automatizar tareas y procesar grandes cantidades de información. Más adelante los utilizaremos para recorrer arrays, manipular datos y construir programas mucho más potentes."
+    }
+  ]
+}

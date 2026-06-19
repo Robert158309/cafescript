@@ -1,0 +1,111 @@
+{
+  "title": "Conectar JavaScript con HTML",
+  "description": "Uso de script interno y archivos externos.",
+
+  "content": [
+   {
+    "type": "paragraph",
+    "text": "Ahora que ya sabemos qué es JavaScript, el siguiente paso es aprender cómo conectarlo con nuestras páginas HTML. Para que el navegador pueda ejecutar código JavaScript, debemos indicarle dónde se encuentra dicho código."
+   },
+   {
+    "type": "paragraph",
+    "text": "Existen dos formas principales de agregar JavaScript a una página web: utilizando un bloque de código dentro del propio documento HTML o cargando un archivo externo."
+   },
+   {
+    "type": "heading",
+    "text": "JavaScript interno"
+   },
+   {
+    "type": "paragraph",
+    "text": "La forma más sencilla de comenzar es escribiendo el código directamente dentro de una etiqueta script."
+   },
+   {
+    "type": "code",
+    "language": "html",
+    "title": "index.html",
+    "code": "<script>\n    console.log(\"Hola Mundo\");\n</script>"
+   },
+   {
+    "type": "paragraph",
+    "text": "Todo el código que se encuentre dentro de la etiqueta script será interpretado como JavaScript por el navegador."
+   },
+   {
+    "type": "tag",
+    "name": "<script></script>",
+    "description": "Etiqueta utilizada para escribir o cargar código JavaScript dentro de una página web."
+   },
+   {
+    "type": "heading",
+    "text": "¿Dónde colocar la etiqueta script?"
+   },
+   {
+    "type": "paragraph",
+    "text": "Aunque la etiqueta script puede colocarse en diferentes partes del documento, una práctica común es ubicarla antes del cierre de la etiqueta body."
+   },
+   {
+    "type": "code",
+    "language": "html",
+    "title": "index.html",
+    "code": "<body>\n    <h1>Mi página web</h1>\n\n    <script>\n        console.log(\"Hola Mundo\");\n    </script>\n</body>"
+   },
+   {
+    "type": "paragraph",
+    "text": "De esta forma, el contenido HTML se carga primero y luego se ejecuta el código JavaScript."
+   },
+   {
+    "type": "heading",
+    "text": "JavaScript externo"
+   },
+   {
+    "type": "paragraph",
+    "text": "A medida que nuestros proyectos crecen, resulta más conveniente separar el código JavaScript en archivos independientes. Esto facilita la organización y el mantenimiento del proyecto."
+   },
+   {
+    "type": "paragraph",
+    "text": "Primero creamos un archivo con extensión .js."
+   },
+   {
+    "type": "code",
+    "language": "javascript",
+    "title": "app.js",
+    "code": "console.log(\"Hola desde un archivo externo\");"
+   },
+   {
+    "type": "paragraph",
+    "text": "Luego lo conectamos desde nuestro documento HTML mediante el atributo src."
+   },
+   {
+    "type": "code",
+    "language": "html",
+    "title": "index.html",
+    "code": "<script src=\"app.js\"></script>"
+   },
+   {
+    "type": "tag",
+    "name": "src",
+    "description": "Indica la ruta del archivo JavaScript que será cargado por el navegador."
+   },
+   {
+    "type": "heading",
+    "text": "Ventajas de utilizar archivos externos"
+   },
+   {
+    "type": "list",
+    "items": [
+      "Mantienen el código organizado.",
+      "Facilitan el mantenimiento de proyectos grandes.",
+      "Permiten reutilizar el mismo archivo en varias páginas.",
+      "Separan la estructura HTML de la lógica JavaScript.",
+      "Hacen más sencillo trabajar en equipo."
+    ]
+   },
+   {
+    "type": "heading",
+    "text": "¿Cuál método debo usar?"
+   },
+   {
+    "type": "paragraph",
+    "text": "Para realizar pruebas rápidas o pequeños ejemplos, el uso de script interno puede ser suficiente. Sin embargo, en proyectos reales se recomienda trabajar con archivos JavaScript externos para mantener una mejor organización del código."
+   }
+  ]
+}

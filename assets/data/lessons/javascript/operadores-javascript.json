@@ -1,0 +1,213 @@
+{
+  "title": "Operadores",
+  "description": "Operadores aritméticos, lógicos y de comparación.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "Los operadores son símbolos especiales que permiten realizar acciones sobre uno o más valores. Gracias a ellos podemos realizar cálculos matemáticos, comparar información y tomar decisiones dentro de nuestros programas."
+    },
+    {
+      "type": "paragraph",
+      "text": "JavaScript dispone de varios tipos de operadores, pero los más utilizados son los aritméticos, de comparación y lógicos."
+    },
+    {
+      "type": "heading",
+      "text": "Operadores aritméticos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los operadores aritméticos permiten realizar operaciones matemáticas básicas."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "aritmeticos.js",
+      "code": "let a = 10;\nlet b = 5;\n\nconsole.log(a + b);\nconsole.log(a - b);\nconsole.log(a * b);\nconsole.log(a / b);"
+    },
+    {
+      "type": "tag",
+      "name": "+",
+      "description": "Realiza una suma entre dos valores."
+    },
+    {
+      "type": "tag",
+      "name": "-",
+      "description": "Realiza una resta entre dos valores."
+    },
+    {
+      "type": "tag",
+      "name": "*",
+      "description": "Realiza una multiplicación."
+    },
+    {
+      "type": "tag",
+      "name": "/",
+      "description": "Realiza una división."
+    },
+    {
+      "type": "tag",
+      "name": "%",
+      "description": "Obtiene el residuo de una división."
+    },
+    {
+      "type": "paragraph",
+      "text": "El operador módulo (%) es especialmente útil para determinar si un número es par o impar."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "modulo.js",
+      "code": "let numero = 8;\n\nconsole.log(numero % 2);"
+    },
+    {
+      "type": "heading",
+      "text": "Incremento y decremento"
+    },
+    {
+      "type": "paragraph",
+      "text": "JavaScript incluye operadores especiales para aumentar o disminuir un valor en una unidad."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "incremento.js",
+      "code": "let contador = 0;\n\ncontador++;\ncontador++;\n\nconsole.log(contador);"
+    },
+    {
+      "type": "tag",
+      "name": "++",
+      "description": "Incrementa el valor de una variable en una unidad."
+    },
+    {
+      "type": "tag",
+      "name": "--",
+      "description": "Disminuye el valor de una variable en una unidad."
+    },
+    {
+      "type": "heading",
+      "text": "Operadores de comparación"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los operadores de comparación permiten verificar relaciones entre valores. El resultado siempre será true o false."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "comparacion.js",
+      "code": "let edad = 18;\n\nconsole.log(edad > 16);\nconsole.log(edad < 16);\nconsole.log(edad == 18);"
+    },
+    {
+      "type": "tag",
+      "name": "==",
+      "description": "Comprueba si dos valores son iguales."
+    },
+    {
+      "type": "tag",
+      "name": "===",
+      "description": "Comprueba si dos valores y sus tipos de datos son iguales."
+    },
+    {
+      "type": "tag",
+      "name": "!=",
+      "description": "Comprueba si dos valores son diferentes."
+    },
+    {
+      "type": "tag",
+      "name": "!==",
+      "description": "Comprueba si dos valores o tipos son diferentes."
+    },
+    {
+      "type": "tag",
+      "name": ">",
+      "description": "Mayor que."
+    },
+    {
+      "type": "tag",
+      "name": "<",
+      "description": "Menor que."
+    },
+    {
+      "type": "tag",
+      "name": ">=",
+      "description": "Mayor o igual que."
+    },
+    {
+      "type": "tag",
+      "name": "<=",
+      "description": "Menor o igual que."
+    },
+    {
+      "type": "heading",
+      "text": "La diferencia entre == y ==="
+    },
+    {
+      "type": "paragraph",
+      "text": "Aunque parecen similares, estos operadores no funcionan exactamente igual."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "igualdad.js",
+      "code": "console.log(5 == \"5\");\nconsole.log(5 === \"5\");"
+    },
+    {
+      "type": "paragraph",
+      "text": "El primer caso devuelve true porque JavaScript convierte automáticamente los tipos. El segundo devuelve false porque uno es un número y el otro una cadena de texto."
+    },
+    {
+      "type": "heading",
+      "text": "Operadores lógicos"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los operadores lógicos permiten combinar múltiples condiciones."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "logicos.js",
+      "code": "let edad = 18;\nlet tieneCarnet = true;\n\nconsole.log(edad >= 18 && tieneCarnet);"
+    },
+    {
+      "type": "tag",
+      "name": "&&",
+      "description": "AND lógico. Ambas condiciones deben cumplirse."
+    },
+    {
+      "type": "tag",
+      "name": "||",
+      "description": "OR lógico. Al menos una condición debe cumplirse."
+    },
+    {
+      "type": "tag",
+      "name": "!",
+      "description": "NOT lógico. Invierte el valor de una condición."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "ejemplos-logicos.js",
+      "code": "console.log(true && true);\nconsole.log(true || false);\nconsole.log(!true);"
+    },
+    {
+      "type": "heading",
+      "text": "Resumen"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Los operadores aritméticos realizan cálculos matemáticos.",
+        "Los operadores de comparación producen resultados true o false.",
+        "Los operadores lógicos permiten combinar condiciones.",
+        "El operador === suele ser más seguro que ==.",
+        "Los operadores son la base para construir decisiones y cálculos dentro de un programa."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ahora que ya sabes trabajar con variables y operadores, el siguiente paso será aprender a tomar decisiones dentro de nuestros programas utilizando estructuras condicionales."
+    }
+  ]
+}

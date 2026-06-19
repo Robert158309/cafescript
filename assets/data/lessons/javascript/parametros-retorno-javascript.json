@@ -1,0 +1,174 @@
+{
+  "title": "Parámetros y retorno",
+  "description": "Enviar y devolver información desde funciones.",
+
+  "content": [
+    {
+      "type": "paragraph",
+      "text": "En la lección anterior aprendimos que las funciones permiten agrupar instrucciones para reutilizarlas. Sin embargo, muchas veces necesitamos que una función trabaje con datos diferentes cada vez que se ejecuta. Para lograrlo utilizamos parámetros."
+    },
+    {
+      "type": "paragraph",
+      "text": "Además, una función no solo puede realizar acciones, también puede generar resultados y devolverlos para que otras partes del programa los utilicen. Esto se logra mediante el valor de retorno."
+    },
+    {
+      "type": "heading",
+      "text": "¿Qué son los parámetros?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los parámetros son variables especiales que reciben información cuando una función es llamada."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "parametros.js",
+      "code": "function saludar(nombre) {\n    console.log(\"Hola \" + nombre);\n}"
+    },
+    {
+      "type": "paragraph",
+      "text": "En este ejemplo, nombre es un parámetro. Su valor será proporcionado cuando la función sea ejecutada."
+    },
+    {
+      "type": "tag",
+      "name": "Parámetro",
+      "description": "Variable declarada dentro de la definición de una función para recibir información."
+    },
+    {
+      "type": "heading",
+      "text": "Enviando información a una función"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los valores enviados a una función se conocen como argumentos."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "argumentos.js",
+      "code": "function saludar(nombre) {\n    console.log(\"Hola \" + nombre);\n}\n\nsaludar(\"Roberto\");\nsaludar(\"Ana\");"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cada llamada utiliza un argumento diferente, por lo que la función produce resultados distintos sin necesidad de modificar su código."
+    },
+    {
+      "type": "tag",
+      "name": "Argumento",
+      "description": "Valor enviado a una función cuando esta es llamada."
+    },
+    {
+      "type": "heading",
+      "text": "Utilizando varios parámetros"
+    },
+    {
+      "type": "paragraph",
+      "text": "Una función puede recibir más de un parámetro."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "multiples-parametros.js",
+      "code": "function presentar(nombre, edad) {\n    console.log(nombre + \" tiene \" + edad + \" años\");\n}\n\npresentar(\"Carlos\", 18);"
+    },
+    {
+      "type": "paragraph",
+      "text": "Los parámetros se separan mediante comas y reciben los argumentos en el mismo orden en que fueron declarados."
+    },
+    {
+      "type": "heading",
+      "text": "¿Qué es return?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Hasta ahora nuestras funciones únicamente mostraban información en pantalla. Sin embargo, muchas veces necesitamos que una función produzca un resultado para utilizarlo posteriormente."
+    },
+    {
+      "type": "paragraph",
+      "text": "Para ello utilizamos la palabra reservada return."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "return.js",
+      "code": "function sumar() {\n    return 10 + 5;\n}"
+    },
+    {
+      "type": "tag",
+      "name": "return",
+      "description": "Devuelve un valor desde una función."
+    },
+    {
+      "type": "heading",
+      "text": "Guardando el resultado"
+    },
+    {
+      "type": "paragraph",
+      "text": "El valor devuelto por una función puede almacenarse en una variable."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "resultado.js",
+      "code": "function sumar() {\n    return 10 + 5;\n}\n\nlet resultado = sumar();\n\nconsole.log(resultado);"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cuando la función se ejecuta, el valor retornado se almacena dentro de la variable resultado."
+    },
+    {
+      "type": "heading",
+      "text": "Combinando parámetros y retorno"
+    },
+    {
+      "type": "paragraph",
+      "text": "La verdadera utilidad aparece cuando una función recibe información y devuelve un resultado basado en ella."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "suma-avanzada.js",
+      "code": "function sumar(a, b) {\n    return a + b;\n}\n\nlet total = sumar(8, 12);\n\nconsole.log(total);"
+    },
+    {
+      "type": "paragraph",
+      "text": "Gracias a los parámetros, la función puede trabajar con distintos valores. Gracias a return, puede entregar el resultado para que el programa continúe utilizándolo."
+    },
+    {
+      "type": "heading",
+      "text": "¿Qué ocurre después de return?"
+    },
+    {
+      "type": "paragraph",
+      "text": "Cuando JavaScript encuentra una instrucción return, la función finaliza inmediatamente."
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "title": "fin-return.js",
+      "code": "function ejemplo() {\n    return \"Hola\";\n\n    console.log(\"Esto nunca se ejecuta\");\n}"
+    },
+    {
+      "type": "paragraph",
+      "text": "Todo el código que se encuentre después de return dentro de la misma función será ignorado."
+    },
+    {
+      "type": "heading",
+      "text": "Resumen"
+    },
+    {
+      "type": "list",
+      "items": [
+        "Los parámetros permiten que una función reciba información.",
+        "Los argumentos son los valores enviados a una función.",
+        "Una función puede recibir múltiples parámetros.",
+        "return permite devolver un resultado.",
+        "El valor retornado puede almacenarse en variables o utilizarse en otras operaciones."
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Los parámetros y los valores de retorno convierten a las funciones en herramientas extremadamente flexibles. A partir de ahora podremos crear funciones capaces de procesar información y generar resultados útiles para nuestros programas."
+    }
+  ]
+}
